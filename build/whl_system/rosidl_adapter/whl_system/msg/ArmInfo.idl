@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from whl_system/msg/ArmInfo.msg
+// generated code does not contain a copyright notice
+
+
+module whl_system {
+  module msg {
+    typedef double double__7[7];
+    typedef boolean boolean__2[2];
+    typedef double double__2[2];
+    struct ArmInfo {
+      double__7 joints;
+
+      double__7 pos;
+
+      boolean__2 gripper;
+
+      double__2 arm_speed;
+    };
+  };
+};

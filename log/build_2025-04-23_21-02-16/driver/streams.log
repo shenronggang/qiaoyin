@@ -1,0 +1,251 @@
+[0.009s] Invoking command in '/home/user/qiaoyin/build/driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/qiaoyin/build/driver -- -j24 -l24
+[0.044s] [ 10%] Built target driver__rosidl_generator_c
+[0.049s] [ 11%] Built target driver__cpp
+[0.049s] [ 11%] Built target ament_cmake_python_copy_driver
+[0.059s] [ 22%] Built target driver__rosidl_typesupport_introspection_c
+[0.061s] [ 32%] Built target driver__rosidl_typesupport_c
+[0.061s] [ 43%] Built target driver__rosidl_typesupport_fastrtps_c
+[0.063s] [ 53%] Built target driver__rosidl_typesupport_fastrtps_cpp
+[0.064s] [ 64%] Built target driver__rosidl_typesupport_introspection_cpp
+[0.064s] [ 74%] Built target driver__rosidl_typesupport_cpp
+[0.075s] [35m[1mConsolidate compiler generated dependencies of target arm_driver_node[0m
+[0.078s] [ 74%] Built target driver
+[0.087s] [ 76%] [32mBuilding CXX object CMakeFiles/arm_driver_node.dir/src/arm_driver_node.cpp.o[0m
+[0.091s] [ 77%] Built target driver__py
+[0.108s] [ 86%] Built target driver__rosidl_generator_py
+[0.124s] [ 89%] Built target driver__rosidl_typesupport_introspection_c__pyext
+[0.125s] [ 92%] Built target driver__rosidl_typesupport_fastrtps_c__pyext
+[0.125s] [ 95%] Built target driver__rosidl_typesupport_c__pyext
+[0.195s] running egg_info
+[0.196s] writing driver.egg-info/PKG-INFO
+[0.196s] writing dependency_links to driver.egg-info/dependency_links.txt
+[0.196s] writing top-level names to driver.egg-info/top_level.txt
+[0.197s] reading manifest file 'driver.egg-info/SOURCES.txt'
+[0.198s] writing manifest file 'driver.egg-info/SOURCES.txt'
+[0.214s] [ 95%] Built target ament_cmake_python_build_driver_egg
+[3.287s] [ 97%] [32m[1mLinking CXX executable arm_driver_node[0m
+[3.448s] [100%] Built target arm_driver_node
+[3.456s] Invoked command in '/home/user/qiaoyin/build/driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/qiaoyin/build/driver -- -j24 -l24
+[3.458s] Invoking command in '/home/user/qiaoyin/build/driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/user/qiaoyin/build/driver
+[3.462s] -- Install configuration: ""
+[3.462s] -- Up-to-date: /home/user/qiaoyin/install/driver/share/ament_index/resource_index/rosidl_interfaces/driver
+[3.462s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver
+[3.462s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/srv
+[3.463s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/srv/arm_set_cart.h
+[3.463s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/srv/detail
+[3.463s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/srv/detail/arm_set_joints__type_support.h
+[3.463s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/srv/detail/arm_set_cart__struct.h
+[3.463s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/srv/detail/arm_set_cart__type_support.h
+[3.463s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/srv/detail/arm_set_joints__struct.h
+[3.463s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/srv/detail/arm_set_joints__functions.h
+[3.463s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/srv/detail/arm_set_joints__functions.c
+[3.463s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/srv/detail/arm_set_cart__functions.c
+[3.463s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/srv/detail/arm_set_cart__functions.h
+[3.463s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/srv/arm_set_joints.h
+[3.463s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/msg
+[3.463s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/msg/detail
+[3.463s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/msg/detail/gripper_info__type_support.h
+[3.463s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/msg/detail/arm_info__struct.h
+[3.463s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/msg/detail/agv_info__functions.c
+[3.463s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/msg/detail/agv_info__type_support.h
+[3.463s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/msg/detail/arm_info__functions.c
+[3.463s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/msg/detail/gripper_info__functions.c
+[3.463s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/msg/detail/arm_info__type_support.h
+[3.463s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/msg/detail/agv_info__functions.h
+[3.463s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/msg/detail/gripper_info__struct.h
+[3.463s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/msg/detail/gripper_info__functions.h
+[3.463s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/msg/detail/agv_info__struct.h
+[3.463s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/msg/detail/arm_info__functions.h
+[3.463s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/msg/gripper_info.h
+[3.464s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/msg/rosidl_generator_c__visibility_control.h
+[3.464s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/msg/agv_info.h
+[3.464s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/msg/arm_info.h
+[3.464s] -- Up-to-date: /home/user/qiaoyin/install/driver/share/driver/environment/library_path.sh
+[3.464s] -- Installing: /home/user/qiaoyin/install/driver/share/driver/environment/library_path.dsv
+[3.464s] -- Up-to-date: /home/user/qiaoyin/install/driver/lib/libdriver__rosidl_generator_c.so
+[3.464s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver
+[3.464s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/srv
+[3.464s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/srv/detail
+[3.464s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/srv/detail/arm_set_joints__rosidl_typesupport_fastrtps_c.h
+[3.464s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/srv/detail/arm_set_cart__rosidl_typesupport_fastrtps_c.h
+[3.464s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/msg
+[3.464s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/msg/detail
+[3.464s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/msg/detail/gripper_info__rosidl_typesupport_fastrtps_c.h
+[3.464s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/msg/detail/arm_info__rosidl_typesupport_fastrtps_c.h
+[3.464s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/msg/detail/agv_info__rosidl_typesupport_fastrtps_c.h
+[3.464s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.464s] -- Up-to-date: /home/user/qiaoyin/install/driver/lib/libdriver__rosidl_typesupport_fastrtps_c.so
+[3.464s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver
+[3.464s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/srv
+[3.464s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/srv/detail
+[3.464s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/srv/detail/arm_set_cart__type_support.hpp
+[3.464s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/srv/detail/arm_set_joints__struct.hpp
+[3.464s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/srv/detail/arm_set_joints__builder.hpp
+[3.464s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/srv/detail/arm_set_cart__struct.hpp
+[3.464s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/srv/detail/arm_set_joints__type_support.hpp
+[3.464s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/srv/detail/arm_set_cart__builder.hpp
+[3.464s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/srv/detail/arm_set_cart__traits.hpp
+[3.464s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/srv/detail/arm_set_joints__traits.hpp
+[3.464s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/srv/arm_set_joints.hpp
+[3.464s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/srv/arm_set_cart.hpp
+[3.464s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/msg
+[3.464s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/msg/agv_info.hpp
+[3.464s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.464s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/msg/detail
+[3.465s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/msg/detail/gripper_info__traits.hpp
+[3.465s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/msg/detail/gripper_info__builder.hpp
+[3.465s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/msg/detail/agv_info__struct.hpp
+[3.465s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/msg/detail/arm_info__builder.hpp
+[3.465s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/msg/detail/arm_info__struct.hpp
+[3.465s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/msg/detail/agv_info__builder.hpp
+[3.465s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/msg/detail/arm_info__type_support.hpp
+[3.465s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/msg/detail/gripper_info__struct.hpp
+[3.465s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/msg/detail/gripper_info__type_support.hpp
+[3.465s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/msg/detail/agv_info__traits.hpp
+[3.465s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/msg/detail/agv_info__type_support.hpp
+[3.465s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/msg/detail/arm_info__traits.hpp
+[3.465s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/msg/arm_info.hpp
+[3.465s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/msg/gripper_info.hpp
+[3.465s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver
+[3.465s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/srv
+[3.465s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/srv/detail
+[3.465s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/srv/detail/arm_set_joints__rosidl_typesupport_fastrtps_cpp.hpp
+[3.465s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/srv/detail/dds_fastrtps
+[3.465s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/srv/detail/arm_set_cart__rosidl_typesupport_fastrtps_cpp.hpp
+[3.465s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/msg
+[3.465s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.465s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/msg/detail
+[3.465s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/msg/detail/arm_info__rosidl_typesupport_fastrtps_cpp.hpp
+[3.465s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/msg/detail/agv_info__rosidl_typesupport_fastrtps_cpp.hpp
+[3.465s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/msg/detail/dds_fastrtps
+[3.465s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/msg/detail/gripper_info__rosidl_typesupport_fastrtps_cpp.hpp
+[3.465s] -- Up-to-date: /home/user/qiaoyin/install/driver/lib/libdriver__rosidl_typesupport_fastrtps_cpp.so
+[3.465s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver
+[3.465s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/srv
+[3.465s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/srv/detail
+[3.465s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/srv/detail/arm_set_joints__type_support.c
+[3.466s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/srv/detail/arm_set_cart__type_support.c
+[3.466s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/srv/detail/arm_set_cart__rosidl_typesupport_introspection_c.h
+[3.466s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/srv/detail/arm_set_joints__rosidl_typesupport_introspection_c.h
+[3.466s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/msg
+[3.466s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/msg/detail
+[3.466s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/msg/detail/arm_info__rosidl_typesupport_introspection_c.h
+[3.466s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/msg/detail/agv_info__rosidl_typesupport_introspection_c.h
+[3.466s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/msg/detail/arm_info__type_support.c
+[3.466s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/msg/detail/gripper_info__rosidl_typesupport_introspection_c.h
+[3.466s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/msg/detail/gripper_info__type_support.c
+[3.466s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/msg/detail/agv_info__type_support.c
+[3.466s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.466s] -- Up-to-date: /home/user/qiaoyin/install/driver/lib/libdriver__rosidl_typesupport_introspection_c.so
+[3.466s] -- Up-to-date: /home/user/qiaoyin/install/driver/lib/libdriver__rosidl_typesupport_c.so
+[3.466s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver
+[3.466s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/srv
+[3.466s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/srv/detail
+[3.466s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/srv/detail/arm_set_joints__rosidl_typesupport_introspection_cpp.hpp
+[3.466s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/srv/detail/arm_set_cart__rosidl_typesupport_introspection_cpp.hpp
+[3.466s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/srv/detail/arm_set_cart__type_support.cpp
+[3.466s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/srv/detail/arm_set_joints__type_support.cpp
+[3.466s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/msg
+[3.466s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/msg/detail
+[3.466s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/msg/detail/arm_info__rosidl_typesupport_introspection_cpp.hpp
+[3.466s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/msg/detail/gripper_info__type_support.cpp
+[3.466s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/msg/detail/agv_info__type_support.cpp
+[3.466s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/msg/detail/agv_info__rosidl_typesupport_introspection_cpp.hpp
+[3.466s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/msg/detail/arm_info__type_support.cpp
+[3.466s] -- Up-to-date: /home/user/qiaoyin/install/driver/include/driver/driver/msg/detail/gripper_info__rosidl_typesupport_introspection_cpp.hpp
+[3.466s] -- Up-to-date: /home/user/qiaoyin/install/driver/lib/libdriver__rosidl_typesupport_introspection_cpp.so
+[3.466s] -- Up-to-date: /home/user/qiaoyin/install/driver/lib/libdriver__rosidl_typesupport_cpp.so
+[3.466s] -- Up-to-date: /home/user/qiaoyin/install/driver/share/driver/environment/pythonpath.sh
+[3.467s] -- Installing: /home/user/qiaoyin/install/driver/share/driver/environment/pythonpath.dsv
+[3.467s] -- Up-to-date: /home/user/qiaoyin/install/driver/local/lib/python3.10/dist-packages/driver-0.0.0-py3.10.egg-info
+[3.467s] -- Installing: /home/user/qiaoyin/install/driver/local/lib/python3.10/dist-packages/driver-0.0.0-py3.10.egg-info/PKG-INFO
+[3.467s] -- Installing: /home/user/qiaoyin/install/driver/local/lib/python3.10/dist-packages/driver-0.0.0-py3.10.egg-info/top_level.txt
+[3.467s] -- Installing: /home/user/qiaoyin/install/driver/local/lib/python3.10/dist-packages/driver-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.467s] -- Installing: /home/user/qiaoyin/install/driver/local/lib/python3.10/dist-packages/driver-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.467s] -- Up-to-date: /home/user/qiaoyin/install/driver/local/lib/python3.10/dist-packages/driver
+[3.467s] -- Up-to-date: /home/user/qiaoyin/install/driver/local/lib/python3.10/dist-packages/driver/driver_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.467s] -- Up-to-date: /home/user/qiaoyin/install/driver/local/lib/python3.10/dist-packages/driver/driver_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.467s] -- Up-to-date: /home/user/qiaoyin/install/driver/local/lib/python3.10/dist-packages/driver/srv
+[3.467s] -- Up-to-date: /home/user/qiaoyin/install/driver/local/lib/python3.10/dist-packages/driver/srv/__init__.py
+[3.467s] -- Up-to-date: /home/user/qiaoyin/install/driver/local/lib/python3.10/dist-packages/driver/srv/_arm_set_joints.py
+[3.467s] -- Up-to-date: /home/user/qiaoyin/install/driver/local/lib/python3.10/dist-packages/driver/srv/_arm_set_cart.py
+[3.467s] -- Up-to-date: /home/user/qiaoyin/install/driver/local/lib/python3.10/dist-packages/driver/srv/_arm_set_cart_s.c
+[3.467s] -- Up-to-date: /home/user/qiaoyin/install/driver/local/lib/python3.10/dist-packages/driver/srv/_arm_set_joints_s.c
+[3.467s] -- Up-to-date: /home/user/qiaoyin/install/driver/local/lib/python3.10/dist-packages/driver/_driver_s.ep.rosidl_typesupport_c.c
+[3.467s] -- Installing: /home/user/qiaoyin/install/driver/local/lib/python3.10/dist-packages/driver/__init__.py
+[3.467s] -- Up-to-date: /home/user/qiaoyin/install/driver/local/lib/python3.10/dist-packages/driver/_driver_s.ep.rosidl_typesupport_introspection_c.c
+[3.467s] -- Up-to-date: /home/user/qiaoyin/install/driver/local/lib/python3.10/dist-packages/driver/driver_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.467s] -- Up-to-date: /home/user/qiaoyin/install/driver/local/lib/python3.10/dist-packages/driver/libdriver__rosidl_generator_py.so
+[3.467s] -- Up-to-date: /home/user/qiaoyin/install/driver/local/lib/python3.10/dist-packages/driver/msg
+[3.467s] -- Up-to-date: /home/user/qiaoyin/install/driver/local/lib/python3.10/dist-packages/driver/msg/_arm_info_s.c
+[3.467s] -- Up-to-date: /home/user/qiaoyin/install/driver/local/lib/python3.10/dist-packages/driver/msg/_agv_info.py
+[3.467s] -- Up-to-date: /home/user/qiaoyin/install/driver/local/lib/python3.10/dist-packages/driver/msg/__init__.py
+[3.467s] -- Up-to-date: /home/user/qiaoyin/install/driver/local/lib/python3.10/dist-packages/driver/msg/_gripper_info_s.c
+[3.467s] -- Up-to-date: /home/user/qiaoyin/install/driver/local/lib/python3.10/dist-packages/driver/msg/_arm_info.py
+[3.467s] -- Up-to-date: /home/user/qiaoyin/install/driver/local/lib/python3.10/dist-packages/driver/msg/_agv_info_s.c
+[3.467s] -- Up-to-date: /home/user/qiaoyin/install/driver/local/lib/python3.10/dist-packages/driver/msg/_gripper_info.py
+[3.467s] -- Up-to-date: /home/user/qiaoyin/install/driver/local/lib/python3.10/dist-packages/driver/_driver_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.486s] Listing '/home/user/qiaoyin/install/driver/local/lib/python3.10/dist-packages/driver'...
+[3.486s] Compiling '/home/user/qiaoyin/install/driver/local/lib/python3.10/dist-packages/driver/__init__.py'...
+[3.486s] Listing '/home/user/qiaoyin/install/driver/local/lib/python3.10/dist-packages/driver/msg'...
+[3.486s] Listing '/home/user/qiaoyin/install/driver/local/lib/python3.10/dist-packages/driver/srv'...
+[3.489s] -- Up-to-date: /home/user/qiaoyin/install/driver/local/lib/python3.10/dist-packages/driver/driver_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.489s] -- Up-to-date: /home/user/qiaoyin/install/driver/local/lib/python3.10/dist-packages/driver/driver_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.489s] -- Up-to-date: /home/user/qiaoyin/install/driver/local/lib/python3.10/dist-packages/driver/driver_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.489s] -- Up-to-date: /home/user/qiaoyin/install/driver/lib/libdriver__rosidl_generator_py.so
+[3.490s] -- Up-to-date: /home/user/qiaoyin/install/driver/share/driver/srv/ArmSetCart.idl
+[3.490s] -- Up-to-date: /home/user/qiaoyin/install/driver/share/driver/srv/ArmSetJoints.idl
+[3.490s] -- Up-to-date: /home/user/qiaoyin/install/driver/share/driver/msg/AgvInfo.idl
+[3.490s] -- Up-to-date: /home/user/qiaoyin/install/driver/share/driver/msg/ArmInfo.idl
+[3.490s] -- Up-to-date: /home/user/qiaoyin/install/driver/share/driver/msg/GripperInfo.idl
+[3.490s] -- Up-to-date: /home/user/qiaoyin/install/driver/share/driver/srv/ArmSetCart.srv
+[3.490s] -- Up-to-date: /home/user/qiaoyin/install/driver/share/driver/srv/ArmSetCart_Request.msg
+[3.490s] -- Up-to-date: /home/user/qiaoyin/install/driver/share/driver/srv/ArmSetCart_Response.msg
+[3.490s] -- Up-to-date: /home/user/qiaoyin/install/driver/share/driver/srv/ArmSetJoints.srv
+[3.490s] -- Up-to-date: /home/user/qiaoyin/install/driver/share/driver/srv/ArmSetJoints_Request.msg
+[3.490s] -- Up-to-date: /home/user/qiaoyin/install/driver/share/driver/srv/ArmSetJoints_Response.msg
+[3.490s] -- Up-to-date: /home/user/qiaoyin/install/driver/share/driver/msg/AgvInfo.msg
+[3.490s] -- Up-to-date: /home/user/qiaoyin/install/driver/share/driver/msg/ArmInfo.msg
+[3.490s] -- Up-to-date: /home/user/qiaoyin/install/driver/share/driver/msg/GripperInfo.msg
+[3.490s] -- Installing: /home/user/qiaoyin/install/driver/lib/driver/arm_driver_node
+[3.491s] -- Set runtime path of "/home/user/qiaoyin/install/driver/lib/driver/arm_driver_node" to ""
+[3.491s] -- Up-to-date: /home/user/qiaoyin/install/driver/share/ament_index/resource_index/package_run_dependencies/driver
+[3.491s] -- Up-to-date: /home/user/qiaoyin/install/driver/share/ament_index/resource_index/parent_prefix_path/driver
+[3.491s] -- Up-to-date: /home/user/qiaoyin/install/driver/share/driver/environment/ament_prefix_path.sh
+[3.491s] -- Installing: /home/user/qiaoyin/install/driver/share/driver/environment/ament_prefix_path.dsv
+[3.491s] -- Up-to-date: /home/user/qiaoyin/install/driver/share/driver/environment/path.sh
+[3.491s] -- Installing: /home/user/qiaoyin/install/driver/share/driver/environment/path.dsv
+[3.491s] -- Up-to-date: /home/user/qiaoyin/install/driver/share/driver/local_setup.bash
+[3.491s] -- Up-to-date: /home/user/qiaoyin/install/driver/share/driver/local_setup.sh
+[3.491s] -- Up-to-date: /home/user/qiaoyin/install/driver/share/driver/local_setup.zsh
+[3.491s] -- Installing: /home/user/qiaoyin/install/driver/share/driver/local_setup.dsv
+[3.491s] -- Installing: /home/user/qiaoyin/install/driver/share/driver/package.dsv
+[3.491s] -- Up-to-date: /home/user/qiaoyin/install/driver/share/ament_index/resource_index/packages/driver
+[3.491s] -- Up-to-date: /home/user/qiaoyin/install/driver/share/driver/cmake/export_driver__rosidl_generator_cExport.cmake
+[3.492s] -- Up-to-date: /home/user/qiaoyin/install/driver/share/driver/cmake/export_driver__rosidl_generator_cExport-noconfig.cmake
+[3.492s] -- Up-to-date: /home/user/qiaoyin/install/driver/share/driver/cmake/export_driver__rosidl_typesupport_fastrtps_cExport.cmake
+[3.492s] -- Up-to-date: /home/user/qiaoyin/install/driver/share/driver/cmake/export_driver__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.492s] -- Up-to-date: /home/user/qiaoyin/install/driver/share/driver/cmake/export_driver__rosidl_generator_cppExport.cmake
+[3.492s] -- Up-to-date: /home/user/qiaoyin/install/driver/share/driver/cmake/export_driver__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.492s] -- Up-to-date: /home/user/qiaoyin/install/driver/share/driver/cmake/export_driver__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.492s] -- Up-to-date: /home/user/qiaoyin/install/driver/share/driver/cmake/driver__rosidl_typesupport_introspection_cExport.cmake
+[3.492s] -- Up-to-date: /home/user/qiaoyin/install/driver/share/driver/cmake/driver__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.492s] -- Up-to-date: /home/user/qiaoyin/install/driver/share/driver/cmake/driver__rosidl_typesupport_cExport.cmake
+[3.492s] -- Up-to-date: /home/user/qiaoyin/install/driver/share/driver/cmake/driver__rosidl_typesupport_cExport-noconfig.cmake
+[3.492s] -- Up-to-date: /home/user/qiaoyin/install/driver/share/driver/cmake/driver__rosidl_typesupport_introspection_cppExport.cmake
+[3.492s] -- Up-to-date: /home/user/qiaoyin/install/driver/share/driver/cmake/driver__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.492s] -- Up-to-date: /home/user/qiaoyin/install/driver/share/driver/cmake/driver__rosidl_typesupport_cppExport.cmake
+[3.492s] -- Up-to-date: /home/user/qiaoyin/install/driver/share/driver/cmake/driver__rosidl_typesupport_cppExport-noconfig.cmake
+[3.492s] -- Up-to-date: /home/user/qiaoyin/install/driver/share/driver/cmake/export_driver__rosidl_generator_pyExport.cmake
+[3.492s] -- Up-to-date: /home/user/qiaoyin/install/driver/share/driver/cmake/export_driver__rosidl_generator_pyExport-noconfig.cmake
+[3.492s] -- Up-to-date: /home/user/qiaoyin/install/driver/share/driver/cmake/rosidl_cmake-extras.cmake
+[3.492s] -- Up-to-date: /home/user/qiaoyin/install/driver/share/driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.492s] -- Up-to-date: /home/user/qiaoyin/install/driver/share/driver/cmake/ament_cmake_export_libraries-extras.cmake
+[3.492s] -- Up-to-date: /home/user/qiaoyin/install/driver/share/driver/cmake/ament_cmake_export_targets-extras.cmake
+[3.492s] -- Up-to-date: /home/user/qiaoyin/install/driver/share/driver/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.492s] -- Up-to-date: /home/user/qiaoyin/install/driver/share/driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.492s] -- Up-to-date: /home/user/qiaoyin/install/driver/share/driver/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.492s] -- Up-to-date: /home/user/qiaoyin/install/driver/share/driver/cmake/driverConfig.cmake
+[3.492s] -- Up-to-date: /home/user/qiaoyin/install/driver/share/driver/cmake/driverConfig-version.cmake
+[3.492s] -- Up-to-date: /home/user/qiaoyin/install/driver/share/driver/package.xml
+[3.494s] Invoked command in '/home/user/qiaoyin/build/driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/user/qiaoyin/build/driver

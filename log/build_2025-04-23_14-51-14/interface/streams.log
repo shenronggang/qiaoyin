@@ -1,0 +1,20 @@
+[0.010s] Invoking command in '/home/user/qiaoyin/build/interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/qiaoyin/build/interface -- -j24 -l24
+[0.035s] Invoked command in '/home/user/qiaoyin/build/interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/qiaoyin/build/interface -- -j24 -l24
+[0.043s] Invoking command in '/home/user/qiaoyin/build/interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/user/qiaoyin/build/interface
+[0.049s] -- Install configuration: ""
+[0.049s] -- Up-to-date: /home/user/qiaoyin/install/interface/share/ament_index/resource_index/package_run_dependencies/interface
+[0.049s] -- Up-to-date: /home/user/qiaoyin/install/interface/share/ament_index/resource_index/parent_prefix_path/interface
+[0.049s] -- Up-to-date: /home/user/qiaoyin/install/interface/share/interface/environment/ament_prefix_path.sh
+[0.049s] -- Up-to-date: /home/user/qiaoyin/install/interface/share/interface/environment/ament_prefix_path.dsv
+[0.049s] -- Up-to-date: /home/user/qiaoyin/install/interface/share/interface/environment/path.sh
+[0.049s] -- Up-to-date: /home/user/qiaoyin/install/interface/share/interface/environment/path.dsv
+[0.049s] -- Up-to-date: /home/user/qiaoyin/install/interface/share/interface/local_setup.bash
+[0.049s] -- Up-to-date: /home/user/qiaoyin/install/interface/share/interface/local_setup.sh
+[0.049s] -- Up-to-date: /home/user/qiaoyin/install/interface/share/interface/local_setup.zsh
+[0.049s] -- Up-to-date: /home/user/qiaoyin/install/interface/share/interface/local_setup.dsv
+[0.049s] -- Up-to-date: /home/user/qiaoyin/install/interface/share/interface/package.dsv
+[0.049s] -- Up-to-date: /home/user/qiaoyin/install/interface/share/ament_index/resource_index/packages/interface
+[0.049s] -- Up-to-date: /home/user/qiaoyin/install/interface/share/interface/cmake/interfaceConfig.cmake
+[0.049s] -- Up-to-date: /home/user/qiaoyin/install/interface/share/interface/cmake/interfaceConfig-version.cmake
+[0.049s] -- Up-to-date: /home/user/qiaoyin/install/interface/share/interface/package.xml
+[0.051s] Invoked command in '/home/user/qiaoyin/build/interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/user/qiaoyin/build/interface

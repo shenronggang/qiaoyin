@@ -1,0 +1,39 @@
+[0.006s] Invoking command in '/home/user/qiaoyin/build/whl_system': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/qiaoyin/build/whl_system -- -j24 -l24
+[0.038s] [  2%] Built target whl_system__cpp
+[0.039s] [ 12%] Built target whl_system__rosidl_generator_c
+[0.046s] [ 12%] Built target ament_cmake_python_copy_whl_system
+[0.053s] [ 32%] Built target whl_system__rosidl_typesupport_fastrtps_c
+[0.053s] [ 32%] Built target whl_system__rosidl_typesupport_c
+[0.054s] [ 42%] Built target whl_system__rosidl_typesupport_cpp
+[0.055s] [ 60%] Built target whl_system__rosidl_typesupport_introspection_c
+[0.055s] [ 62%] Built target whl_system__rosidl_typesupport_fastrtps_cpp
+[0.055s] [ 72%] Built target whl_system__rosidl_typesupport_introspection_cpp
+[0.063s] [35m[1mConsolidate compiler generated dependencies of target wheelloong_system_node[0m
+[0.068s] [ 72%] Built target whl_system
+[0.075s] [ 74%] [32mBuilding CXX object CMakeFiles/wheelloong_system_node.dir/src/wheelloong_system.cpp.o[0m
+[0.081s] [ 76%] Built target whl_system__py
+[0.098s] [ 84%] Built target whl_system__rosidl_generator_py
+[0.114s] [ 92%] Built target whl_system__rosidl_typesupport_introspection_c__pyext
+[0.114s] [ 92%] Built target whl_system__rosidl_typesupport_fastrtps_c__pyext
+[0.115s] [ 96%] Built target whl_system__rosidl_typesupport_c__pyext
+[0.191s] running egg_info
+[0.191s] writing whl_system.egg-info/PKG-INFO
+[0.191s] writing dependency_links to whl_system.egg-info/dependency_links.txt
+[0.191s] writing top-level names to whl_system.egg-info/top_level.txt
+[0.193s] reading manifest file 'whl_system.egg-info/SOURCES.txt'
+[0.193s] writing manifest file 'whl_system.egg-info/SOURCES.txt'
+[0.210s] [ 96%] Built target ament_cmake_python_build_whl_system_egg
+[1.335s] [01m[K/home/user/qiaoyin/src/whl_system/src/wheelloong_system.cpp:19:19:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kwhl::outputStruct WheelloongSystem::dwdate()[m[K’
+[1.335s]    19 | whl::outputStruct [01;31m[KWheelloongSystem[m[K::dwdate()
+[1.335s]       |                   [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.335s] In file included from [01m[K/home/user/qiaoyin/src/whl_system/src/wheelloong_system.cpp:1[m[K:
+[1.335s] [01m[K/home/user/qiaoyin/src/whl_system/src/wheelloong_system.h:16:10:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid WheelloongSystem::dwdate()[m[K’
+[1.335s]    16 |     void [01;36m[Kdwdate[m[K();
+[1.335s]       |          [01;36m[K^~~~~~[m[K
+[1.335s] [01m[K/home/user/qiaoyin/src/whl_system/src/wheelloong_system.h:9:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass WheelloongSystem[m[K’ defined here
+[1.335s]     9 | class [01;36m[KWheelloongSystem[m[K
+[1.335s]       |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[1.575s] gmake[2]: *** [CMakeFiles/wheelloong_system_node.dir/build.make:90：CMakeFiles/wheelloong_system_node.dir/src/wheelloong_system.cpp.o] 错误 1
+[1.576s] gmake[1]: *** [CMakeFiles/Makefile2:593：CMakeFiles/wheelloong_system_node.dir/all] 错误 2
+[1.576s] gmake: *** [Makefile:146：all] 错误 2
+[1.578s] Invoked command in '/home/user/qiaoyin/build/whl_system' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/qiaoyin/build/whl_system -- -j24 -l24

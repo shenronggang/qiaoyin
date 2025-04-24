@@ -1,0 +1,36 @@
+[0.008s] Invoking command in '/home/user/qiaoyin/build/whl_system': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/qiaoyin/build/whl_system -- -j24 -l24
+[0.042s] [  2%] Built target whl_system__cpp
+[0.042s] [ 12%] Built target whl_system__rosidl_generator_c
+[0.047s] [ 12%] Built target ament_cmake_python_copy_whl_system
+[0.056s] [ 22%] Built target whl_system__rosidl_typesupport_introspection_c
+[0.056s] [ 32%] Built target whl_system__rosidl_typesupport_introspection_cpp
+[0.058s] [ 42%] Built target whl_system__rosidl_typesupport_c
+[0.059s] [ 59%] Built target whl_system__rosidl_typesupport_fastrtps_c
+[0.059s] [ 63%] Built target whl_system__rosidl_typesupport_cpp
+[0.059s] [ 73%] Built target whl_system__rosidl_typesupport_fastrtps_cpp
+[0.068s] [35m[1mConsolidate compiler generated dependencies of target wheelloong_system_node[0m
+[0.072s] [ 73%] Built target whl_system
+[0.081s] [ 75%] [32mBuilding CXX object CMakeFiles/wheelloong_system_node.dir/src/main.cpp.o[0m
+[0.087s] [ 77%] Built target whl_system__py
+[0.102s] [ 85%] Built target whl_system__rosidl_generator_py
+[0.118s] [ 93%] Built target whl_system__rosidl_typesupport_fastrtps_c__pyext
+[0.118s] [ 93%] Built target whl_system__rosidl_typesupport_introspection_c__pyext
+[0.122s] [ 97%] Built target whl_system__rosidl_typesupport_c__pyext
+[0.193s] running egg_info
+[0.194s] writing whl_system.egg-info/PKG-INFO
+[0.194s] writing dependency_links to whl_system.egg-info/dependency_links.txt
+[0.194s] writing top-level names to whl_system.egg-info/top_level.txt
+[0.195s] reading manifest file 'whl_system.egg-info/SOURCES.txt'
+[0.195s] writing manifest file 'whl_system.egg-info/SOURCES.txt'
+[0.212s] [ 97%] Built target ament_cmake_python_build_whl_system_egg
+[1.593s] [100%] [32m[1mLinking CXX executable wheelloong_system_node[0m
+[1.648s] /usr/bin/ld: CMakeFiles/wheelloong_system_node.dir/src/main.cpp.o: in function `main':
+[1.648s] main.cpp:(.text+0x98): undefined reference to `WheelloongSystem::WheelloongSystem()'
+[1.648s] /usr/bin/ld: main.cpp:(.text+0xa7): undefined reference to `WheelloongSystem::run()'
+[1.648s] /usr/bin/ld: main.cpp:(.text+0x13b): undefined reference to `WheelloongSystem::~WheelloongSystem()'
+[1.648s] /usr/bin/ld: main.cpp:(.text+0x1c2): undefined reference to `WheelloongSystem::~WheelloongSystem()'
+[1.651s] collect2: error: ld returned 1 exit status
+[1.652s] gmake[2]: *** [CMakeFiles/wheelloong_system_node.dir/build.make:159：wheelloong_system_node] 错误 1
+[1.652s] gmake[1]: *** [CMakeFiles/Makefile2:593：CMakeFiles/wheelloong_system_node.dir/all] 错误 2
+[1.652s] gmake: *** [Makefile:146：all] 错误 2
+[1.655s] Invoked command in '/home/user/qiaoyin/build/whl_system' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/qiaoyin/build/whl_system -- -j24 -l24

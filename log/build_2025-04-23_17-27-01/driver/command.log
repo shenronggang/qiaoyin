@@ -1,0 +1,1 @@
+Invoking command in '/home/user/qiaoyin/build/driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/qiaoyin/build/driver -- -j24 -l24

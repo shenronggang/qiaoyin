@@ -1,0 +1,33 @@
+[0.011s] Invoking command in '/home/user/qiaoyin/build/driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/qiaoyin/build/driver -- -j24 -l24
+[0.049s] [  1%] Built target driver__cpp
+[0.050s] [ 12%] Built target driver__rosidl_generator_c
+[0.060s] [ 12%] Built target ament_cmake_python_copy_driver
+[0.066s] [ 44%] Built target driver__rosidl_typesupport_introspection_c
+[0.066s] [ 44%] Built target driver__rosidl_typesupport_fastrtps_cpp
+[0.066s] [ 44%] Built target driver__rosidl_typesupport_c
+[0.066s] [ 54%] Built target driver__rosidl_typesupport_introspection_cpp
+[0.067s] [ 65%] Built target driver__rosidl_typesupport_fastrtps_c
+[0.069s] [ 76%] Built target driver__rosidl_typesupport_cpp
+[0.078s] [35m[1mConsolidate compiler generated dependencies of target arm_driver_node[0m
+[0.083s] [ 76%] Built target driver
+[0.092s] [ 77%] [32mBuilding CXX object CMakeFiles/arm_driver_node.dir/src/arm_driver_node.cpp.o[0m
+[0.100s] [ 78%] Built target driver__py
+[0.118s] [ 88%] Built target driver__rosidl_generator_py
+[0.135s] [ 90%] Built target driver__rosidl_typesupport_introspection_c__pyext
+[0.136s] [ 93%] Built target driver__rosidl_typesupport_fastrtps_c__pyext
+[0.136s] [ 96%] Built target driver__rosidl_typesupport_c__pyext
+[0.208s] running egg_info
+[0.208s] writing driver.egg-info/PKG-INFO
+[0.208s] writing dependency_links to driver.egg-info/dependency_links.txt
+[0.208s] writing top-level names to driver.egg-info/top_level.txt
+[0.210s] reading manifest file 'driver.egg-info/SOURCES.txt'
+[0.210s] writing manifest file 'driver.egg-info/SOURCES.txt'
+[0.227s] [ 96%] Built target ament_cmake_python_build_driver_egg
+[1.464s] [01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.cpp:[m[K In member function ‘[01m[Kvoid ArmDriverNode::handle_arm_enable(std::shared_ptr<driver::srv::ArmEnable_Request_<std::allocator<void> > >, std::shared_ptr<driver::srv::ArmEnable_Response_<std::allocator<void> > >)[m[K’:
+[1.464s] [01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.cpp:120:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_ptr<driver::srv::ArmEnable_Response_<std::allocator<void> > >[m[K’ has no member named ‘[01m[Ksuccess[m[K’
+[1.464s]   120 |     response.[01;31m[Ksuccess[m[K = res;
+[1.464s]       |              [01;31m[K^~~~~~~[m[K
+[2.147s] gmake[2]: *** [CMakeFiles/arm_driver_node.dir/build.make:76：CMakeFiles/arm_driver_node.dir/src/arm_driver_node.cpp.o] 错误 1
+[2.147s] gmake[1]: *** [CMakeFiles/Makefile2:593：CMakeFiles/arm_driver_node.dir/all] 错误 2
+[2.147s] gmake: *** [Makefile:146：all] 错误 2
+[2.149s] Invoked command in '/home/user/qiaoyin/build/driver' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/qiaoyin/build/driver -- -j24 -l24

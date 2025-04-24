@@ -1,0 +1,52 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from whl_system/srv/InoutStruct.srv
+// generated code does not contain a copyright notice
+
+#include "whl_system/msg/AgvInfo.idl"
+#include "whl_system/msg/ArmInfo.idl"
+
+module whl_system {
+  module srv {
+    @verbatim (language="comment", text=
+      "请求部分")
+    struct InoutStruct_Request {
+      string robot_name;
+
+      int32 running_mode;
+
+      int32 ctrl_cmd;
+
+      boolean enable;
+
+      whl_system::msg::ArmInfo arm_info;
+
+      whl_system::msg::AgvInfo agv_info;
+    };
+    typedef boolean boolean__2[2];
+    typedef double double__2[2];
+    typedef double double__3[3];
+    @verbatim (language="comment", text=
+      "响应部分")
+    struct InoutStruct_Response {
+      int32 motor_on;
+
+      int32 running_mode;
+
+      int32 ctrl_cmd;
+
+      boolean__2 gripper;
+
+      double__2 q_agv_peed;
+
+      double__2 exp_agv_peed;
+
+      double__3 robot_pos;
+
+      whl_system::msg::ArmInfo q_arm_info;
+
+      whl_system::msg::ArmInfo exp_arm_info;
+
+      int32 step;
+    };
+  };
+};

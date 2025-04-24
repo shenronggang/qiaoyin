@@ -1,0 +1,52 @@
+[0.012s] Invoking command in '/home/user/qiaoyin/build/unsupported': /usr/bin/cmake /home/user/qiaoyin/src/wheelloong_utillity/eigen3/unsupported -DCMAKE_INSTALL_PREFIX=/home/user/qiaoyin/install/unsupported
+[0.013s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.013s]   No project() command is present.  The top-level CMakeLists.txt file must
+[0.013s]   contain a literal, direct call to the project() command.  Add a line of
+[0.013s]   code such as
+[0.013s] 
+[0.013s]     project(ProjectName)
+[0.013s] 
+[0.013s]   near the top of the file, but after cmake_minimum_required().
+[0.013s] 
+[0.013s]   CMake is pretending there is a "project(Project)" command on the first
+[0.013s]   line.
+[0.013s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.013s] [0m
+[0.044s] -- The C compiler identification is GNU 11.4.0
+[0.082s] -- The CXX compiler identification is GNU 11.4.0
+[0.088s] -- Detecting C compiler ABI info
+[0.134s] -- Detecting C compiler ABI info - done
+[0.139s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.139s] -- Detecting C compile features
+[0.140s] -- Detecting C compile features - done
+[0.142s] -- Detecting CXX compiler ABI info
+[0.190s] -- Detecting CXX compiler ABI info - done
+[0.196s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.196s] -- Detecting CXX compile features
+[0.196s] -- Detecting CXX compile features - done
+[0.197s] -- Configuring done
+[0.197s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.197s]   No cmake_minimum_required command is present.  A line of code such as
+[0.197s] 
+[0.197s]     cmake_minimum_required(VERSION 3.22)
+[0.197s] 
+[0.198s]   should be added at the top of the file.  The version specified may be lower
+[0.198s]   if you wish to support older CMake versions for this project.  For more
+[0.198s]   information run "cmake --help-policy CMP0000".
+[0.198s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.198s] [0m
+[0.198s] -- Generating done
+[0.199s] -- Build files have been written to: /home/user/qiaoyin/build/unsupported
+[0.201s] Invoked command in '/home/user/qiaoyin/build/unsupported' returned '0': /usr/bin/cmake /home/user/qiaoyin/src/wheelloong_utillity/eigen3/unsupported -DCMAKE_INSTALL_PREFIX=/home/user/qiaoyin/install/unsupported
+[0.201s] Invoking command in '/home/user/qiaoyin/build/unsupported': /usr/bin/cmake --build /home/user/qiaoyin/build/unsupported -- -j24 -l24
+[0.224s] Invoked command in '/home/user/qiaoyin/build/unsupported' returned '0': /usr/bin/cmake --build /home/user/qiaoyin/build/unsupported -- -j24 -l24
+[0.229s] Invoking command in '/home/user/qiaoyin/build/unsupported': /usr/bin/cmake --install /home/user/qiaoyin/build/unsupported
+[0.233s] -- Install configuration: ""
+[0.233s] [31mCMake Error at Eigen/cmake_install.cmake:54 (file):
+[0.233s]   file cannot create directory: /unsupported/Eigen.  Maybe need
+[0.233s]   administrative privileges.
+[0.233s] Call Stack (most recent call first):
+[0.233s]   cmake_install.cmake:47 (include)
+[0.233s] 
+[0.233s] [0m
+[0.234s] Invoked command in '/home/user/qiaoyin/build/unsupported' returned '1': /usr/bin/cmake --install /home/user/qiaoyin/build/unsupported

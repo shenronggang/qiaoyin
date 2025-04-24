@@ -1,0 +1,48 @@
+[0.010s] Invoking command in '/home/user/qiaoyin/build/driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/qiaoyin/build/driver -- -j24 -l24
+[0.052s] [ 10%] Built target driver__rosidl_generator_c
+[0.054s] [ 11%] Built target driver__cpp
+[0.062s] [ 11%] Built target ament_cmake_python_copy_driver
+[0.069s] [ 22%] Built target driver__rosidl_typesupport_c
+[0.069s] [ 32%] Built target driver__rosidl_typesupport_fastrtps_c
+[0.069s] [ 43%] Built target driver__rosidl_typesupport_introspection_c
+[0.071s] [ 64%] Built target driver__rosidl_typesupport_cpp
+[0.071s] [ 64%] Built target driver__rosidl_typesupport_introspection_cpp
+[0.075s] [ 74%] Built target driver__rosidl_typesupport_fastrtps_cpp
+[0.081s] [35m[1mConsolidate compiler generated dependencies of target arm_driver_node[0m
+[0.088s] [ 74%] Built target driver
+[0.093s] [ 76%] [32mBuilding CXX object CMakeFiles/arm_driver_node.dir/src/jaka.cpp.o[0m
+[0.094s] [ 77%] [32mBuilding CXX object CMakeFiles/arm_driver_node.dir/src/main.cpp.o[0m
+[0.095s] [ 79%] [32mBuilding CXX object CMakeFiles/arm_driver_node.dir/src/arm_driver_node.cpp.o[0m
+[0.102s] [ 80%] Built target driver__py
+[0.120s] [ 89%] Built target driver__rosidl_generator_py
+[0.138s] [ 95%] Built target driver__rosidl_typesupport_c__pyext
+[0.138s] [ 95%] Built target driver__rosidl_typesupport_introspection_c__pyext
+[0.138s] [ 98%] Built target driver__rosidl_typesupport_fastrtps_c__pyext
+[0.215s] running egg_info
+[0.215s] writing driver.egg-info/PKG-INFO
+[0.215s] writing dependency_links to driver.egg-info/dependency_links.txt
+[0.215s] writing top-level names to driver.egg-info/top_level.txt
+[0.217s] reading manifest file 'driver.egg-info/SOURCES.txt'
+[0.217s] writing manifest file 'driver.egg-info/SOURCES.txt'
+[0.234s] [ 98%] Built target ament_cmake_python_build_driver_egg
+[1.433s] [01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.cpp:[m[K In member function ‘[01m[Kvoid ArmDriverNode::publish_arm_info_callback()[m[K’:
+[1.433s] [01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.cpp:41:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kdouble JAKA::vel [2][m[K’ is private within this context
+[1.433s]    41 |     msg.speed = {jaka_.[01;31m[Kvel[m[K[0], jaka_.vel[1]};
+[1.433s]       |                        [01;31m[K^~~[m[K
+[1.433s] In file included from [01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.h:3[m[K,
+[1.433s]                  from [01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.cpp:1[m[K:
+[1.433s] [01m[K/home/user/qiaoyin/src/driver/src/jaka.h:29:12:[m[K [01;36m[Knote: [m[Kdeclared private here
+[1.433s]    29 |     double [01;36m[Kvel[m[K[2] = {1, 1};
+[1.433s]       |            [01;36m[K^~~[m[K
+[1.433s] [01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.cpp:41:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kdouble JAKA::vel [2][m[K’ is private within this context
+[1.433s]    41 |     msg.speed = {jaka_.vel[0], jaka_.[01;31m[Kvel[m[K[1]};
+[1.433s]       |                                      [01;31m[K^~~[m[K
+[1.433s] In file included from [01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.h:3[m[K,
+[1.433s]                  from [01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.cpp:1[m[K:
+[1.434s] [01m[K/home/user/qiaoyin/src/driver/src/jaka.h:29:12:[m[K [01;36m[Knote: [m[Kdeclared private here
+[1.434s]    29 |     double [01;36m[Kvel[m[K[2] = {1, 1};
+[1.434s]       |            [01;36m[K^~~[m[K
+[1.908s] gmake[2]: *** [CMakeFiles/arm_driver_node.dir/build.make:76：CMakeFiles/arm_driver_node.dir/src/arm_driver_node.cpp.o] 错误 1
+[1.908s] gmake[1]: *** [CMakeFiles/Makefile2:593：CMakeFiles/arm_driver_node.dir/all] 错误 2
+[1.908s] gmake: *** [Makefile:146：all] 错误 2
+[1.910s] Invoked command in '/home/user/qiaoyin/build/driver' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/qiaoyin/build/driver -- -j24 -l24

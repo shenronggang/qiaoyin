@@ -1,0 +1,1 @@
+Invoking command in '/home/user/qiaoyin/build/whl_system': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/qiaoyin/build/whl_system -- -j24 -l24

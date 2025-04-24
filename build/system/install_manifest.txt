@@ -1,0 +1,15 @@
+/home/user/qiaoyin/install/system/share/ament_index/resource_index/package_run_dependencies/system
+/home/user/qiaoyin/install/system/share/ament_index/resource_index/parent_prefix_path/system
+/home/user/qiaoyin/install/system/share/system/environment/ament_prefix_path.sh
+/home/user/qiaoyin/install/system/share/system/environment/ament_prefix_path.dsv
+/home/user/qiaoyin/install/system/share/system/environment/path.sh
+/home/user/qiaoyin/install/system/share/system/environment/path.dsv
+/home/user/qiaoyin/install/system/share/system/local_setup.bash
+/home/user/qiaoyin/install/system/share/system/local_setup.sh
+/home/user/qiaoyin/install/system/share/system/local_setup.zsh
+/home/user/qiaoyin/install/system/share/system/local_setup.dsv
+/home/user/qiaoyin/install/system/share/system/package.dsv
+/home/user/qiaoyin/install/system/share/ament_index/resource_index/packages/system
+/home/user/qiaoyin/install/system/share/system/cmake/systemConfig.cmake
+/home/user/qiaoyin/install/system/share/system/cmake/systemConfig-version.cmake
+/home/user/qiaoyin/install/system/share/system/package.xml

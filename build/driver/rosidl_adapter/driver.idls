@@ -1,0 +1,6 @@
+/home/user/qiaoyin/build/driver/rosidl_adapter/driver:srv/ArmSetCart.idl
+/home/user/qiaoyin/build/driver/rosidl_adapter/driver:srv/ArmSetJoints.idl
+/home/user/qiaoyin/build/driver/rosidl_adapter/driver:srv/ArmEnable.idl
+/home/user/qiaoyin/build/driver/rosidl_adapter/driver:msg/AgvInfo.idl
+/home/user/qiaoyin/build/driver/rosidl_adapter/driver:msg/ArmInfo.idl
+/home/user/qiaoyin/build/driver/rosidl_adapter/driver:msg/GripperInfo.idl

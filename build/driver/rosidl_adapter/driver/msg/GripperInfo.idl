@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from driver/msg/GripperInfo.msg
+// generated code does not contain a copyright notice
+
+
+module driver {
+  module msg {
+    struct GripperInfo {
+      boolean left_gripper;
+
+      boolean right_gripper;
+    };
+  };
+};

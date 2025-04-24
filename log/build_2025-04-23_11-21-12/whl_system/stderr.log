@@ -1,0 +1,10 @@
+/usr/bin/ld: CMakeFiles/wheelloong_system_node.dir/src/main.cpp.o: in function `main':
+main.cpp:(.text+0x98): undefined reference to `WheelloongSystem::WheelloongSystem()'
+/usr/bin/ld: main.cpp:(.text+0xa7): undefined reference to `WheelloongSystem::run()'
+/usr/bin/ld: main.cpp:(.text+0x13b): undefined reference to `WheelloongSystem::~WheelloongSystem()'
+/usr/bin/ld: main.cpp:(.text+0x1c2): undefined reference to `WheelloongSystem::~WheelloongSystem()'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/wheelloong_system_node.dir/build.make:159：wheelloong_system_node] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:593：CMakeFiles/wheelloong_system_node.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+gmake: *** [Makefile:146：all] 错误 2

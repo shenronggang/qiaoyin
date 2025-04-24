@@ -1,0 +1,10 @@
+/usr/bin/ld: CMakeFiles/wheelloong_system_node.dir/src/main.cpp.o: in function `main':
+main.cpp:(.text+0x67): undefined reference to `WheelloongSystem::run()'
+/usr/bin/ld: CMakeFiles/wheelloong_system_node.dir/src/main.cpp.o: in function `void __gnu_cxx::new_allocator<WheelloongSystem>::construct<WheelloongSystem>(WheelloongSystem*)':
+main.cpp:(.text._ZN9__gnu_cxx13new_allocatorI16WheelloongSystemE9constructIS1_JEEEvPT_DpOT0_[_ZN9__gnu_cxx13new_allocatorI16WheelloongSystemE9constructIS1_JEEEvPT_DpOT0_]+0x31): undefined reference to `WheelloongSystem::WheelloongSystem()'
+/usr/bin/ld: CMakeFiles/wheelloong_system_node.dir/src/main.cpp.o: in function `WheelloongSystem::~WheelloongSystem()':
+main.cpp:(.text._ZN16WheelloongSystemD2Ev[_ZN16WheelloongSystemD5Ev]+0x28): undefined reference to `FsmClass::~FsmClass()'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/wheelloong_system_node.dir/build.make:159：wheelloong_system_node] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:593：CMakeFiles/wheelloong_system_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

@@ -1,0 +1,8 @@
+msg/AgvInfo.idl
+msg/AgvInfo.msg
+msg/ArmInfo.idl
+msg/ArmInfo.msg
+srv/InoutStruct.idl
+srv/InoutStruct.srv
+srv/InoutStruct_Request.msg
+srv/InoutStruct_Response.msg

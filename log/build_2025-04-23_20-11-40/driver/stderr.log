@@ -1,0 +1,47 @@
+/usr/bin/ld: CMakeFiles/arm_driver_node.dir/src/jaka.cpp.o: in function `JAKA::JAKA()':
+jaka.cpp:(.text+0x28): undefined reference to `JAKAZuRobot::JAKAZuRobot()'
+/usr/bin/ld: jaka.cpp:(.text+0x155): undefined reference to `JAKAZuRobot::login_in(char const*)'
+/usr/bin/ld: jaka.cpp:(.text+0x1cb): undefined reference to `JAKAZuRobot::clear_error()'
+/usr/bin/ld: jaka.cpp:(.text+0x24d): undefined reference to `JAKAZuRobot::power_on()'
+/usr/bin/ld: jaka.cpp:(.text+0x332): undefined reference to `JAKAZuRobot::~JAKAZuRobot()'
+/usr/bin/ld: CMakeFiles/arm_driver_node.dir/src/jaka.cpp.o: in function `JAKA::~JAKA()':
+jaka.cpp:(.text+0x380): undefined reference to `JAKAZuRobot::power_off()'
+/usr/bin/ld: jaka.cpp:(.text+0x3d0): undefined reference to `JAKAZuRobot::login_out()'
+/usr/bin/ld: jaka.cpp:(.text+0x44b): undefined reference to `JAKAZuRobot::~JAKAZuRobot()'
+/usr/bin/ld: CMakeFiles/arm_driver_node.dir/src/jaka.cpp.o: in function `JAKA::enableMunip()':
+jaka.cpp:(.text+0x48c): undefined reference to `JAKAZuRobot::enable_robot()'
+/usr/bin/ld: jaka.cpp:(.text+0x4e3): undefined reference to `JAKAZuRobot::servo_move_use_none_filter()'
+/usr/bin/ld: jaka.cpp:(.text+0x4f9): undefined reference to `JAKAZuRobot::servo_move_enable(int, int)'
+/usr/bin/ld: jaka.cpp:(.text+0x50f): undefined reference to `JAKAZuRobot::servo_move_enable(int, int)'
+/usr/bin/ld: CMakeFiles/arm_driver_node.dir/src/jaka.cpp.o: in function `JAKA::disableMunip()':
+jaka.cpp:(.text+0x53c): undefined reference to `JAKAZuRobot::servo_move_enable(int, int)'
+/usr/bin/ld: jaka.cpp:(.text+0x552): undefined reference to `JAKAZuRobot::servo_move_enable(int, int)'
+/usr/bin/ld: jaka.cpp:(.text+0x55e): undefined reference to `JAKAZuRobot::disable_robot()'
+/usr/bin/ld: CMakeFiles/arm_driver_node.dir/src/jaka.cpp.o: in function `JAKA::setJoint(std::vector<double, std::allocator<double> > const&, std::vector<double, std::allocator<double> > const&)':
+jaka.cpp:(.text+0x7f7): undefined reference to `JAKAZuRobot::edg_servo_j(unsigned char, JointValue const*, MoveMode, unsigned int)'
+/usr/bin/ld: jaka.cpp:(.text+0x821): undefined reference to `JAKAZuRobot::edg_servo_j(unsigned char, JointValue const*, MoveMode, unsigned int)'
+/usr/bin/ld: jaka.cpp:(.text+0x830): undefined reference to `JAKAZuRobot::edg_send()'
+/usr/bin/ld: CMakeFiles/arm_driver_node.dir/src/jaka.cpp.o: in function `JAKA::setCartesian(std::vector<double, std::allocator<double> > const&, std::vector<double, std::allocator<double> > const&)':
+jaka.cpp:(.text+0xa79): undefined reference to `JAKAZuRobot::edg_servo_p(unsigned char, CartesianPose const*, MoveMode, unsigned int)'
+/usr/bin/ld: jaka.cpp:(.text+0xaa3): undefined reference to `JAKAZuRobot::edg_servo_p(unsigned char, CartesianPose const*, MoveMode, unsigned int)'
+/usr/bin/ld: jaka.cpp:(.text+0xab2): undefined reference to `JAKAZuRobot::edg_send()'
+/usr/bin/ld: CMakeFiles/arm_driver_node.dir/src/jaka.cpp.o: in function `JAKA::getMotorActual(std::vector<double, std::allocator<double> >&)':
+jaka.cpp:(.text+0xb68): undefined reference to `JAKAZuRobot::edg_recv(timespec*)'
+/usr/bin/ld: jaka.cpp:(.text+0xbd6): undefined reference to `JAKAZuRobot::edg_get_stat(unsigned char, JointValue*, CartesianPose*)'
+/usr/bin/ld: CMakeFiles/arm_driver_node.dir/src/jaka.cpp.o: in function `JAKA::getMotorActual(std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&)':
+jaka.cpp:(.text+0xf35): undefined reference to `JAKAZuRobot::edg_recv(timespec*)'
+/usr/bin/ld: jaka.cpp:(.text+0xf65): undefined reference to `JAKAZuRobot::edg_get_stat(unsigned char, JointValue*, CartesianPose*)'
+/usr/bin/ld: jaka.cpp:(.text+0x100a): undefined reference to `JAKAZuRobot::edg_recv(timespec*)'
+/usr/bin/ld: jaka.cpp:(.text+0x103a): undefined reference to `JAKAZuRobot::edg_get_stat(unsigned char, JointValue*, CartesianPose*)'
+/usr/bin/ld: CMakeFiles/arm_driver_node.dir/src/jaka.cpp.o: in function `JAKA::getError()':
+jaka.cpp:(.text+0x15ca): undefined reference to `JAKAZuRobot::robot_is_in_error(int*)'
+/usr/bin/ld: CMakeFiles/arm_driver_node.dir/src/jaka.cpp.o: in function `JAKA::clearError()':
+jaka.cpp:(.text+0x165c): undefined reference to `JAKAZuRobot::robot_is_in_error(int*)'
+/usr/bin/ld: jaka.cpp:(.text+0x16cf): undefined reference to `JAKAZuRobot::get_last_error(ErrorCode*)'
+/usr/bin/ld: jaka.cpp:(.text+0x1722): undefined reference to `JAKAZuRobot::clear_error()'
+/usr/bin/ld: CMakeFiles/arm_driver_node.dir/src/jaka.cpp.o: in function `JAKA::getMotorStatus()':
+jaka.cpp:(.text+0x1778): undefined reference to `JAKAZuRobot::get_robot_state(RobotState*)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/arm_driver_node.dir/build.make:191：arm_driver_node] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:593：CMakeFiles/arm_driver_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

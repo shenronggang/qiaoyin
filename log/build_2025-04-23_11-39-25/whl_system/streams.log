@@ -1,0 +1,331 @@
+[0.006s] Invoking command in '/home/user/qiaoyin/build/whl_system': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/user/qiaoyin/src/whl_system -DCMAKE_INSTALL_PREFIX=/home/user/qiaoyin/install/whl_system
+[0.041s] -- The C compiler identification is GNU 11.4.0
+[0.079s] -- The CXX compiler identification is GNU 11.4.0
+[0.083s] -- Detecting C compiler ABI info
+[0.126s] -- Detecting C compiler ABI info - done
+[0.131s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.131s] -- Detecting C compile features
+[0.132s] -- Detecting C compile features - done
+[0.134s] -- Detecting CXX compiler ABI info
+[0.186s] -- Detecting CXX compiler ABI info - done
+[0.191s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.191s] -- Detecting CXX compile features
+[0.192s] -- Detecting CXX compile features - done
+[0.193s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.286s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.341s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.364s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.366s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.371s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.377s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.387s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.409s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.410s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.465s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.487s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.510s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.514s] -- Looking for pthread.h
+[0.560s] -- Looking for pthread.h - found
+[0.561s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.610s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.611s] -- Found Threads: TRUE  
+[0.642s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.811s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.993s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.068s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.082s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.083s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.100s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.100s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.100s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.100s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.113s] -- Found PythonExtra: .so  
+[1.131s] -- Found source files: /home/user/qiaoyin/src/whl_system/src/fsm.cpp;/home/user/qiaoyin/src/whl_system/src/main.cpp;/home/user/qiaoyin/src/whl_system/src/plan.cpp;/home/user/qiaoyin/src/whl_system/src/wheelloong_system.cpp
+[1.133s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.140s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.140s] -- Configured cppcheck include dirs: 
+[1.140s] -- Configured cppcheck exclude dirs and/or files: 
+[1.141s] -- Added test 'lint_cmake' to check CMake code style
+[1.141s] -- Added test 'uncrustify' to check C / C++ code style
+[1.141s] -- Configured uncrustify additional arguments: 
+[1.142s] -- Added test 'xmllint' to check XML markup files
+[1.143s] -- Configuring done
+[1.161s] -- Generating done
+[1.167s] -- Build files have been written to: /home/user/qiaoyin/build/whl_system
+[1.175s] Invoked command in '/home/user/qiaoyin/build/whl_system' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/user/qiaoyin/src/whl_system -DCMAKE_INSTALL_PREFIX=/home/user/qiaoyin/install/whl_system
+[1.175s] Invoking command in '/home/user/qiaoyin/build/whl_system': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/qiaoyin/build/whl_system -- -j24 -l24
+[1.201s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.208s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.215s] [  3%] Built target ament_cmake_python_copy_whl_system
+[1.347s] running egg_info
+[1.348s] creating whl_system.egg-info
+[1.348s] writing whl_system.egg-info/PKG-INFO
+[1.348s] writing dependency_links to whl_system.egg-info/dependency_links.txt
+[1.348s] writing top-level names to whl_system.egg-info/top_level.txt
+[1.348s] writing manifest file 'whl_system.egg-info/SOURCES.txt'
+[1.349s] reading manifest file 'whl_system.egg-info/SOURCES.txt'
+[1.349s] writing manifest file 'whl_system.egg-info/SOURCES.txt'
+[1.366s] [  3%] Built target ament_cmake_python_build_whl_system_egg
+[1.450s] [  3%] Built target whl_system__cpp
+[1.453s] [  7%] [32mBuilding C object CMakeFiles/whl_system__rosidl_generator_c.dir/rosidl_generator_c/whl_system/srv/detail/inout_struct__functions.c.o[0m
+[1.453s] [  7%] [32mBuilding C object CMakeFiles/whl_system__rosidl_generator_c.dir/rosidl_generator_c/whl_system/msg/detail/arm_info__functions.c.o[0m
+[1.456s] [  9%] [32mBuilding C object CMakeFiles/whl_system__rosidl_generator_c.dir/rosidl_generator_c/whl_system/msg/detail/agv_info__functions.c.o[0m
+[1.456s] [ 11%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.457s] [ 13%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.458s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.495s] [ 17%] [32m[1mLinking C shared library libwhl_system__rosidl_generator_c.so[0m
+[1.523s] [ 17%] Built target whl_system__rosidl_generator_c
+[1.531s] [ 19%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.532s] [ 21%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.532s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.662s] [ 28%] [32mBuilding CXX object CMakeFiles/whl_system__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/whl_system/msg/agv_info__type_support.cpp.o[0m
+[1.662s] [ 28%] [32mBuilding CXX object CMakeFiles/whl_system__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/whl_system/msg/arm_info__type_support.cpp.o[0m
+[1.662s] [ 28%] [32mBuilding CXX object CMakeFiles/whl_system__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/whl_system/srv/inout_struct__type_support.cpp.o[0m
+[1.684s] [ 34%] [32mBuilding CXX object CMakeFiles/whl_system__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/whl_system/msg/detail/agv_info__type_support.cpp.o[0m
+[1.684s] [ 34%] [32mBuilding CXX object CMakeFiles/whl_system__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/whl_system/msg/detail/arm_info__type_support.cpp.o[0m
+[1.684s] [ 34%] [32mBuilding CXX object CMakeFiles/whl_system__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/whl_system/srv/detail/inout_struct__type_support.cpp.o[0m
+[1.706s] [ 38%] [32mBuilding CXX object CMakeFiles/whl_system__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/whl_system/srv/detail/dds_fastrtps/inout_struct__type_support.cpp.o[0m
+[1.706s] [ 38%] [32mBuilding CXX object CMakeFiles/whl_system__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/whl_system/msg/detail/dds_fastrtps/agv_info__type_support.cpp.o[0m
+[1.706s] [ 40%] [32mBuilding CXX object CMakeFiles/whl_system__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/whl_system/msg/detail/dds_fastrtps/arm_info__type_support.cpp.o[0m
+[1.740s] [ 42%] [32mBuilding CXX object CMakeFiles/whl_system__rosidl_typesupport_c.dir/rosidl_typesupport_c/whl_system/msg/arm_info__type_support.cpp.o[0m
+[1.742s] [ 46%] [32mBuilding CXX object CMakeFiles/whl_system__rosidl_typesupport_c.dir/rosidl_typesupport_c/whl_system/srv/inout_struct__type_support.cpp.o[0m
+[1.743s] [ 46%] [32mBuilding CXX object CMakeFiles/whl_system__rosidl_typesupport_c.dir/rosidl_typesupport_c/whl_system/msg/agv_info__type_support.cpp.o[0m
+[1.772s] [ 48%] [32m[1mLinking CXX shared library libwhl_system__rosidl_typesupport_c.so[0m
+[1.779s] [ 51%] [32mBuilding C object CMakeFiles/whl_system__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/whl_system/srv/detail/inout_struct__type_support.c.o[0m
+[1.780s] [ 51%] [32mBuilding C object CMakeFiles/whl_system__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/whl_system/msg/detail/arm_info__type_support.c.o[0m
+[1.780s] [ 53%] [32mBuilding C object CMakeFiles/whl_system__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/whl_system/msg/detail/agv_info__type_support.c.o[0m
+[1.790s] [ 55%] [32mBuilding CXX object CMakeFiles/whl_system__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/whl_system/msg/detail/arm_info__type_support_c.cpp.o[0m
+[1.790s] [ 57%] [32mBuilding CXX object CMakeFiles/whl_system__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/whl_system/msg/detail/agv_info__type_support_c.cpp.o[0m
+[1.790s] [ 59%] [32mBuilding CXX object CMakeFiles/whl_system__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/whl_system/srv/detail/inout_struct__type_support_c.cpp.o[0m
+[1.814s] [ 61%] [32m[1mLinking C shared library libwhl_system__rosidl_typesupport_introspection_c.so[0m
+[1.815s] [ 61%] Built target whl_system__rosidl_typesupport_c
+[1.840s] [ 61%] Built target whl_system__rosidl_typesupport_introspection_c
+[1.881s] [ 63%] [32m[1mLinking CXX shared library libwhl_system__rosidl_typesupport_cpp.so[0m
+[1.915s] [ 63%] Built target whl_system__rosidl_typesupport_cpp
+[1.930s] [ 65%] [32mBuilding CXX object CMakeFiles/wheelloong_system_node.dir/src/wheelloong_system.cpp.o[0m
+[1.931s] [ 67%] [32mBuilding CXX object CMakeFiles/wheelloong_system_node.dir/src/main.cpp.o[0m
+[1.931s] [ 69%] [32mBuilding CXX object CMakeFiles/wheelloong_system_node.dir/src/fsm.cpp.o[0m
+[1.932s] [ 71%] [32mBuilding CXX object CMakeFiles/wheelloong_system_node.dir/src/plan.cpp.o[0m
+[1.986s] [ 73%] [32m[1mLinking CXX shared library libwhl_system__rosidl_typesupport_introspection_cpp.so[0m
+[2.012s] [ 75%] [32m[1mLinking CXX shared library libwhl_system__rosidl_typesupport_fastrtps_c.so[0m
+[2.043s] [ 75%] Built target whl_system__rosidl_typesupport_introspection_cpp
+[2.064s] [ 75%] Built target whl_system__rosidl_typesupport_fastrtps_c
+[2.106s] [ 76%] [32m[1mLinking CXX shared library libwhl_system__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.156s] [ 76%] Built target whl_system__rosidl_typesupport_fastrtps_cpp
+[2.170s] [ 76%] Built target whl_system
+[2.184s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.545s] [ 78%] Built target whl_system__py
+[2.559s] [ 82%] [32mBuilding C object CMakeFiles/whl_system__rosidl_generator_py.dir/rosidl_generator_py/whl_system/msg/_arm_info_s.c.o[0m
+[2.559s] [ 82%] [32mBuilding C object CMakeFiles/whl_system__rosidl_generator_py.dir/rosidl_generator_py/whl_system/srv/_inout_struct_s.c.o[0m
+[2.559s] [ 84%] [32mBuilding C object CMakeFiles/whl_system__rosidl_generator_py.dir/rosidl_generator_py/whl_system/msg/_agv_info_s.c.o[0m
+[2.630s] [ 86%] [32m[1mLinking C shared library rosidl_generator_py/whl_system/libwhl_system__rosidl_generator_py.so[0m
+[2.656s] [ 86%] Built target whl_system__rosidl_generator_py
+[2.670s] [ 90%] [32mBuilding C object CMakeFiles/whl_system__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/whl_system/_whl_system_s.ep.rosidl_typesupport_c.c.o[0m
+[2.670s] [ 90%] [32mBuilding C object CMakeFiles/whl_system__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/whl_system/_whl_system_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.671s] [ 92%] [32mBuilding C object CMakeFiles/whl_system__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/whl_system/_whl_system_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.728s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/whl_system/whl_system_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.730s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/whl_system/whl_system_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.733s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/whl_system/whl_system_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.749s] [ 98%] Built target whl_system__rosidl_typesupport_introspection_c__pyext
+[2.752s] [ 98%] Built target whl_system__rosidl_typesupport_fastrtps_c__pyext
+[2.754s] [ 98%] Built target whl_system__rosidl_typesupport_c__pyext
+[3.510s] [100%] [32m[1mLinking CXX executable wheelloong_system_node[0m
+[3.574s] [100%] Built target wheelloong_system_node
+[3.582s] Invoked command in '/home/user/qiaoyin/build/whl_system' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/qiaoyin/build/whl_system -- -j24 -l24
+[3.584s] Invoking command in '/home/user/qiaoyin/build/whl_system': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/user/qiaoyin/build/whl_system
+[3.588s] -- Install configuration: ""
+[3.588s] -- Installing: /home/user/qiaoyin/install/whl_system/share/ament_index/resource_index/rosidl_interfaces/whl_system
+[3.588s] -- Installing: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system
+[3.588s] -- Installing: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/srv
+[3.588s] -- Installing: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/srv/inout_struct.h
+[3.588s] -- Installing: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/srv/detail
+[3.588s] -- Installing: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/srv/detail/inout_struct__functions.c
+[3.588s] -- Installing: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/srv/detail/inout_struct__functions.h
+[3.588s] -- Installing: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/srv/detail/inout_struct__struct.h
+[3.588s] -- Installing: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/srv/detail/inout_struct__type_support.h
+[3.588s] -- Installing: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/msg
+[3.588s] -- Installing: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/msg/detail
+[3.588s] -- Installing: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/msg/detail/arm_info__struct.h
+[3.588s] -- Installing: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/msg/detail/agv_info__functions.c
+[3.588s] -- Installing: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/msg/detail/agv_info__type_support.h
+[3.588s] -- Installing: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/msg/detail/arm_info__functions.c
+[3.588s] -- Installing: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/msg/detail/arm_info__type_support.h
+[3.588s] -- Installing: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/msg/detail/agv_info__functions.h
+[3.588s] -- Installing: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/msg/detail/agv_info__struct.h
+[3.589s] -- Installing: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/msg/detail/arm_info__functions.h
+[3.589s] -- Installing: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/msg/rosidl_generator_c__visibility_control.h
+[3.589s] -- Installing: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/msg/agv_info.h
+[3.589s] -- Installing: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/msg/arm_info.h
+[3.589s] -- Installing: /home/user/qiaoyin/install/whl_system/share/whl_system/environment/library_path.sh
+[3.589s] -- Installing: /home/user/qiaoyin/install/whl_system/share/whl_system/environment/library_path.dsv
+[3.589s] -- Installing: /home/user/qiaoyin/install/whl_system/lib/libwhl_system__rosidl_generator_c.so
+[3.589s] -- Set runtime path of "/home/user/qiaoyin/install/whl_system/lib/libwhl_system__rosidl_generator_c.so" to ""
+[3.589s] -- Up-to-date: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system
+[3.589s] -- Up-to-date: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/srv
+[3.589s] -- Up-to-date: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/srv/detail
+[3.589s] -- Installing: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/srv/detail/inout_struct__rosidl_typesupport_fastrtps_c.h
+[3.589s] -- Up-to-date: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/msg
+[3.589s] -- Up-to-date: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/msg/detail
+[3.589s] -- Installing: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/msg/detail/arm_info__rosidl_typesupport_fastrtps_c.h
+[3.589s] -- Installing: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/msg/detail/agv_info__rosidl_typesupport_fastrtps_c.h
+[3.589s] -- Installing: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.589s] -- Installing: /home/user/qiaoyin/install/whl_system/lib/libwhl_system__rosidl_typesupport_fastrtps_c.so
+[3.589s] -- Set runtime path of "/home/user/qiaoyin/install/whl_system/lib/libwhl_system__rosidl_typesupport_fastrtps_c.so" to ""
+[3.589s] -- Up-to-date: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system
+[3.589s] -- Up-to-date: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/srv
+[3.589s] -- Up-to-date: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/srv/detail
+[3.589s] -- Installing: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/srv/detail/inout_struct__traits.hpp
+[3.590s] -- Installing: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/srv/detail/inout_struct__builder.hpp
+[3.590s] -- Installing: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/srv/detail/inout_struct__type_support.hpp
+[3.590s] -- Installing: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/srv/detail/inout_struct__struct.hpp
+[3.590s] -- Installing: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/srv/inout_struct.hpp
+[3.590s] -- Up-to-date: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/msg
+[3.590s] -- Installing: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/msg/agv_info.hpp
+[3.590s] -- Installing: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.590s] -- Up-to-date: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/msg/detail
+[3.590s] -- Installing: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/msg/detail/agv_info__struct.hpp
+[3.590s] -- Installing: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/msg/detail/arm_info__builder.hpp
+[3.590s] -- Installing: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/msg/detail/arm_info__struct.hpp
+[3.590s] -- Installing: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/msg/detail/agv_info__builder.hpp
+[3.590s] -- Installing: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/msg/detail/arm_info__type_support.hpp
+[3.590s] -- Installing: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/msg/detail/agv_info__traits.hpp
+[3.590s] -- Installing: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/msg/detail/agv_info__type_support.hpp
+[3.590s] -- Installing: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/msg/detail/arm_info__traits.hpp
+[3.590s] -- Installing: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/msg/arm_info.hpp
+[3.590s] -- Up-to-date: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system
+[3.590s] -- Up-to-date: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/srv
+[3.590s] -- Up-to-date: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/srv/detail
+[3.590s] -- Installing: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/srv/detail/inout_struct__rosidl_typesupport_fastrtps_cpp.hpp
+[3.590s] -- Installing: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/srv/detail/dds_fastrtps
+[3.590s] -- Up-to-date: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/msg
+[3.590s] -- Installing: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.590s] -- Up-to-date: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/msg/detail
+[3.590s] -- Installing: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/msg/detail/arm_info__rosidl_typesupport_fastrtps_cpp.hpp
+[3.590s] -- Installing: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/msg/detail/agv_info__rosidl_typesupport_fastrtps_cpp.hpp
+[3.590s] -- Installing: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/msg/detail/dds_fastrtps
+[3.590s] -- Installing: /home/user/qiaoyin/install/whl_system/lib/libwhl_system__rosidl_typesupport_fastrtps_cpp.so
+[3.591s] -- Set runtime path of "/home/user/qiaoyin/install/whl_system/lib/libwhl_system__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.591s] -- Up-to-date: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system
+[3.591s] -- Up-to-date: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/srv
+[3.591s] -- Up-to-date: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/srv/detail
+[3.591s] -- Installing: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/srv/detail/inout_struct__rosidl_typesupport_introspection_c.h
+[3.591s] -- Installing: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/srv/detail/inout_struct__type_support.c
+[3.591s] -- Up-to-date: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/msg
+[3.591s] -- Up-to-date: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/msg/detail
+[3.591s] -- Installing: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/msg/detail/arm_info__rosidl_typesupport_introspection_c.h
+[3.591s] -- Installing: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/msg/detail/agv_info__rosidl_typesupport_introspection_c.h
+[3.591s] -- Installing: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/msg/detail/arm_info__type_support.c
+[3.591s] -- Installing: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/msg/detail/agv_info__type_support.c
+[3.591s] -- Installing: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.591s] -- Installing: /home/user/qiaoyin/install/whl_system/lib/libwhl_system__rosidl_typesupport_introspection_c.so
+[3.591s] -- Set runtime path of "/home/user/qiaoyin/install/whl_system/lib/libwhl_system__rosidl_typesupport_introspection_c.so" to ""
+[3.591s] -- Installing: /home/user/qiaoyin/install/whl_system/lib/libwhl_system__rosidl_typesupport_c.so
+[3.591s] -- Set runtime path of "/home/user/qiaoyin/install/whl_system/lib/libwhl_system__rosidl_typesupport_c.so" to ""
+[3.591s] -- Up-to-date: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system
+[3.591s] -- Up-to-date: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/srv
+[3.591s] -- Up-to-date: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/srv/detail
+[3.591s] -- Installing: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/srv/detail/inout_struct__type_support.cpp
+[3.591s] -- Installing: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/srv/detail/inout_struct__rosidl_typesupport_introspection_cpp.hpp
+[3.591s] -- Up-to-date: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/msg
+[3.591s] -- Up-to-date: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/msg/detail
+[3.591s] -- Installing: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/msg/detail/arm_info__rosidl_typesupport_introspection_cpp.hpp
+[3.592s] -- Installing: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/msg/detail/agv_info__type_support.cpp
+[3.592s] -- Installing: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/msg/detail/agv_info__rosidl_typesupport_introspection_cpp.hpp
+[3.592s] -- Installing: /home/user/qiaoyin/install/whl_system/include/whl_system/whl_system/msg/detail/arm_info__type_support.cpp
+[3.592s] -- Installing: /home/user/qiaoyin/install/whl_system/lib/libwhl_system__rosidl_typesupport_introspection_cpp.so
+[3.592s] -- Set runtime path of "/home/user/qiaoyin/install/whl_system/lib/libwhl_system__rosidl_typesupport_introspection_cpp.so" to ""
+[3.592s] -- Installing: /home/user/qiaoyin/install/whl_system/lib/libwhl_system__rosidl_typesupport_cpp.so
+[3.592s] -- Set runtime path of "/home/user/qiaoyin/install/whl_system/lib/libwhl_system__rosidl_typesupport_cpp.so" to ""
+[3.592s] -- Installing: /home/user/qiaoyin/install/whl_system/share/whl_system/environment/pythonpath.sh
+[3.592s] -- Installing: /home/user/qiaoyin/install/whl_system/share/whl_system/environment/pythonpath.dsv
+[3.592s] -- Installing: /home/user/qiaoyin/install/whl_system/local/lib/python3.10/dist-packages/whl_system-0.0.0-py3.10.egg-info
+[3.592s] -- Installing: /home/user/qiaoyin/install/whl_system/local/lib/python3.10/dist-packages/whl_system-0.0.0-py3.10.egg-info/PKG-INFO
+[3.592s] -- Installing: /home/user/qiaoyin/install/whl_system/local/lib/python3.10/dist-packages/whl_system-0.0.0-py3.10.egg-info/top_level.txt
+[3.592s] -- Installing: /home/user/qiaoyin/install/whl_system/local/lib/python3.10/dist-packages/whl_system-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.592s] -- Installing: /home/user/qiaoyin/install/whl_system/local/lib/python3.10/dist-packages/whl_system-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.592s] -- Installing: /home/user/qiaoyin/install/whl_system/local/lib/python3.10/dist-packages/whl_system
+[3.592s] -- Installing: /home/user/qiaoyin/install/whl_system/local/lib/python3.10/dist-packages/whl_system/_whl_system_s.ep.rosidl_typesupport_c.c
+[3.592s] -- Installing: /home/user/qiaoyin/install/whl_system/local/lib/python3.10/dist-packages/whl_system/libwhl_system__rosidl_generator_py.so
+[3.592s] -- Installing: /home/user/qiaoyin/install/whl_system/local/lib/python3.10/dist-packages/whl_system/srv
+[3.592s] -- Installing: /home/user/qiaoyin/install/whl_system/local/lib/python3.10/dist-packages/whl_system/srv/_inout_struct_s.c
+[3.592s] -- Installing: /home/user/qiaoyin/install/whl_system/local/lib/python3.10/dist-packages/whl_system/srv/__init__.py
+[3.592s] -- Installing: /home/user/qiaoyin/install/whl_system/local/lib/python3.10/dist-packages/whl_system/srv/_inout_struct.py
+[3.593s] -- Installing: /home/user/qiaoyin/install/whl_system/local/lib/python3.10/dist-packages/whl_system/_whl_system_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.593s] -- Installing: /home/user/qiaoyin/install/whl_system/local/lib/python3.10/dist-packages/whl_system/whl_system_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.593s] -- Installing: /home/user/qiaoyin/install/whl_system/local/lib/python3.10/dist-packages/whl_system/_whl_system_s.ep.rosidl_typesupport_introspection_c.c
+[3.593s] -- Installing: /home/user/qiaoyin/install/whl_system/local/lib/python3.10/dist-packages/whl_system/__init__.py
+[3.593s] -- Installing: /home/user/qiaoyin/install/whl_system/local/lib/python3.10/dist-packages/whl_system/whl_system_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.593s] -- Installing: /home/user/qiaoyin/install/whl_system/local/lib/python3.10/dist-packages/whl_system/whl_system_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.593s] -- Installing: /home/user/qiaoyin/install/whl_system/local/lib/python3.10/dist-packages/whl_system/msg
+[3.593s] -- Installing: /home/user/qiaoyin/install/whl_system/local/lib/python3.10/dist-packages/whl_system/msg/_arm_info_s.c
+[3.593s] -- Installing: /home/user/qiaoyin/install/whl_system/local/lib/python3.10/dist-packages/whl_system/msg/_agv_info.py
+[3.593s] -- Installing: /home/user/qiaoyin/install/whl_system/local/lib/python3.10/dist-packages/whl_system/msg/__init__.py
+[3.593s] -- Installing: /home/user/qiaoyin/install/whl_system/local/lib/python3.10/dist-packages/whl_system/msg/_arm_info.py
+[3.593s] -- Installing: /home/user/qiaoyin/install/whl_system/local/lib/python3.10/dist-packages/whl_system/msg/_agv_info_s.c
+[3.619s] Listing '/home/user/qiaoyin/install/whl_system/local/lib/python3.10/dist-packages/whl_system'...
+[3.619s] Compiling '/home/user/qiaoyin/install/whl_system/local/lib/python3.10/dist-packages/whl_system/__init__.py'...
+[3.619s] Listing '/home/user/qiaoyin/install/whl_system/local/lib/python3.10/dist-packages/whl_system/msg'...
+[3.619s] Compiling '/home/user/qiaoyin/install/whl_system/local/lib/python3.10/dist-packages/whl_system/msg/__init__.py'...
+[3.619s] Compiling '/home/user/qiaoyin/install/whl_system/local/lib/python3.10/dist-packages/whl_system/msg/_agv_info.py'...
+[3.619s] Compiling '/home/user/qiaoyin/install/whl_system/local/lib/python3.10/dist-packages/whl_system/msg/_arm_info.py'...
+[3.619s] Listing '/home/user/qiaoyin/install/whl_system/local/lib/python3.10/dist-packages/whl_system/srv'...
+[3.619s] Compiling '/home/user/qiaoyin/install/whl_system/local/lib/python3.10/dist-packages/whl_system/srv/__init__.py'...
+[3.619s] Compiling '/home/user/qiaoyin/install/whl_system/local/lib/python3.10/dist-packages/whl_system/srv/_inout_struct.py'...
+[3.622s] -- Installing: /home/user/qiaoyin/install/whl_system/local/lib/python3.10/dist-packages/whl_system/whl_system_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.622s] -- Set runtime path of "/home/user/qiaoyin/install/whl_system/local/lib/python3.10/dist-packages/whl_system/whl_system_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.622s] -- Installing: /home/user/qiaoyin/install/whl_system/local/lib/python3.10/dist-packages/whl_system/whl_system_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.622s] -- Set runtime path of "/home/user/qiaoyin/install/whl_system/local/lib/python3.10/dist-packages/whl_system/whl_system_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.622s] -- Installing: /home/user/qiaoyin/install/whl_system/local/lib/python3.10/dist-packages/whl_system/whl_system_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.623s] -- Set runtime path of "/home/user/qiaoyin/install/whl_system/local/lib/python3.10/dist-packages/whl_system/whl_system_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.623s] -- Installing: /home/user/qiaoyin/install/whl_system/lib/libwhl_system__rosidl_generator_py.so
+[3.623s] -- Set runtime path of "/home/user/qiaoyin/install/whl_system/lib/libwhl_system__rosidl_generator_py.so" to ""
+[3.623s] -- Installing: /home/user/qiaoyin/install/whl_system/share/whl_system/srv/InoutStruct.idl
+[3.623s] -- Installing: /home/user/qiaoyin/install/whl_system/share/whl_system/msg/ArmInfo.idl
+[3.623s] -- Installing: /home/user/qiaoyin/install/whl_system/share/whl_system/msg/AgvInfo.idl
+[3.623s] -- Installing: /home/user/qiaoyin/install/whl_system/share/whl_system/srv/InoutStruct.srv
+[3.623s] -- Installing: /home/user/qiaoyin/install/whl_system/share/whl_system/srv/InoutStruct_Request.msg
+[3.623s] -- Installing: /home/user/qiaoyin/install/whl_system/share/whl_system/srv/InoutStruct_Response.msg
+[3.623s] -- Installing: /home/user/qiaoyin/install/whl_system/share/whl_system/msg/ArmInfo.msg
+[3.623s] -- Installing: /home/user/qiaoyin/install/whl_system/share/whl_system/msg/AgvInfo.msg
+[3.623s] -- Installing: /home/user/qiaoyin/install/whl_system/lib/whl_system/wheelloong_system_node
+[3.623s] -- Set runtime path of "/home/user/qiaoyin/install/whl_system/lib/whl_system/wheelloong_system_node" to ""
+[3.623s] -- Installing: /home/user/qiaoyin/install/whl_system/share/ament_index/resource_index/package_run_dependencies/whl_system
+[3.623s] -- Installing: /home/user/qiaoyin/install/whl_system/share/ament_index/resource_index/parent_prefix_path/whl_system
+[3.624s] -- Installing: /home/user/qiaoyin/install/whl_system/share/whl_system/environment/ament_prefix_path.sh
+[3.624s] -- Installing: /home/user/qiaoyin/install/whl_system/share/whl_system/environment/ament_prefix_path.dsv
+[3.624s] -- Installing: /home/user/qiaoyin/install/whl_system/share/whl_system/environment/path.sh
+[3.624s] -- Installing: /home/user/qiaoyin/install/whl_system/share/whl_system/environment/path.dsv
+[3.624s] -- Installing: /home/user/qiaoyin/install/whl_system/share/whl_system/local_setup.bash
+[3.624s] -- Installing: /home/user/qiaoyin/install/whl_system/share/whl_system/local_setup.sh
+[3.624s] -- Installing: /home/user/qiaoyin/install/whl_system/share/whl_system/local_setup.zsh
+[3.624s] -- Installing: /home/user/qiaoyin/install/whl_system/share/whl_system/local_setup.dsv
+[3.624s] -- Installing: /home/user/qiaoyin/install/whl_system/share/whl_system/package.dsv
+[3.624s] -- Installing: /home/user/qiaoyin/install/whl_system/share/ament_index/resource_index/packages/whl_system
+[3.624s] -- Installing: /home/user/qiaoyin/install/whl_system/share/whl_system/cmake/export_whl_system__rosidl_generator_cExport.cmake
+[3.624s] -- Installing: /home/user/qiaoyin/install/whl_system/share/whl_system/cmake/export_whl_system__rosidl_generator_cExport-noconfig.cmake
+[3.624s] -- Installing: /home/user/qiaoyin/install/whl_system/share/whl_system/cmake/export_whl_system__rosidl_typesupport_fastrtps_cExport.cmake
+[3.624s] -- Installing: /home/user/qiaoyin/install/whl_system/share/whl_system/cmake/export_whl_system__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.624s] -- Installing: /home/user/qiaoyin/install/whl_system/share/whl_system/cmake/export_whl_system__rosidl_generator_cppExport.cmake
+[3.624s] -- Installing: /home/user/qiaoyin/install/whl_system/share/whl_system/cmake/export_whl_system__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.624s] -- Installing: /home/user/qiaoyin/install/whl_system/share/whl_system/cmake/export_whl_system__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.624s] -- Installing: /home/user/qiaoyin/install/whl_system/share/whl_system/cmake/whl_system__rosidl_typesupport_introspection_cExport.cmake
+[3.624s] -- Installing: /home/user/qiaoyin/install/whl_system/share/whl_system/cmake/whl_system__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.624s] -- Installing: /home/user/qiaoyin/install/whl_system/share/whl_system/cmake/whl_system__rosidl_typesupport_cExport.cmake
+[3.624s] -- Installing: /home/user/qiaoyin/install/whl_system/share/whl_system/cmake/whl_system__rosidl_typesupport_cExport-noconfig.cmake
+[3.625s] -- Installing: /home/user/qiaoyin/install/whl_system/share/whl_system/cmake/whl_system__rosidl_typesupport_introspection_cppExport.cmake
+[3.625s] -- Installing: /home/user/qiaoyin/install/whl_system/share/whl_system/cmake/whl_system__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.625s] -- Installing: /home/user/qiaoyin/install/whl_system/share/whl_system/cmake/whl_system__rosidl_typesupport_cppExport.cmake
+[3.625s] -- Installing: /home/user/qiaoyin/install/whl_system/share/whl_system/cmake/whl_system__rosidl_typesupport_cppExport-noconfig.cmake
+[3.625s] -- Installing: /home/user/qiaoyin/install/whl_system/share/whl_system/cmake/export_whl_system__rosidl_generator_pyExport.cmake
+[3.625s] -- Installing: /home/user/qiaoyin/install/whl_system/share/whl_system/cmake/export_whl_system__rosidl_generator_pyExport-noconfig.cmake
+[3.625s] -- Installing: /home/user/qiaoyin/install/whl_system/share/whl_system/cmake/rosidl_cmake-extras.cmake
+[3.625s] -- Installing: /home/user/qiaoyin/install/whl_system/share/whl_system/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.625s] -- Installing: /home/user/qiaoyin/install/whl_system/share/whl_system/cmake/ament_cmake_export_libraries-extras.cmake
+[3.625s] -- Installing: /home/user/qiaoyin/install/whl_system/share/whl_system/cmake/ament_cmake_export_targets-extras.cmake
+[3.625s] -- Installing: /home/user/qiaoyin/install/whl_system/share/whl_system/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.625s] -- Installing: /home/user/qiaoyin/install/whl_system/share/whl_system/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.625s] -- Installing: /home/user/qiaoyin/install/whl_system/share/whl_system/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.625s] -- Installing: /home/user/qiaoyin/install/whl_system/share/whl_system/cmake/whl_systemConfig.cmake
+[3.625s] -- Installing: /home/user/qiaoyin/install/whl_system/share/whl_system/cmake/whl_systemConfig-version.cmake
+[3.625s] -- Installing: /home/user/qiaoyin/install/whl_system/share/whl_system/package.xml
+[3.627s] Invoked command in '/home/user/qiaoyin/build/whl_system' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/user/qiaoyin/build/whl_system

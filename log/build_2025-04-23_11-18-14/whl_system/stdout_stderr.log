@@ -1,0 +1,34 @@
+[  2%] Built target whl_system__cpp
+[ 12%] Built target whl_system__rosidl_generator_c
+[ 12%] Built target ament_cmake_python_copy_whl_system
+[ 22%] Built target whl_system__rosidl_typesupport_introspection_cpp
+[ 38%] Built target whl_system__rosidl_typesupport_c
+[ 42%] Built target whl_system__rosidl_typesupport_fastrtps_cpp
+[ 53%] Built target whl_system__rosidl_typesupport_fastrtps_c
+[ 63%] Built target whl_system__rosidl_typesupport_cpp
+[ 73%] Built target whl_system__rosidl_typesupport_introspection_c
+[35m[1mConsolidate compiler generated dependencies of target wheelloong_system_node[0m
+[ 73%] Built target whl_system
+[ 75%] [32m[1mLinking CXX executable wheelloong_system_node[0m
+[ 77%] Built target whl_system__py
+[ 85%] Built target whl_system__rosidl_generator_py
+[ 93%] Built target whl_system__rosidl_typesupport_c__pyext
+[ 93%] Built target whl_system__rosidl_typesupport_introspection_c__pyext
+[ 97%] Built target whl_system__rosidl_typesupport_fastrtps_c__pyext
+/usr/bin/ld: CMakeFiles/wheelloong_system_node.dir/src/main.cpp.o: in function `main':
+main.cpp:(.text+0x98): undefined reference to `WheelloongSystem::WheelloongSystem()'
+/usr/bin/ld: main.cpp:(.text+0xa7): undefined reference to `WheelloongSystem::run()'
+/usr/bin/ld: main.cpp:(.text+0x13b): undefined reference to `WheelloongSystem::~WheelloongSystem()'
+/usr/bin/ld: main.cpp:(.text+0x1c2): undefined reference to `WheelloongSystem::~WheelloongSystem()'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/wheelloong_system_node.dir/build.make:159：wheelloong_system_node] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:593：CMakeFiles/wheelloong_system_node.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+running egg_info
+writing whl_system.egg-info/PKG-INFO
+writing dependency_links to whl_system.egg-info/dependency_links.txt
+writing top-level names to whl_system.egg-info/top_level.txt
+reading manifest file 'whl_system.egg-info/SOURCES.txt'
+writing manifest file 'whl_system.egg-info/SOURCES.txt'
+[ 97%] Built target ament_cmake_python_build_whl_system_egg
+gmake: *** [Makefile:146：all] 错误 2

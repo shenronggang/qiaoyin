@@ -1,0 +1,8 @@
+{
+  "package_name": "whl_system",
+  "non_idl_tuples": [
+    "/home/user/qiaoyin/src/whl_system:srv/InoutStruct.srv",
+    "/home/user/qiaoyin/src/whl_system:msg/ArmInfo.msg",
+    "/home/user/qiaoyin/src/whl_system:msg/AgvInfo.msg"
+  ]
+}

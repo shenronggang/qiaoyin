@@ -1,0 +1,20 @@
+[0.011s] Invoking command in '/home/user/qiaoyin/build/system': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/qiaoyin/build/system -- -j24 -l24
+[0.043s] Invoked command in '/home/user/qiaoyin/build/system' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/qiaoyin/build/system -- -j24 -l24
+[0.045s] Invoking command in '/home/user/qiaoyin/build/system': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/user/qiaoyin/build/system
+[0.050s] -- Install configuration: ""
+[0.050s] -- Up-to-date: /home/user/qiaoyin/install/system/share/ament_index/resource_index/package_run_dependencies/system
+[0.050s] -- Up-to-date: /home/user/qiaoyin/install/system/share/ament_index/resource_index/parent_prefix_path/system
+[0.051s] -- Up-to-date: /home/user/qiaoyin/install/system/share/system/environment/ament_prefix_path.sh
+[0.051s] -- Up-to-date: /home/user/qiaoyin/install/system/share/system/environment/ament_prefix_path.dsv
+[0.051s] -- Up-to-date: /home/user/qiaoyin/install/system/share/system/environment/path.sh
+[0.051s] -- Up-to-date: /home/user/qiaoyin/install/system/share/system/environment/path.dsv
+[0.051s] -- Up-to-date: /home/user/qiaoyin/install/system/share/system/local_setup.bash
+[0.051s] -- Up-to-date: /home/user/qiaoyin/install/system/share/system/local_setup.sh
+[0.051s] -- Up-to-date: /home/user/qiaoyin/install/system/share/system/local_setup.zsh
+[0.051s] -- Up-to-date: /home/user/qiaoyin/install/system/share/system/local_setup.dsv
+[0.051s] -- Installing: /home/user/qiaoyin/install/system/share/system/package.dsv
+[0.052s] -- Up-to-date: /home/user/qiaoyin/install/system/share/ament_index/resource_index/packages/system
+[0.052s] -- Up-to-date: /home/user/qiaoyin/install/system/share/system/cmake/systemConfig.cmake
+[0.052s] -- Up-to-date: /home/user/qiaoyin/install/system/share/system/cmake/systemConfig-version.cmake
+[0.052s] -- Up-to-date: /home/user/qiaoyin/install/system/share/system/package.xml
+[0.070s] Invoked command in '/home/user/qiaoyin/build/system' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/user/qiaoyin/build/system

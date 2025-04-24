@@ -1,0 +1,20 @@
+[01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.cpp:[m[K In member function ‘[01m[Kvoid ArmDriverNode::publish_arm_info_callback()[m[K’:
+[01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.cpp:41:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kdouble JAKA::vel [2][m[K’ is private within this context
+   41 |     msg.speed = {jaka_.[01;31m[Kvel[m[K[0], jaka_.vel[1]};
+      |                        [01;31m[K^~~[m[K
+In file included from [01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.h:3[m[K,
+                 from [01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.cpp:1[m[K:
+[01m[K/home/user/qiaoyin/src/driver/src/jaka.h:29:12:[m[K [01;36m[Knote: [m[Kdeclared private here
+   29 |     double [01;36m[Kvel[m[K[2] = {1, 1};
+      |            [01;36m[K^~~[m[K
+[01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.cpp:41:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kdouble JAKA::vel [2][m[K’ is private within this context
+   41 |     msg.speed = {jaka_.vel[0], jaka_.[01;31m[Kvel[m[K[1]};
+      |                                      [01;31m[K^~~[m[K
+In file included from [01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.h:3[m[K,
+                 from [01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.cpp:1[m[K:
+[01m[K/home/user/qiaoyin/src/driver/src/jaka.h:29:12:[m[K [01;36m[Knote: [m[Kdeclared private here
+   29 |     double [01;36m[Kvel[m[K[2] = {1, 1};
+      |            [01;36m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/arm_driver_node.dir/build.make:76：CMakeFiles/arm_driver_node.dir/src/arm_driver_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:593：CMakeFiles/arm_driver_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

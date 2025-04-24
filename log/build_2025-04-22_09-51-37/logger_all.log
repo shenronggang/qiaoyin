@@ -1,0 +1,847 @@
+[0.059s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.059s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=24, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x744f4db65240>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x744f4db643a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x744f4db643a0>>, mixin_verb=('build',))
+[0.142s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.142s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.142s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.142s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.142s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.142s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.142s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/user/qiaoyin'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility) by extensions ['ignore', 'ignore_ament_install']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility) by extension 'ignore'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility) by extension 'ignore_ament_install'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility) by extensions ['colcon_pkg']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility) by extension 'colcon_pkg'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility) by extensions ['colcon_meta']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility) by extension 'colcon_meta'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility) by extensions ['ros']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility) by extension 'ros'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility) by extensions ['cmake', 'python']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility) by extension 'cmake'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility) by extension 'python'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility) by extensions ['python_setup_py']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility) by extension 'python_setup_py'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3) by extensions ['ignore', 'ignore_ament_install']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3) by extension 'ignore'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3) by extension 'ignore_ament_install'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3) by extensions ['colcon_pkg']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3) by extension 'colcon_pkg'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3) by extensions ['colcon_meta']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3) by extension 'colcon_meta'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3) by extensions ['ros']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3) by extension 'ros'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3) by extensions ['cmake', 'python']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3) by extension 'cmake'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3) by extension 'python'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3) by extensions ['python_setup_py']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3) by extension 'python_setup_py'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen) by extensions ['ignore', 'ignore_ament_install']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen) by extension 'ignore'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen) by extension 'ignore_ament_install'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen) by extensions ['colcon_pkg']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen) by extension 'colcon_pkg'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen) by extensions ['colcon_meta']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen) by extension 'colcon_meta'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen) by extensions ['ros']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen) by extension 'ros'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen) by extensions ['cmake', 'python']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen) by extension 'cmake'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen) by extension 'python'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen) by extensions ['python_setup_py']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen) by extension 'python_setup_py'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src) by extensions ['ignore', 'ignore_ament_install']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src) by extension 'ignore'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src) by extension 'ignore_ament_install'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src) by extensions ['colcon_pkg']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src) by extension 'colcon_pkg'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src) by extensions ['colcon_meta']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src) by extension 'colcon_meta'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src) by extensions ['ros']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src) by extension 'ros'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src) by extensions ['cmake', 'python']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src) by extension 'cmake'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src) by extension 'python'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src) by extensions ['python_setup_py']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src) by extension 'python_setup_py'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Cholesky) by extensions ['ignore', 'ignore_ament_install']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Cholesky) by extension 'ignore'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Cholesky) by extension 'ignore_ament_install'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Cholesky) by extensions ['colcon_pkg']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Cholesky) by extension 'colcon_pkg'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Cholesky) by extensions ['colcon_meta']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Cholesky) by extension 'colcon_meta'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Cholesky) by extensions ['ros']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Cholesky) by extension 'ros'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Cholesky) by extensions ['cmake', 'python']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Cholesky) by extension 'cmake'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Cholesky) by extension 'python'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Cholesky) by extensions ['python_setup_py']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Cholesky) by extension 'python_setup_py'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/CholmodSupport) by extensions ['ignore', 'ignore_ament_install']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/CholmodSupport) by extension 'ignore'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/CholmodSupport) by extension 'ignore_ament_install'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/CholmodSupport) by extensions ['colcon_pkg']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/CholmodSupport) by extension 'colcon_pkg'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/CholmodSupport) by extensions ['colcon_meta']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/CholmodSupport) by extension 'colcon_meta'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/CholmodSupport) by extensions ['ros']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/CholmodSupport) by extension 'ros'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/CholmodSupport) by extensions ['cmake', 'python']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/CholmodSupport) by extension 'cmake'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/CholmodSupport) by extension 'python'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/CholmodSupport) by extensions ['python_setup_py']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/CholmodSupport) by extension 'python_setup_py'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core) by extensions ['ignore', 'ignore_ament_install']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core) by extension 'ignore'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core) by extension 'ignore_ament_install'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core) by extensions ['colcon_pkg']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core) by extension 'colcon_pkg'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core) by extensions ['colcon_meta']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core) by extension 'colcon_meta'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core) by extensions ['ros']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core) by extension 'ros'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core) by extensions ['cmake', 'python']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core) by extension 'cmake'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core) by extension 'python'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core) by extensions ['python_setup_py']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core) by extension 'python_setup_py'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch) by extensions ['ignore', 'ignore_ament_install']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch) by extension 'ignore'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch) by extension 'ignore_ament_install'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch) by extensions ['colcon_pkg']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch) by extension 'colcon_pkg'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch) by extensions ['colcon_meta']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch) by extension 'colcon_meta'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch) by extensions ['ros']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch) by extension 'ros'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch) by extensions ['cmake', 'python']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch) by extension 'cmake'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch) by extension 'python'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch) by extensions ['python_setup_py']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch) by extension 'python_setup_py'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/AVX) by extensions ['ignore', 'ignore_ament_install']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/AVX) by extension 'ignore'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/AVX) by extension 'ignore_ament_install'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/AVX) by extensions ['colcon_pkg']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/AVX) by extension 'colcon_pkg'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/AVX) by extensions ['colcon_meta']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/AVX) by extension 'colcon_meta'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/AVX) by extensions ['ros']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/AVX) by extension 'ros'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/AVX) by extensions ['cmake', 'python']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/AVX) by extension 'cmake'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/AVX) by extension 'python'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/AVX) by extensions ['python_setup_py']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/AVX) by extension 'python_setup_py'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/AVX512) by extensions ['ignore', 'ignore_ament_install']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/AVX512) by extension 'ignore'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/AVX512) by extension 'ignore_ament_install'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/AVX512) by extensions ['colcon_pkg']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/AVX512) by extension 'colcon_pkg'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/AVX512) by extensions ['colcon_meta']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/AVX512) by extension 'colcon_meta'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/AVX512) by extensions ['ros']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/AVX512) by extension 'ros'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/AVX512) by extensions ['cmake', 'python']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/AVX512) by extension 'cmake'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/AVX512) by extension 'python'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/AVX512) by extensions ['python_setup_py']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/AVX512) by extension 'python_setup_py'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/AltiVec) by extensions ['ignore', 'ignore_ament_install']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/AltiVec) by extension 'ignore'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/AltiVec) by extension 'ignore_ament_install'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/AltiVec) by extensions ['colcon_pkg']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/AltiVec) by extension 'colcon_pkg'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/AltiVec) by extensions ['colcon_meta']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/AltiVec) by extension 'colcon_meta'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/AltiVec) by extensions ['ros']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/AltiVec) by extension 'ros'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/AltiVec) by extensions ['cmake', 'python']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/AltiVec) by extension 'cmake'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/AltiVec) by extension 'python'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/AltiVec) by extensions ['python_setup_py']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/AltiVec) by extension 'python_setup_py'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/CUDA) by extensions ['ignore', 'ignore_ament_install']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/CUDA) by extension 'ignore'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/CUDA) by extension 'ignore_ament_install'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/CUDA) by extensions ['colcon_pkg']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/CUDA) by extension 'colcon_pkg'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/CUDA) by extensions ['colcon_meta']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/CUDA) by extension 'colcon_meta'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/CUDA) by extensions ['ros']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/CUDA) by extension 'ros'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/CUDA) by extensions ['cmake', 'python']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/CUDA) by extension 'cmake'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/CUDA) by extension 'python'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/CUDA) by extensions ['python_setup_py']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/CUDA) by extension 'python_setup_py'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/Default) by extensions ['ignore', 'ignore_ament_install']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/Default) by extension 'ignore'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/Default) by extension 'ignore_ament_install'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/Default) by extensions ['colcon_pkg']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/Default) by extension 'colcon_pkg'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/Default) by extensions ['colcon_meta']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/Default) by extension 'colcon_meta'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/Default) by extensions ['ros']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/Default) by extension 'ros'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/Default) by extensions ['cmake', 'python']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/Default) by extension 'cmake'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/Default) by extension 'python'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/Default) by extensions ['python_setup_py']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/Default) by extension 'python_setup_py'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/GPU) by extensions ['ignore', 'ignore_ament_install']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/GPU) by extension 'ignore'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/GPU) by extension 'ignore_ament_install'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/GPU) by extensions ['colcon_pkg']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/GPU) by extension 'colcon_pkg'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/GPU) by extensions ['colcon_meta']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/GPU) by extension 'colcon_meta'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/GPU) by extensions ['ros']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/GPU) by extension 'ros'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/GPU) by extensions ['cmake', 'python']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/GPU) by extension 'cmake'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/GPU) by extension 'python'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/GPU) by extensions ['python_setup_py']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/GPU) by extension 'python_setup_py'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/HIP) by extensions ['ignore', 'ignore_ament_install']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/HIP) by extension 'ignore'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/HIP) by extension 'ignore_ament_install'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/HIP) by extensions ['colcon_pkg']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/HIP) by extension 'colcon_pkg'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/HIP) by extensions ['colcon_meta']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/HIP) by extension 'colcon_meta'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/HIP) by extensions ['ros']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/HIP) by extension 'ros'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/HIP) by extensions ['cmake', 'python']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/HIP) by extension 'cmake'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/HIP) by extension 'python'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/HIP) by extensions ['python_setup_py']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/HIP) by extension 'python_setup_py'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/HIP/hcc) by extensions ['ignore', 'ignore_ament_install']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/HIP/hcc) by extension 'ignore'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/HIP/hcc) by extension 'ignore_ament_install'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/HIP/hcc) by extensions ['colcon_pkg']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/HIP/hcc) by extension 'colcon_pkg'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/HIP/hcc) by extensions ['colcon_meta']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/HIP/hcc) by extension 'colcon_meta'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/HIP/hcc) by extensions ['ros']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/HIP/hcc) by extension 'ros'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/HIP/hcc) by extensions ['cmake', 'python']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/HIP/hcc) by extension 'cmake'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/HIP/hcc) by extension 'python'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/HIP/hcc) by extensions ['python_setup_py']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/HIP/hcc) by extension 'python_setup_py'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/MSA) by extensions ['ignore', 'ignore_ament_install']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/MSA) by extension 'ignore'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/MSA) by extension 'ignore_ament_install'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/MSA) by extensions ['colcon_pkg']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/MSA) by extension 'colcon_pkg'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/MSA) by extensions ['colcon_meta']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/MSA) by extension 'colcon_meta'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/MSA) by extensions ['ros']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/MSA) by extension 'ros'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/MSA) by extensions ['cmake', 'python']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/MSA) by extension 'cmake'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/MSA) by extension 'python'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/MSA) by extensions ['python_setup_py']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/MSA) by extension 'python_setup_py'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/NEON) by extensions ['ignore', 'ignore_ament_install']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/NEON) by extension 'ignore'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/NEON) by extension 'ignore_ament_install'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/NEON) by extensions ['colcon_pkg']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/NEON) by extension 'colcon_pkg'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/NEON) by extensions ['colcon_meta']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/NEON) by extension 'colcon_meta'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/NEON) by extensions ['ros']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/NEON) by extension 'ros'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/NEON) by extensions ['cmake', 'python']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/NEON) by extension 'cmake'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/NEON) by extension 'python'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/NEON) by extensions ['python_setup_py']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/NEON) by extension 'python_setup_py'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/SSE) by extensions ['ignore', 'ignore_ament_install']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/SSE) by extension 'ignore'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/SSE) by extension 'ignore_ament_install'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/SSE) by extensions ['colcon_pkg']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/SSE) by extension 'colcon_pkg'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/SSE) by extensions ['colcon_meta']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/SSE) by extension 'colcon_meta'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/SSE) by extensions ['ros']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/SSE) by extension 'ros'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/SSE) by extensions ['cmake', 'python']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/SSE) by extension 'cmake'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/SSE) by extension 'python'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/SSE) by extensions ['python_setup_py']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/SSE) by extension 'python_setup_py'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/SVE) by extensions ['ignore', 'ignore_ament_install']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/SVE) by extension 'ignore'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/SVE) by extension 'ignore_ament_install'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/SVE) by extensions ['colcon_pkg']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/SVE) by extension 'colcon_pkg'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/SVE) by extensions ['colcon_meta']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/SVE) by extension 'colcon_meta'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/SVE) by extensions ['ros']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/SVE) by extension 'ros'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/SVE) by extensions ['cmake', 'python']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/SVE) by extension 'cmake'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/SVE) by extension 'python'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/SVE) by extensions ['python_setup_py']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/SVE) by extension 'python_setup_py'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/SYCL) by extensions ['ignore', 'ignore_ament_install']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/SYCL) by extension 'ignore'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/SYCL) by extension 'ignore_ament_install'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/SYCL) by extensions ['colcon_pkg']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/SYCL) by extension 'colcon_pkg'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/SYCL) by extensions ['colcon_meta']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/SYCL) by extension 'colcon_meta'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/SYCL) by extensions ['ros']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/SYCL) by extension 'ros'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/SYCL) by extensions ['cmake', 'python']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/SYCL) by extension 'cmake'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/SYCL) by extension 'python'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/SYCL) by extensions ['python_setup_py']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/SYCL) by extension 'python_setup_py'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/ZVector) by extensions ['ignore', 'ignore_ament_install']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/ZVector) by extension 'ignore'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/ZVector) by extension 'ignore_ament_install'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/ZVector) by extensions ['colcon_pkg']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/ZVector) by extension 'colcon_pkg'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/ZVector) by extensions ['colcon_meta']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/ZVector) by extension 'colcon_meta'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/ZVector) by extensions ['ros']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/ZVector) by extension 'ros'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/ZVector) by extensions ['cmake', 'python']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/ZVector) by extension 'cmake'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/ZVector) by extension 'python'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/ZVector) by extensions ['python_setup_py']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/arch/ZVector) by extension 'python_setup_py'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/functors) by extensions ['ignore', 'ignore_ament_install']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/functors) by extension 'ignore'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/functors) by extension 'ignore_ament_install'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/functors) by extensions ['colcon_pkg']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/functors) by extension 'colcon_pkg'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/functors) by extensions ['colcon_meta']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/functors) by extension 'colcon_meta'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/functors) by extensions ['ros']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/functors) by extension 'ros'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/functors) by extensions ['cmake', 'python']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/functors) by extension 'cmake'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/functors) by extension 'python'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/functors) by extensions ['python_setup_py']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/functors) by extension 'python_setup_py'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/products) by extensions ['ignore', 'ignore_ament_install']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/products) by extension 'ignore'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/products) by extension 'ignore_ament_install'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/products) by extensions ['colcon_pkg']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/products) by extension 'colcon_pkg'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/products) by extensions ['colcon_meta']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/products) by extension 'colcon_meta'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/products) by extensions ['ros']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/products) by extension 'ros'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/products) by extensions ['cmake', 'python']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/products) by extension 'cmake'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/products) by extension 'python'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/products) by extensions ['python_setup_py']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/products) by extension 'python_setup_py'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/util) by extensions ['ignore', 'ignore_ament_install']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/util) by extension 'ignore'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/util) by extension 'ignore_ament_install'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/util) by extensions ['colcon_pkg']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/util) by extension 'colcon_pkg'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/util) by extensions ['colcon_meta']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/util) by extension 'colcon_meta'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/util) by extensions ['ros']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/util) by extension 'ros'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/util) by extensions ['cmake', 'python']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/util) by extension 'cmake'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/util) by extension 'python'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/util) by extensions ['python_setup_py']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Core/util) by extension 'python_setup_py'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Eigenvalues) by extensions ['ignore', 'ignore_ament_install']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Eigenvalues) by extension 'ignore'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Eigenvalues) by extension 'ignore_ament_install'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Eigenvalues) by extensions ['colcon_pkg']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Eigenvalues) by extension 'colcon_pkg'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Eigenvalues) by extensions ['colcon_meta']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Eigenvalues) by extension 'colcon_meta'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Eigenvalues) by extensions ['ros']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Eigenvalues) by extension 'ros'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Eigenvalues) by extensions ['cmake', 'python']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Eigenvalues) by extension 'cmake'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Eigenvalues) by extension 'python'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Eigenvalues) by extensions ['python_setup_py']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Eigenvalues) by extension 'python_setup_py'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Geometry) by extensions ['ignore', 'ignore_ament_install']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Geometry) by extension 'ignore'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Geometry) by extension 'ignore_ament_install'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Geometry) by extensions ['colcon_pkg']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Geometry) by extension 'colcon_pkg'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Geometry) by extensions ['colcon_meta']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Geometry) by extension 'colcon_meta'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Geometry) by extensions ['ros']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Geometry) by extension 'ros'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Geometry) by extensions ['cmake', 'python']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Geometry) by extension 'cmake'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Geometry) by extension 'python'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Geometry) by extensions ['python_setup_py']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Geometry) by extension 'python_setup_py'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Geometry/arch) by extensions ['ignore', 'ignore_ament_install']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Geometry/arch) by extension 'ignore'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Geometry/arch) by extension 'ignore_ament_install'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Geometry/arch) by extensions ['colcon_pkg']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Geometry/arch) by extension 'colcon_pkg'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Geometry/arch) by extensions ['colcon_meta']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Geometry/arch) by extension 'colcon_meta'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Geometry/arch) by extensions ['ros']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Geometry/arch) by extension 'ros'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Geometry/arch) by extensions ['cmake', 'python']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Geometry/arch) by extension 'cmake'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Geometry/arch) by extension 'python'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Geometry/arch) by extensions ['python_setup_py']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Geometry/arch) by extension 'python_setup_py'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Householder) by extensions ['ignore', 'ignore_ament_install']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Householder) by extension 'ignore'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Householder) by extension 'ignore_ament_install'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Householder) by extensions ['colcon_pkg']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Householder) by extension 'colcon_pkg'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Householder) by extensions ['colcon_meta']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Householder) by extension 'colcon_meta'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Householder) by extensions ['ros']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Householder) by extension 'ros'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Householder) by extensions ['cmake', 'python']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Householder) by extension 'cmake'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Householder) by extension 'python'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Householder) by extensions ['python_setup_py']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Householder) by extension 'python_setup_py'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/IterativeLinearSolvers) by extensions ['ignore', 'ignore_ament_install']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/IterativeLinearSolvers) by extension 'ignore'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/IterativeLinearSolvers) by extension 'ignore_ament_install'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/IterativeLinearSolvers) by extensions ['colcon_pkg']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/IterativeLinearSolvers) by extension 'colcon_pkg'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/IterativeLinearSolvers) by extensions ['colcon_meta']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/IterativeLinearSolvers) by extension 'colcon_meta'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/IterativeLinearSolvers) by extensions ['ros']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/IterativeLinearSolvers) by extension 'ros'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/IterativeLinearSolvers) by extensions ['cmake', 'python']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/IterativeLinearSolvers) by extension 'cmake'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/IterativeLinearSolvers) by extension 'python'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/IterativeLinearSolvers) by extensions ['python_setup_py']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/IterativeLinearSolvers) by extension 'python_setup_py'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Jacobi) by extensions ['ignore', 'ignore_ament_install']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Jacobi) by extension 'ignore'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Jacobi) by extension 'ignore_ament_install'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Jacobi) by extensions ['colcon_pkg']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Jacobi) by extension 'colcon_pkg'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Jacobi) by extensions ['colcon_meta']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Jacobi) by extension 'colcon_meta'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Jacobi) by extensions ['ros']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Jacobi) by extension 'ros'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Jacobi) by extensions ['cmake', 'python']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Jacobi) by extension 'cmake'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Jacobi) by extension 'python'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Jacobi) by extensions ['python_setup_py']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/Jacobi) by extension 'python_setup_py'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/KLUSupport) by extensions ['ignore', 'ignore_ament_install']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/KLUSupport) by extension 'ignore'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/KLUSupport) by extension 'ignore_ament_install'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/KLUSupport) by extensions ['colcon_pkg']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/KLUSupport) by extension 'colcon_pkg'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/KLUSupport) by extensions ['colcon_meta']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/KLUSupport) by extension 'colcon_meta'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/KLUSupport) by extensions ['ros']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/KLUSupport) by extension 'ros'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/KLUSupport) by extensions ['cmake', 'python']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/KLUSupport) by extension 'cmake'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/KLUSupport) by extension 'python'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/KLUSupport) by extensions ['python_setup_py']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/KLUSupport) by extension 'python_setup_py'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/LU) by extensions ['ignore', 'ignore_ament_install']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/LU) by extension 'ignore'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/LU) by extension 'ignore_ament_install'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/LU) by extensions ['colcon_pkg']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/LU) by extension 'colcon_pkg'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/LU) by extensions ['colcon_meta']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/LU) by extension 'colcon_meta'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/LU) by extensions ['ros']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/LU) by extension 'ros'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/LU) by extensions ['cmake', 'python']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/LU) by extension 'cmake'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/LU) by extension 'python'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/LU) by extensions ['python_setup_py']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/LU) by extension 'python_setup_py'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/LU/arch) by extensions ['ignore', 'ignore_ament_install']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/LU/arch) by extension 'ignore'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/LU/arch) by extension 'ignore_ament_install'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/LU/arch) by extensions ['colcon_pkg']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/LU/arch) by extension 'colcon_pkg'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/LU/arch) by extensions ['colcon_meta']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/LU/arch) by extension 'colcon_meta'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/LU/arch) by extensions ['ros']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/LU/arch) by extension 'ros'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/LU/arch) by extensions ['cmake', 'python']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/LU/arch) by extension 'cmake'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/LU/arch) by extension 'python'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/LU/arch) by extensions ['python_setup_py']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/LU/arch) by extension 'python_setup_py'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/MetisSupport) by extensions ['ignore', 'ignore_ament_install']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/MetisSupport) by extension 'ignore'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/MetisSupport) by extension 'ignore_ament_install'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/MetisSupport) by extensions ['colcon_pkg']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/MetisSupport) by extension 'colcon_pkg'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/MetisSupport) by extensions ['colcon_meta']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/MetisSupport) by extension 'colcon_meta'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/MetisSupport) by extensions ['ros']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/MetisSupport) by extension 'ros'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/MetisSupport) by extensions ['cmake', 'python']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/MetisSupport) by extension 'cmake'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/MetisSupport) by extension 'python'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/MetisSupport) by extensions ['python_setup_py']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/MetisSupport) by extension 'python_setup_py'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/OrderingMethods) by extensions ['ignore', 'ignore_ament_install']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/OrderingMethods) by extension 'ignore'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/OrderingMethods) by extension 'ignore_ament_install'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/OrderingMethods) by extensions ['colcon_pkg']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/OrderingMethods) by extension 'colcon_pkg'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/OrderingMethods) by extensions ['colcon_meta']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/OrderingMethods) by extension 'colcon_meta'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/OrderingMethods) by extensions ['ros']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/OrderingMethods) by extension 'ros'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/OrderingMethods) by extensions ['cmake', 'python']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/OrderingMethods) by extension 'cmake'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/OrderingMethods) by extension 'python'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/OrderingMethods) by extensions ['python_setup_py']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/OrderingMethods) by extension 'python_setup_py'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/PaStiXSupport) by extensions ['ignore', 'ignore_ament_install']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/PaStiXSupport) by extension 'ignore'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/PaStiXSupport) by extension 'ignore_ament_install'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/PaStiXSupport) by extensions ['colcon_pkg']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/PaStiXSupport) by extension 'colcon_pkg'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/PaStiXSupport) by extensions ['colcon_meta']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/PaStiXSupport) by extension 'colcon_meta'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/PaStiXSupport) by extensions ['ros']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/PaStiXSupport) by extension 'ros'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/PaStiXSupport) by extensions ['cmake', 'python']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/PaStiXSupport) by extension 'cmake'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/PaStiXSupport) by extension 'python'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/PaStiXSupport) by extensions ['python_setup_py']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/PaStiXSupport) by extension 'python_setup_py'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/PardisoSupport) by extensions ['ignore', 'ignore_ament_install']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/PardisoSupport) by extension 'ignore'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/PardisoSupport) by extension 'ignore_ament_install'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/PardisoSupport) by extensions ['colcon_pkg']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/PardisoSupport) by extension 'colcon_pkg'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/PardisoSupport) by extensions ['colcon_meta']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/PardisoSupport) by extension 'colcon_meta'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/PardisoSupport) by extensions ['ros']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/PardisoSupport) by extension 'ros'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/PardisoSupport) by extensions ['cmake', 'python']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/PardisoSupport) by extension 'cmake'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/PardisoSupport) by extension 'python'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/PardisoSupport) by extensions ['python_setup_py']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/PardisoSupport) by extension 'python_setup_py'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/QR) by extensions ['ignore', 'ignore_ament_install']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/QR) by extension 'ignore'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/QR) by extension 'ignore_ament_install'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/QR) by extensions ['colcon_pkg']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/QR) by extension 'colcon_pkg'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/QR) by extensions ['colcon_meta']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/QR) by extension 'colcon_meta'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/QR) by extensions ['ros']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/QR) by extension 'ros'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/QR) by extensions ['cmake', 'python']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/QR) by extension 'cmake'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/QR) by extension 'python'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/QR) by extensions ['python_setup_py']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/QR) by extension 'python_setup_py'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SPQRSupport) by extensions ['ignore', 'ignore_ament_install']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SPQRSupport) by extension 'ignore'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SPQRSupport) by extension 'ignore_ament_install'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SPQRSupport) by extensions ['colcon_pkg']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SPQRSupport) by extension 'colcon_pkg'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SPQRSupport) by extensions ['colcon_meta']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SPQRSupport) by extension 'colcon_meta'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SPQRSupport) by extensions ['ros']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SPQRSupport) by extension 'ros'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SPQRSupport) by extensions ['cmake', 'python']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SPQRSupport) by extension 'cmake'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SPQRSupport) by extension 'python'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SPQRSupport) by extensions ['python_setup_py']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SPQRSupport) by extension 'python_setup_py'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SVD) by extensions ['ignore', 'ignore_ament_install']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SVD) by extension 'ignore'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SVD) by extension 'ignore_ament_install'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SVD) by extensions ['colcon_pkg']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SVD) by extension 'colcon_pkg'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SVD) by extensions ['colcon_meta']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SVD) by extension 'colcon_meta'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SVD) by extensions ['ros']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SVD) by extension 'ros'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SVD) by extensions ['cmake', 'python']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SVD) by extension 'cmake'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SVD) by extension 'python'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SVD) by extensions ['python_setup_py']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SVD) by extension 'python_setup_py'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SparseCholesky) by extensions ['ignore', 'ignore_ament_install']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SparseCholesky) by extension 'ignore'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SparseCholesky) by extension 'ignore_ament_install'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SparseCholesky) by extensions ['colcon_pkg']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SparseCholesky) by extension 'colcon_pkg'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SparseCholesky) by extensions ['colcon_meta']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SparseCholesky) by extension 'colcon_meta'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SparseCholesky) by extensions ['ros']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SparseCholesky) by extension 'ros'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SparseCholesky) by extensions ['cmake', 'python']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SparseCholesky) by extension 'cmake'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SparseCholesky) by extension 'python'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SparseCholesky) by extensions ['python_setup_py']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SparseCholesky) by extension 'python_setup_py'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SparseCore) by extensions ['ignore', 'ignore_ament_install']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SparseCore) by extension 'ignore'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SparseCore) by extension 'ignore_ament_install'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SparseCore) by extensions ['colcon_pkg']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SparseCore) by extension 'colcon_pkg'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SparseCore) by extensions ['colcon_meta']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SparseCore) by extension 'colcon_meta'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SparseCore) by extensions ['ros']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SparseCore) by extension 'ros'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SparseCore) by extensions ['cmake', 'python']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SparseCore) by extension 'cmake'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SparseCore) by extension 'python'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SparseCore) by extensions ['python_setup_py']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SparseCore) by extension 'python_setup_py'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SparseLU) by extensions ['ignore', 'ignore_ament_install']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SparseLU) by extension 'ignore'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SparseLU) by extension 'ignore_ament_install'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SparseLU) by extensions ['colcon_pkg']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SparseLU) by extension 'colcon_pkg'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SparseLU) by extensions ['colcon_meta']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SparseLU) by extension 'colcon_meta'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SparseLU) by extensions ['ros']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SparseLU) by extension 'ros'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SparseLU) by extensions ['cmake', 'python']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SparseLU) by extension 'cmake'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SparseLU) by extension 'python'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SparseLU) by extensions ['python_setup_py']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SparseLU) by extension 'python_setup_py'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SparseQR) by extensions ['ignore', 'ignore_ament_install']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SparseQR) by extension 'ignore'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SparseQR) by extension 'ignore_ament_install'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SparseQR) by extensions ['colcon_pkg']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SparseQR) by extension 'colcon_pkg'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SparseQR) by extensions ['colcon_meta']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SparseQR) by extension 'colcon_meta'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SparseQR) by extensions ['ros']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SparseQR) by extension 'ros'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SparseQR) by extensions ['cmake', 'python']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SparseQR) by extension 'cmake'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SparseQR) by extension 'python'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SparseQR) by extensions ['python_setup_py']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SparseQR) by extension 'python_setup_py'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/StlSupport) by extensions ['ignore', 'ignore_ament_install']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/StlSupport) by extension 'ignore'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/StlSupport) by extension 'ignore_ament_install'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/StlSupport) by extensions ['colcon_pkg']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/StlSupport) by extension 'colcon_pkg'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/StlSupport) by extensions ['colcon_meta']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/StlSupport) by extension 'colcon_meta'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/StlSupport) by extensions ['ros']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/StlSupport) by extension 'ros'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/StlSupport) by extensions ['cmake', 'python']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/StlSupport) by extension 'cmake'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/StlSupport) by extension 'python'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/StlSupport) by extensions ['python_setup_py']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/StlSupport) by extension 'python_setup_py'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SuperLUSupport) by extensions ['ignore', 'ignore_ament_install']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SuperLUSupport) by extension 'ignore'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SuperLUSupport) by extension 'ignore_ament_install'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SuperLUSupport) by extensions ['colcon_pkg']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SuperLUSupport) by extension 'colcon_pkg'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SuperLUSupport) by extensions ['colcon_meta']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SuperLUSupport) by extension 'colcon_meta'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SuperLUSupport) by extensions ['ros']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SuperLUSupport) by extension 'ros'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SuperLUSupport) by extensions ['cmake', 'python']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SuperLUSupport) by extension 'cmake'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SuperLUSupport) by extension 'python'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SuperLUSupport) by extensions ['python_setup_py']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/SuperLUSupport) by extension 'python_setup_py'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/UmfPackSupport) by extensions ['ignore', 'ignore_ament_install']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/UmfPackSupport) by extension 'ignore'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/UmfPackSupport) by extension 'ignore_ament_install'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/UmfPackSupport) by extensions ['colcon_pkg']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/UmfPackSupport) by extension 'colcon_pkg'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/UmfPackSupport) by extensions ['colcon_meta']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/UmfPackSupport) by extension 'colcon_meta'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/UmfPackSupport) by extensions ['ros']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/UmfPackSupport) by extension 'ros'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/UmfPackSupport) by extensions ['cmake', 'python']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/UmfPackSupport) by extension 'cmake'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/UmfPackSupport) by extension 'python'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/UmfPackSupport) by extensions ['python_setup_py']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/UmfPackSupport) by extension 'python_setup_py'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/misc) by extensions ['ignore', 'ignore_ament_install']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/misc) by extension 'ignore'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/misc) by extension 'ignore_ament_install'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/misc) by extensions ['colcon_pkg']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/misc) by extension 'colcon_pkg'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/misc) by extensions ['colcon_meta']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/misc) by extension 'colcon_meta'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/misc) by extensions ['ros']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/misc) by extension 'ros'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/misc) by extensions ['cmake', 'python']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/misc) by extension 'cmake'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/misc) by extension 'python'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/misc) by extensions ['python_setup_py']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/misc) by extension 'python_setup_py'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/plugins) by extension 'ignore'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/plugins) by extension 'ignore_ament_install'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/plugins) by extensions ['colcon_pkg']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/plugins) by extension 'colcon_pkg'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/plugins) by extensions ['colcon_meta']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/plugins) by extension 'colcon_meta'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/plugins) by extensions ['ros']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/plugins) by extension 'ros'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/plugins) by extensions ['cmake', 'python']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/plugins) by extension 'cmake'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/plugins) by extension 'python'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/plugins) by extensions ['python_setup_py']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/Eigen/src/plugins) by extension 'python_setup_py'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/unsupported) by extensions ['ignore', 'ignore_ament_install']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/unsupported) by extension 'ignore'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/unsupported) by extension 'ignore_ament_install'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/unsupported) by extensions ['colcon_pkg']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/unsupported) by extension 'colcon_pkg'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/unsupported) by extensions ['colcon_meta']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/unsupported) by extension 'colcon_meta'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/unsupported) by extensions ['ros']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/unsupported) by extension 'ros'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/unsupported) by extensions ['cmake', 'python']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/unsupported) by extension 'cmake'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/eigen3/unsupported) by extension 'python'
+[0.168s] DEBUG:colcon.colcon_core.package_identification:Package 'src/loong_utility/eigen3/unsupported' with type 'cmake' and name 'unsupported'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/quill) by extensions ['ignore', 'ignore_ament_install']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/quill) by extension 'ignore'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/quill) by extension 'ignore_ament_install'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/quill) by extensions ['colcon_pkg']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/quill) by extension 'colcon_pkg'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/quill) by extensions ['colcon_meta']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/quill) by extension 'colcon_meta'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/quill) by extensions ['ros']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/quill) by extension 'ros'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/quill) by extensions ['cmake', 'python']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/quill) by extension 'cmake'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/quill) by extension 'python'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/quill) by extensions ['python_setup_py']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/loong_utility/quill) by extension 'python_setup_py'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/system) by extensions ['ignore', 'ignore_ament_install']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/system) by extension 'ignore'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/system) by extension 'ignore_ament_install'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/system) by extensions ['colcon_pkg']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/system) by extension 'colcon_pkg'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/system) by extensions ['colcon_meta']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/system) by extension 'colcon_meta'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/system) by extensions ['ros']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/system) by extension 'ros'
+[0.170s] DEBUG:colcon.colcon_core.package_identification:Package 'src/system' with type 'ros.ament_cmake' and name 'system'
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.185s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.185s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.186s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/humble
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'system' build argument 'cmake_args' from command line to 'None'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'system' build argument 'cmake_target' from command line to 'None'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'system' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'system' build argument 'cmake_clean_cache' from command line to 'False'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'system' build argument 'cmake_clean_first' from command line to 'False'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'system' build argument 'cmake_force_configure' from command line to 'False'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'system' build argument 'ament_cmake_args' from command line to 'None'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'system' build argument 'catkin_cmake_args' from command line to 'None'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'system' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.205s] DEBUG:colcon.colcon_core.verb:Building package 'system' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/qiaoyin/build/system', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/qiaoyin/install/system', 'merge_install': False, 'path': '/home/user/qiaoyin/src/system', 'symlink_install': False, 'test_result_base': None}
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'unsupported' build argument 'cmake_args' from command line to 'None'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'unsupported' build argument 'cmake_target' from command line to 'None'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'unsupported' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'unsupported' build argument 'cmake_clean_cache' from command line to 'False'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'unsupported' build argument 'cmake_clean_first' from command line to 'False'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'unsupported' build argument 'cmake_force_configure' from command line to 'False'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'unsupported' build argument 'ament_cmake_args' from command line to 'None'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'unsupported' build argument 'catkin_cmake_args' from command line to 'None'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'unsupported' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.205s] DEBUG:colcon.colcon_core.verb:Building package 'unsupported' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/qiaoyin/build/unsupported', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/qiaoyin/install/unsupported', 'merge_install': False, 'path': '/home/user/qiaoyin/src/loong_utility/eigen3/unsupported', 'symlink_install': False, 'test_result_base': None}
+[0.205s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.206s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.206s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/user/qiaoyin/src/system' with build type 'ament_cmake'
+[0.206s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/user/qiaoyin/src/system'
+[0.207s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.207s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.207s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.208s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/user/qiaoyin/src/loong_utility/eigen3/unsupported'
+[0.209s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.209s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.213s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/qiaoyin/build/system': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/qiaoyin/build/system -- -j24 -l24
+[0.214s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/qiaoyin/build/unsupported': /usr/bin/cmake /home/user/qiaoyin/src/loong_utility/eigen3/unsupported -DCMAKE_INSTALL_PREFIX=/home/user/qiaoyin/install/unsupported
+[0.405s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/qiaoyin/build/unsupported' returned '0': /usr/bin/cmake /home/user/qiaoyin/src/loong_utility/eigen3/unsupported -DCMAKE_INSTALL_PREFIX=/home/user/qiaoyin/install/unsupported
+[0.405s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/qiaoyin/build/unsupported': /usr/bin/cmake --build /home/user/qiaoyin/build/unsupported -- -j24 -l24
+[0.428s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/qiaoyin/build/unsupported' returned '0': /usr/bin/cmake --build /home/user/qiaoyin/build/unsupported -- -j24 -l24
+[0.435s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/qiaoyin/build/unsupported': /usr/bin/cmake --install /home/user/qiaoyin/build/unsupported
+[0.440s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/qiaoyin/build/unsupported' returned '1': /usr/bin/cmake --install /home/user/qiaoyin/build/unsupported
+[0.530s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.530s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.530s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[0.530s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.533s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.533s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.533s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.540s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.540s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/qiaoyin/install/local_setup.ps1'
+[0.540s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/user/qiaoyin/install/_local_setup_util_ps1.py'
+[0.541s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/qiaoyin/install/setup.ps1'
+[0.542s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/qiaoyin/install/local_setup.sh'
+[0.542s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/user/qiaoyin/install/_local_setup_util_sh.py'
+[0.542s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/qiaoyin/install/setup.sh'
+[0.543s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/qiaoyin/install/local_setup.bash'
+[0.543s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/qiaoyin/install/setup.bash'
+[0.544s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/qiaoyin/install/local_setup.zsh'
+[0.544s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/qiaoyin/install/setup.zsh'

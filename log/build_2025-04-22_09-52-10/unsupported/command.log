@@ -1,0 +1,4 @@
+Invoking command in '/home/user/qiaoyin/build/unsupported': /usr/bin/cmake --build /home/user/qiaoyin/build/unsupported -- -j24 -l24
+Invoked command in '/home/user/qiaoyin/build/unsupported' returned '0': /usr/bin/cmake --build /home/user/qiaoyin/build/unsupported -- -j24 -l24
+Invoking command in '/home/user/qiaoyin/build/unsupported': /usr/bin/cmake --install /home/user/qiaoyin/build/unsupported
+Invoked command in '/home/user/qiaoyin/build/unsupported' returned '1': /usr/bin/cmake --install /home/user/qiaoyin/build/unsupported

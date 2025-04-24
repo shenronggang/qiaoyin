@@ -1,0 +1,35 @@
+[0.007s] Invoking command in '/home/user/qiaoyin/build/whl_system': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/qiaoyin/build/whl_system -- -j24 -l24
+[0.043s] [  2%] Built target whl_system__cpp
+[0.045s] [ 12%] Built target whl_system__rosidl_generator_c
+[0.049s] [ 12%] Built target ament_cmake_python_copy_whl_system
+[0.056s] [ 22%] Built target whl_system__rosidl_typesupport_cpp
+[0.058s] [ 32%] Built target whl_system__rosidl_typesupport_fastrtps_cpp
+[0.059s] [ 42%] Built target whl_system__rosidl_typesupport_introspection_cpp
+[0.061s] [ 52%] Built target whl_system__rosidl_typesupport_fastrtps_c
+[0.062s] [ 62%] Built target whl_system__rosidl_typesupport_introspection_c
+[0.062s] [ 72%] Built target whl_system__rosidl_typesupport_c
+[0.065s] [35m[1mConsolidate compiler generated dependencies of target wheelloong_system_node[0m
+[0.076s] [ 72%] Built target whl_system
+[0.076s] [ 74%] [32m[1mLinking CXX executable wheelloong_system_node[0m
+[0.091s] [ 76%] Built target whl_system__py
+[0.108s] [ 84%] Built target whl_system__rosidl_generator_py
+[0.123s] [ 88%] Built target whl_system__rosidl_typesupport_introspection_c__pyext
+[0.124s] [ 92%] Built target whl_system__rosidl_typesupport_fastrtps_c__pyext
+[0.125s] [ 96%] Built target whl_system__rosidl_typesupport_c__pyext
+[0.138s] /usr/bin/ld: CMakeFiles/wheelloong_system_node.dir/src/wheelloong_system.cpp.o: in function `WheelloongSystem::WheelloongSystem()':
+[0.138s] wheelloong_system.cpp:(.text+0x18): undefined reference to `FsmClass::FsmClass()'
+[0.138s] /usr/bin/ld: CMakeFiles/wheelloong_system_node.dir/src/wheelloong_system.cpp.o: in function `WheelloongSystem::~WheelloongSystem()':
+[0.138s] wheelloong_system.cpp:(.text+0x78): undefined reference to `FsmClass::~FsmClass()'
+[0.141s] collect2: error: ld returned 1 exit status
+[0.143s] gmake[2]: *** [CMakeFiles/wheelloong_system_node.dir/build.make:175：wheelloong_system_node] 错误 1
+[0.143s] gmake[1]: *** [CMakeFiles/Makefile2:593：CMakeFiles/wheelloong_system_node.dir/all] 错误 2
+[0.143s] gmake[1]: *** 正在等待未完成的任务....
+[0.197s] running egg_info
+[0.198s] writing whl_system.egg-info/PKG-INFO
+[0.198s] writing dependency_links to whl_system.egg-info/dependency_links.txt
+[0.198s] writing top-level names to whl_system.egg-info/top_level.txt
+[0.199s] reading manifest file 'whl_system.egg-info/SOURCES.txt'
+[0.199s] writing manifest file 'whl_system.egg-info/SOURCES.txt'
+[0.217s] [ 96%] Built target ament_cmake_python_build_whl_system_egg
+[0.218s] gmake: *** [Makefile:146：all] 错误 2
+[0.220s] Invoked command in '/home/user/qiaoyin/build/whl_system' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/qiaoyin/build/whl_system -- -j24 -l24

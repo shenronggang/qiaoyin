@@ -1,0 +1,28 @@
+[01m[K/home/user/qiaoyin/src/driver/src/jaka.cpp:[m[K In member function ‘[01m[Kbool JAKA::setJoint(const std::vector<float>&, const std::vector<float>&)[m[K’:
+[01m[K/home/user/qiaoyin/src/driver/src/jaka.cpp:100:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  100 |         for (int j = 0; [01;35m[Kj < leftJPos.size()[m[K; j++)
+      |                         [01;35m[K~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/user/qiaoyin/src/driver/src/jaka.cpp:102:51:[m[K [01;31m[Kerror: [m[K‘[01m[Krad2deg[m[K’ was not declared in this scope
+  102 |             jPos[0].jVal[j] = static_cast<double>([01;31m[Krad2deg[m[K(leftJPos[j]));
+      |                                                   [01;31m[K^~~~~~~[m[K
+[01m[K/home/user/qiaoyin/src/driver/src/jaka.cpp:111:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  111 |         for (int j = 0; [01;35m[Kj < rightJPos.size()[m[K; j++)
+      |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/user/qiaoyin/src/driver/src/jaka.cpp:113:51:[m[K [01;31m[Kerror: [m[K‘[01m[Krad2deg[m[K’ was not declared in this scope
+  113 |             jPos[1].jVal[j] = static_cast<double>([01;31m[Krad2deg[m[K(rightJPos[j]));
+      |                                                   [01;31m[K^~~~~~~[m[K
+[01m[K/home/user/qiaoyin/src/driver/src/jaka.cpp:[m[K In member function ‘[01m[Kbool JAKA::getMotorActual(std::vector<float>&)[m[K’:
+[01m[K/home/user/qiaoyin/src/driver/src/jaka.cpp:185:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kdeg2rad[m[K’ was not declared in this scope
+  185 |             actJointVel[x] = static_cast<float>([01;31m[Kdeg2rad[m[K(curJoint[i].jVal[j]));
+      |                                                 [01;31m[K^~~~~~~[m[K
+[01m[K/home/user/qiaoyin/src/driver/src/jaka.cpp:[m[K In member function ‘[01m[Kbool JAKA::setSpeed(const std::vector<float>&)[m[K’:
+[01m[K/home/user/qiaoyin/src/driver/src/jaka.cpp:197:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KSpeed[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  197 | bool JAKA::setSpeed([01;35m[Kconst std::vector<float> &Speed[m[K)
+      |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/user/qiaoyin/src/driver/src/jaka.cpp:[m[K In member function ‘[01m[Kbool JAKA::getMotorStatus()[m[K’:
+[01m[K/home/user/qiaoyin/src/driver/src/jaka.cpp:239:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kret[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  239 |     int [01;35m[Kret[m[K = 0;
+      |         [01;35m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/arm_driver_node.dir/build.make:76：CMakeFiles/arm_driver_node.dir/src/jaka.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:593：CMakeFiles/arm_driver_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

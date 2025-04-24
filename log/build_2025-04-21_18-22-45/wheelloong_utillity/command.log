@@ -1,0 +1,6 @@
+Invoking command in '/home/user/qiaoyin/build/wheelloong_utillity': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/user/qiaoyin/wheelloong_utillity -DCMAKE_INSTALL_PREFIX=/home/user/qiaoyin/install/wheelloong_utillity
+Invoked command in '/home/user/qiaoyin/build/wheelloong_utillity' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/user/qiaoyin/wheelloong_utillity -DCMAKE_INSTALL_PREFIX=/home/user/qiaoyin/install/wheelloong_utillity
+Invoking command in '/home/user/qiaoyin/build/wheelloong_utillity': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/qiaoyin/build/wheelloong_utillity -- -j24 -l24
+Invoked command in '/home/user/qiaoyin/build/wheelloong_utillity' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/qiaoyin/build/wheelloong_utillity -- -j24 -l24
+Invoking command in '/home/user/qiaoyin/build/wheelloong_utillity': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/user/qiaoyin/build/wheelloong_utillity
+Invoked command in '/home/user/qiaoyin/build/wheelloong_utillity' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/user/qiaoyin/build/wheelloong_utillity

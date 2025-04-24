@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from driver/srv/ArmSetJoints.srv
+// generated code does not contain a copyright notice
+
+
+module driver {
+  module srv {
+    typedef double double__7[7];
+    typedef double double__2[2];
+    struct ArmSetJoints_Request {
+      double__7 left_arm_joints;
+
+      double__7 right_arm_joints;
+
+      double__2 speed;
+    };
+    struct ArmSetJoints_Response {
+      boolean success;
+    };
+  };
+};

@@ -1,0 +1,113 @@
+[0.011s] Invoking command in '/home/user/qiaoyin/build/driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/qiaoyin/build/driver -- -j24 -l24
+[0.030s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.115s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.132s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.133s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.137s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.143s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.150s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.169s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.170s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.231s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.259s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.425s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.622s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.695s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.709s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[0.710s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.725s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[0.726s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.726s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.726s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.739s] -- Found PythonExtra: .so  
+[0.758s] -- Found source files: /home/user/qiaoyin/src/driver/src/jaka.cpp
+[0.759s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.764s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.764s] -- Configured cppcheck include dirs: 
+[0.764s] -- Configured cppcheck exclude dirs and/or files: 
+[0.765s] -- Added test 'lint_cmake' to check CMake code style
+[0.765s] -- Added test 'uncrustify' to check C / C++ code style
+[0.765s] -- Configured uncrustify additional arguments: 
+[0.765s] -- Added test 'xmllint' to check XML markup files
+[0.766s] -- Configuring done
+[0.787s] -- Generating done
+[0.795s] -- Build files have been written to: /home/user/qiaoyin/build/driver
+[0.816s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.822s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.828s] [  3%] Built target ament_cmake_python_copy_driver
+[0.993s] running egg_info
+[0.993s] creating driver.egg-info
+[0.994s] writing driver.egg-info/PKG-INFO
+[0.994s] writing dependency_links to driver.egg-info/dependency_links.txt
+[0.994s] writing top-level names to driver.egg-info/top_level.txt
+[0.994s] writing manifest file 'driver.egg-info/SOURCES.txt'
+[0.995s] reading manifest file 'driver.egg-info/SOURCES.txt'
+[0.995s] writing manifest file 'driver.egg-info/SOURCES.txt'
+[1.016s] [  3%] Built target ament_cmake_python_build_driver_egg
+[1.134s] [  4%] [32mBuilding C object CMakeFiles/driver__rosidl_generator_c.dir/rosidl_generator_c/driver/srv/detail/arm_set_joints__functions.c.o[0m
+[1.134s] [  6%] [32mBuilding C object CMakeFiles/driver__rosidl_generator_c.dir/rosidl_generator_c/driver/srv/detail/arm_set_cart__functions.c.o[0m
+[1.134s] [  7%] [32mBuilding C object CMakeFiles/driver__rosidl_generator_c.dir/rosidl_generator_c/driver/msg/detail/agv_info__functions.c.o[0m
+[1.136s] [  9%] [32mBuilding C object CMakeFiles/driver__rosidl_generator_c.dir/rosidl_generator_c/driver/msg/detail/arm_info__functions.c.o[0m
+[1.136s] [ 10%] [32mBuilding C object CMakeFiles/driver__rosidl_generator_c.dir/rosidl_generator_c/driver/msg/detail/gripper_info__functions.c.o[0m
+[1.150s] [ 10%] Built target driver__cpp
+[1.157s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.159s] [ 15%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.159s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.175s] [ 16%] [32m[1mLinking C shared library libdriver__rosidl_generator_c.so[0m
+[1.202s] [ 16%] Built target driver__rosidl_generator_c
+[1.211s] [ 21%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.212s] [ 21%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.212s] [ 21%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.377s] [ 23%] [32mBuilding CXX object CMakeFiles/driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/driver/srv/arm_set_cart__type_support.cpp.o[0m
+[1.377s] [ 24%] [32mBuilding CXX object CMakeFiles/driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/driver/msg/arm_info__type_support.cpp.o[0m
+[1.378s] [ 26%] [32mBuilding CXX object CMakeFiles/driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/driver/srv/arm_set_joints__type_support.cpp.o[0m
+[1.379s] [ 27%] [32mBuilding CXX object CMakeFiles/driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/driver/msg/agv_info__type_support.cpp.o[0m
+[1.379s] [ 29%] [32mBuilding CXX object CMakeFiles/driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/driver/msg/gripper_info__type_support.cpp.o[0m
+[1.432s] [ 30%] [32mBuilding CXX object CMakeFiles/driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/driver/srv/arm_set_joints__type_support.cpp.o[0m
+[1.433s] [ 33%] [32mBuilding CXX object CMakeFiles/driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/driver/msg/arm_info__type_support.cpp.o[0m
+[1.433s] [ 33%] [32mBuilding CXX object CMakeFiles/driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/driver/msg/agv_info__type_support.cpp.o[0m
+[1.433s] [ 36%] [32mBuilding CXX object CMakeFiles/driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/driver/msg/gripper_info__type_support.cpp.o[0m
+[1.433s] [ 36%] [32mBuilding CXX object CMakeFiles/driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/driver/srv/detail/arm_set_cart__type_support.cpp.o[0m
+[1.433s] [ 40%] [32mBuilding CXX object CMakeFiles/driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/driver/srv/arm_set_cart__type_support.cpp.o[0m
+[1.433s] [ 40%] [32mBuilding CXX object CMakeFiles/driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/driver/msg/detail/agv_info__type_support.cpp.o[0m
+[1.433s] [ 41%] [32mBuilding CXX object CMakeFiles/driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/driver/srv/detail/arm_set_joints__type_support.cpp.o[0m
+[1.433s] [ 43%] [32mBuilding CXX object CMakeFiles/driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/driver/msg/detail/gripper_info__type_support.cpp.o[0m
+[1.433s] [ 44%] [32mBuilding CXX object CMakeFiles/driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/driver/msg/detail/arm_info__type_support.cpp.o[0m
+[1.458s] [ 46%] [32m[1mLinking CXX shared library libdriver__rosidl_typesupport_c.so[0m
+[1.469s] [ 47%] [32mBuilding CXX object CMakeFiles/driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/driver/msg/detail/dds_fastrtps/arm_info__type_support.cpp.o[0m
+[1.469s] [ 52%] [32mBuilding CXX object CMakeFiles/driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/driver/srv/detail/dds_fastrtps/arm_set_joints__type_support.cpp.o[0m
+[1.470s] [ 52%] [32mBuilding CXX object CMakeFiles/driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/driver/srv/detail/dds_fastrtps/arm_set_cart__type_support.cpp.o[0m
+[1.470s] [ 52%] [32mBuilding CXX object CMakeFiles/driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/driver/msg/detail/dds_fastrtps/agv_info__type_support.cpp.o[0m
+[1.470s] [ 53%] [32mBuilding CXX object CMakeFiles/driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/driver/msg/detail/dds_fastrtps/gripper_info__type_support.cpp.o[0m
+[1.507s] [ 53%] Built target driver__rosidl_typesupport_c
+[1.539s] [ 55%] [32mBuilding C object CMakeFiles/driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/driver/srv/detail/arm_set_cart__type_support.c.o[0m
+[1.539s] [ 56%] [32mBuilding C object CMakeFiles/driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/driver/srv/detail/arm_set_joints__type_support.c.o[0m
+[1.540s] [ 60%] [32mBuilding C object CMakeFiles/driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/driver/msg/detail/agv_info__type_support.c.o[0m
+[1.540s] [ 60%] [32mBuilding C object CMakeFiles/driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/driver/msg/detail/arm_info__type_support.c.o[0m
+[1.543s] [ 61%] [32mBuilding C object CMakeFiles/driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/driver/msg/detail/gripper_info__type_support.c.o[0m
+[1.556s] [ 64%] [32mBuilding CXX object CMakeFiles/driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/driver/srv/detail/arm_set_cart__type_support_c.cpp.o[0m
+[1.560s] [ 64%] [32mBuilding CXX object CMakeFiles/driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/driver/srv/detail/arm_set_joints__type_support_c.cpp.o[0m
+[1.565s] [ 66%] [32mBuilding CXX object CMakeFiles/driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/driver/msg/detail/agv_info__type_support_c.cpp.o[0m
+[1.571s] [ 67%] [32mBuilding CXX object CMakeFiles/driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/driver/msg/detail/arm_info__type_support_c.cpp.o[0m
+[1.581s] [ 69%] [32mBuilding CXX object CMakeFiles/driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/driver/msg/detail/gripper_info__type_support_c.cpp.o[0m
+[1.616s] [ 70%] [32m[1mLinking C shared library libdriver__rosidl_typesupport_introspection_c.so[0m
+[1.666s] [ 70%] Built target driver__rosidl_typesupport_introspection_c
+[1.738s] [ 72%] [32m[1mLinking CXX shared library libdriver__rosidl_typesupport_cpp.so[0m
+[1.783s] [ 72%] Built target driver__rosidl_typesupport_cpp
+[1.796s] [ 73%] [32mBuilding CXX object CMakeFiles/arm_driver_node.dir/src/jaka.cpp.o[0m
+[1.802s] In file included from [01m[K/home/user/qiaoyin/src/driver/src/jaka.cpp:1[m[K:
+[1.802s] [01m[K/home/user/qiaoyin/src/driver/src/jaka.h:4:10:[m[K [01;31m[Kfatal error: [m[Kcommon.h: 没有那个文件或目录
+[1.802s]     4 | #include [01;31m[K"common.h"[m[K
+[1.802s]       |          [01;31m[K^~~~~~~~~~[m[K
+[1.802s] compilation terminated.
+[1.802s] gmake[2]: *** [CMakeFiles/arm_driver_node.dir/build.make:76：CMakeFiles/arm_driver_node.dir/src/jaka.cpp.o] 错误 1
+[1.802s] gmake[1]: *** [CMakeFiles/Makefile2:593：CMakeFiles/arm_driver_node.dir/all] 错误 2
+[1.802s] gmake[1]: *** 正在等待未完成的任务....
+[1.910s] [ 75%] [32m[1mLinking CXX shared library libdriver__rosidl_typesupport_introspection_cpp.so[0m
+[1.954s] [ 76%] [32m[1mLinking CXX shared library libdriver__rosidl_typesupport_fastrtps_c.so[0m
+[1.957s] [ 78%] [32m[1mLinking CXX shared library libdriver__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.962s] [ 78%] Built target driver__rosidl_typesupport_introspection_cpp
+[2.003s] [ 78%] Built target driver__rosidl_typesupport_fastrtps_c
+[2.008s] [ 78%] Built target driver__rosidl_typesupport_fastrtps_cpp
+[2.008s] gmake: *** [Makefile:146：all] 错误 2
+[2.010s] Invoked command in '/home/user/qiaoyin/build/driver' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/qiaoyin/build/driver -- -j24 -l24

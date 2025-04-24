@@ -1,0 +1,115 @@
+[0.009s] Invoking command in '/home/user/qiaoyin/build/driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/qiaoyin/build/driver -- -j24 -l24
+[0.027s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.108s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.124s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.126s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.129s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.134s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.141s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.159s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.159s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.214s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.242s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.412s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.606s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.680s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.693s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.708s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.708s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.708s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.715s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.720s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.721s] -- Configured cppcheck include dirs: /home/user/qiaoyin/src/driver/include;/home/user/qiaoyin/src/driver/include/driver;/home/user/qiaoyin/src/driver/src
+[0.721s] -- Configured cppcheck exclude dirs and/or files: 
+[0.721s] -- Added test 'lint_cmake' to check CMake code style
+[0.722s] -- Added test 'uncrustify' to check C / C++ code style
+[0.722s] -- Configured uncrustify additional arguments: 
+[0.722s] -- Added test 'xmllint' to check XML markup files
+[0.723s] -- Configuring done
+[0.742s] [0mWARNING: Target "arm_driver_node" requests linking to directory "/home/user/qiaoyin/src/driver/lib".  Targets may link only to libraries.  CMake is dropping the item.[0m
+[0.745s] -- Generating done
+[0.752s] -- Build files have been written to: /home/user/qiaoyin/build/driver
+[0.772s] [35m[1mConsolidate compiler generated dependencies of target driver__rosidl_generator_c[0m
+[0.779s] [  1%] Built target driver__cpp
+[0.782s] [ 11%] Built target driver__rosidl_generator_c
+[0.785s] [ 11%] Built target ament_cmake_python_copy_driver
+[0.786s] [35m[1mConsolidate compiler generated dependencies of target driver__rosidl_typesupport_introspection_cpp[0m
+[0.788s] [35m[1mConsolidate compiler generated dependencies of target driver__rosidl_typesupport_cpp[0m
+[0.788s] [35m[1mConsolidate compiler generated dependencies of target driver__rosidl_typesupport_c[0m
+[0.788s] [35m[1mConsolidate compiler generated dependencies of target driver__rosidl_typesupport_introspection_c[0m
+[0.788s] [35m[1mConsolidate compiler generated dependencies of target driver__rosidl_typesupport_fastrtps_cpp[0m
+[0.791s] [35m[1mConsolidate compiler generated dependencies of target driver__rosidl_typesupport_fastrtps_c[0m
+[0.794s] [ 22%] Built target driver__rosidl_typesupport_introspection_cpp
+[0.794s] [ 32%] Built target driver__rosidl_typesupport_c
+[0.794s] [ 43%] Built target driver__rosidl_typesupport_introspection_c
+[0.798s] [ 53%] Built target driver__rosidl_typesupport_cpp
+[0.801s] [ 64%] Built target driver__rosidl_typesupport_fastrtps_cpp
+[0.801s] [ 74%] Built target driver__rosidl_typesupport_fastrtps_c
+[0.806s] [35m[1mConsolidate compiler generated dependencies of target arm_driver_node[0m
+[0.814s] [ 74%] Built target driver
+[0.817s] [ 76%] [32m[1mLinking CXX executable arm_driver_node[0m
+[0.829s] [ 77%] Built target driver__py
+[0.838s] [35m[1mConsolidate compiler generated dependencies of target driver__rosidl_generator_py[0m
+[0.848s] [ 86%] Built target driver__rosidl_generator_py
+[0.855s] [35m[1mConsolidate compiler generated dependencies of target driver__rosidl_typesupport_introspection_c__pyext[0m
+[0.856s] [35m[1mConsolidate compiler generated dependencies of target driver__rosidl_typesupport_c__pyext[0m
+[0.856s] [35m[1mConsolidate compiler generated dependencies of target driver__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.864s] [ 89%] Built target driver__rosidl_typesupport_introspection_c__pyext
+[0.865s] [ 92%] Built target driver__rosidl_typesupport_c__pyext
+[0.865s] [ 95%] Built target driver__rosidl_typesupport_fastrtps_c__pyext
+[0.920s] /usr/bin/ld: CMakeFiles/arm_driver_node.dir/src/jaka.cpp.o: in function `JAKA::JAKA()':
+[0.920s] jaka.cpp:(.text+0x28): undefined reference to `JAKAZuRobot::JAKAZuRobot()'
+[0.920s] /usr/bin/ld: jaka.cpp:(.text+0x155): undefined reference to `JAKAZuRobot::login_in(char const*)'
+[0.920s] /usr/bin/ld: jaka.cpp:(.text+0x1cb): undefined reference to `JAKAZuRobot::clear_error()'
+[0.920s] /usr/bin/ld: jaka.cpp:(.text+0x24d): undefined reference to `JAKAZuRobot::power_on()'
+[0.921s] /usr/bin/ld: jaka.cpp:(.text+0x332): undefined reference to `JAKAZuRobot::~JAKAZuRobot()'
+[0.921s] /usr/bin/ld: CMakeFiles/arm_driver_node.dir/src/jaka.cpp.o: in function `JAKA::~JAKA()':
+[0.921s] jaka.cpp:(.text+0x380): undefined reference to `JAKAZuRobot::power_off()'
+[0.921s] /usr/bin/ld: jaka.cpp:(.text+0x3d0): undefined reference to `JAKAZuRobot::login_out()'
+[0.921s] /usr/bin/ld: jaka.cpp:(.text+0x44b): undefined reference to `JAKAZuRobot::~JAKAZuRobot()'
+[0.921s] /usr/bin/ld: CMakeFiles/arm_driver_node.dir/src/jaka.cpp.o: in function `JAKA::enableMunip()':
+[0.921s] jaka.cpp:(.text+0x48c): undefined reference to `JAKAZuRobot::enable_robot()'
+[0.921s] /usr/bin/ld: jaka.cpp:(.text+0x4e3): undefined reference to `JAKAZuRobot::servo_move_use_none_filter()'
+[0.921s] /usr/bin/ld: jaka.cpp:(.text+0x4f9): undefined reference to `JAKAZuRobot::servo_move_enable(int, int)'
+[0.921s] /usr/bin/ld: jaka.cpp:(.text+0x50f): undefined reference to `JAKAZuRobot::servo_move_enable(int, int)'
+[0.921s] /usr/bin/ld: CMakeFiles/arm_driver_node.dir/src/jaka.cpp.o: in function `JAKA::disableMunip()':
+[0.921s] jaka.cpp:(.text+0x53c): undefined reference to `JAKAZuRobot::servo_move_enable(int, int)'
+[0.921s] /usr/bin/ld: jaka.cpp:(.text+0x552): undefined reference to `JAKAZuRobot::servo_move_enable(int, int)'
+[0.921s] /usr/bin/ld: jaka.cpp:(.text+0x55e): undefined reference to `JAKAZuRobot::disable_robot()'
+[0.921s] /usr/bin/ld: CMakeFiles/arm_driver_node.dir/src/jaka.cpp.o: in function `JAKA::setJoint(std::vector<double, std::allocator<double> > const&, std::vector<double, std::allocator<double> > const&)':
+[0.921s] jaka.cpp:(.text+0x7f7): undefined reference to `JAKAZuRobot::edg_servo_j(unsigned char, JointValue const*, MoveMode, unsigned int)'
+[0.921s] /usr/bin/ld: jaka.cpp:(.text+0x821): undefined reference to `JAKAZuRobot::edg_servo_j(unsigned char, JointValue const*, MoveMode, unsigned int)'
+[0.921s] /usr/bin/ld: jaka.cpp:(.text+0x830): undefined reference to `JAKAZuRobot::edg_send()'
+[0.921s] /usr/bin/ld: CMakeFiles/arm_driver_node.dir/src/jaka.cpp.o: in function `JAKA::setCartesian(std::vector<double, std::allocator<double> > const&, std::vector<double, std::allocator<double> > const&)':
+[0.921s] jaka.cpp:(.text+0xa79): undefined reference to `JAKAZuRobot::edg_servo_p(unsigned char, CartesianPose const*, MoveMode, unsigned int)'
+[0.921s] /usr/bin/ld: jaka.cpp:(.text+0xaa3): undefined reference to `JAKAZuRobot::edg_servo_p(unsigned char, CartesianPose const*, MoveMode, unsigned int)'
+[0.921s] /usr/bin/ld: jaka.cpp:(.text+0xab2): undefined reference to `JAKAZuRobot::edg_send()'
+[0.921s] /usr/bin/ld: CMakeFiles/arm_driver_node.dir/src/jaka.cpp.o: in function `JAKA::getMotorActual(std::vector<double, std::allocator<double> >&)':
+[0.921s] jaka.cpp:(.text+0xb68): undefined reference to `JAKAZuRobot::edg_recv(timespec*)'
+[0.921s] /usr/bin/ld: jaka.cpp:(.text+0xbd6): undefined reference to `JAKAZuRobot::edg_get_stat(unsigned char, JointValue*, CartesianPose*)'
+[0.921s] /usr/bin/ld: CMakeFiles/arm_driver_node.dir/src/jaka.cpp.o: in function `JAKA::getMotorActual(std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&)':
+[0.921s] jaka.cpp:(.text+0xf35): undefined reference to `JAKAZuRobot::edg_recv(timespec*)'
+[0.921s] /usr/bin/ld: jaka.cpp:(.text+0xf65): undefined reference to `JAKAZuRobot::edg_get_stat(unsigned char, JointValue*, CartesianPose*)'
+[0.921s] /usr/bin/ld: jaka.cpp:(.text+0x100a): undefined reference to `JAKAZuRobot::edg_recv(timespec*)'
+[0.921s] /usr/bin/ld: jaka.cpp:(.text+0x103a): undefined reference to `JAKAZuRobot::edg_get_stat(unsigned char, JointValue*, CartesianPose*)'
+[0.921s] /usr/bin/ld: CMakeFiles/arm_driver_node.dir/src/jaka.cpp.o: in function `JAKA::getError()':
+[0.921s] jaka.cpp:(.text+0x15ca): undefined reference to `JAKAZuRobot::robot_is_in_error(int*)'
+[0.921s] /usr/bin/ld: CMakeFiles/arm_driver_node.dir/src/jaka.cpp.o: in function `JAKA::clearError()':
+[0.922s] jaka.cpp:(.text+0x165c): undefined reference to `JAKAZuRobot::robot_is_in_error(int*)'
+[0.922s] /usr/bin/ld: jaka.cpp:(.text+0x16cf): undefined reference to `JAKAZuRobot::get_last_error(ErrorCode*)'
+[0.922s] /usr/bin/ld: jaka.cpp:(.text+0x1722): undefined reference to `JAKAZuRobot::clear_error()'
+[0.922s] /usr/bin/ld: CMakeFiles/arm_driver_node.dir/src/jaka.cpp.o: in function `JAKA::getMotorStatus()':
+[0.922s] jaka.cpp:(.text+0x1778): undefined reference to `JAKAZuRobot::get_robot_state(RobotState*)'
+[0.928s] collect2: error: ld returned 1 exit status
+[0.929s] gmake[2]: *** [CMakeFiles/arm_driver_node.dir/build.make:191：arm_driver_node] 错误 1
+[0.929s] running egg_info
+[0.929s] gmake[1]: *** [CMakeFiles/Makefile2:593：CMakeFiles/arm_driver_node.dir/all] 错误 2
+[0.929s] gmake[1]: *** 正在等待未完成的任务....
+[0.929s] writing driver.egg-info/PKG-INFO
+[0.930s] writing dependency_links to driver.egg-info/dependency_links.txt
+[0.930s] writing top-level names to driver.egg-info/top_level.txt
+[0.931s] reading manifest file 'driver.egg-info/SOURCES.txt'
+[0.931s] writing manifest file 'driver.egg-info/SOURCES.txt'
+[0.949s] [ 95%] Built target ament_cmake_python_build_driver_egg
+[0.949s] gmake: *** [Makefile:146：all] 错误 2
+[0.951s] Invoked command in '/home/user/qiaoyin/build/driver' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/qiaoyin/build/driver -- -j24 -l24

@@ -1,0 +1,4 @@
+gmake[2]: *** 没有规则可制作目标“/home/user/qiaoyin/src/driver/lib/jakaAPI”，由“arm_driver_node” 需求。 停止。
+gmake[1]: *** [CMakeFiles/Makefile2:593：CMakeFiles/arm_driver_node.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+gmake: *** [Makefile:146：all] 错误 2

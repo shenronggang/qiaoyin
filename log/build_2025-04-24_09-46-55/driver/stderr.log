@@ -1,0 +1,4 @@
+[01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.cpp:[m[K In member function ‘[01m[Kvoid ArmDriverNode::handle_arm_enable(std::shared_ptr<driver::srv::ArmEnable_Request_<std::allocator<void> > >, std::shared_ptr<driver::srv::ArmEnable_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.cpp:113:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  113 |     [01;35m[Kshared_ptr<driver::srv::ArmEnable::Response> response[m[K)
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K

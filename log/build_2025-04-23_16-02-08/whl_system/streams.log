@@ -1,0 +1,151 @@
+[0.010s] Invoking command in '/home/user/qiaoyin/build/whl_system': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/qiaoyin/build/whl_system -- -j24 -l24
+[0.043s] [  9%] Built target whl_system__rosidl_generator_c
+[0.043s] [ 11%] Built target whl_system__cpp
+[0.050s] [ 11%] Built target ament_cmake_python_copy_whl_system
+[0.058s] [ 21%] Built target whl_system__rosidl_typesupport_introspection_c
+[0.059s] [ 30%] Built target whl_system__rosidl_typesupport_fastrtps_c
+[0.059s] [ 40%] Built target whl_system__rosidl_typesupport_c
+[0.064s] [ 50%] Built target whl_system__rosidl_typesupport_introspection_cpp
+[0.066s] [ 59%] Built target whl_system__rosidl_typesupport_cpp
+[0.066s] [ 69%] Built target whl_system__rosidl_typesupport_fastrtps_cpp
+[0.079s] [35m[1mConsolidate compiler generated dependencies of target wheelloong_system_node[0m
+[0.082s] [ 69%] Built target whl_system
+[0.094s] [ 71%] [32mBuilding CXX object CMakeFiles/wheelloong_system_node.dir/src/system_node.cpp.o[0m
+[0.094s] [ 73%] [32mBuilding CXX object CMakeFiles/wheelloong_system_node.dir/src/wheelloong_system.cpp.o[0m
+[0.098s] [ 75%] Built target whl_system__py
+[0.115s] [ 82%] Built target whl_system__rosidl_generator_py
+[0.129s] [ 86%] Built target whl_system__rosidl_typesupport_fastrtps_c__pyext
+[0.129s] [ 90%] Built target whl_system__rosidl_typesupport_c__pyext
+[0.132s] [ 94%] Built target whl_system__rosidl_typesupport_introspection_c__pyext
+[0.203s] running egg_info
+[0.203s] writing whl_system.egg-info/PKG-INFO
+[0.203s] writing dependency_links to whl_system.egg-info/dependency_links.txt
+[0.203s] writing top-level names to whl_system.egg-info/top_level.txt
+[0.205s] reading manifest file 'whl_system.egg-info/SOURCES.txt'
+[0.205s] writing manifest file 'whl_system.egg-info/SOURCES.txt'
+[0.224s] [ 94%] Built target ament_cmake_python_build_whl_system_egg
+[1.411s] [01m[K/home/user/qiaoyin/src/whl_system/src/system_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.411s] [01m[K/home/user/qiaoyin/src/whl_system/src/system_node.cpp:9:17:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kspin(std::unique_ptr<whl_system::WheelloongSystem>&)[m[K’
+[1.411s]     9 |     [01;31m[Krclcpp::spin(system)[m[K;
+[1.411s]       |     [01;31m[K~~~~~~~~~~~~^~~~~~~~[m[K
+[1.411s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.411s]                  from [01m[K/home/user/qiaoyin/src/whl_system/src/wheelloong_system.h:3[m[K,
+[1.411s]                  from [01m[K/home/user/qiaoyin/src/whl_system/src/system_node.cpp:1[m[K:
+[1.411s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:45:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::spin(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr)[m[K’
+[1.411s]    45 | [01;36m[Kspin[m[K(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr);
+[1.411s]       | [01;36m[K^~~~[m[K
+[1.411s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:45:60:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::unique_ptr<whl_system::WheelloongSystem>[m[K’ to ‘[01m[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>[m[K’}
+[1.411s]    45 | spin([01;36m[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr[m[K);
+[1.411s]       |      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[1.411s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:49:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::spin(rclcpp::Node::SharedPtr)[m[K’
+[1.411s]    49 | [01;36m[Kspin[m[K(rclcpp::Node::SharedPtr node_ptr);
+[1.411s]       | [01;36m[K^~~~[m[K
+[1.411s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:49:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::unique_ptr<whl_system::WheelloongSystem>[m[K’ to ‘[01m[Krclcpp::Node::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Node>[m[K’}
+[1.411s]    49 | spin([01;36m[Krclcpp::Node::SharedPtr node_ptr[m[K);
+[1.411s]       |      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[1.411s] [01m[K/home/user/qiaoyin/src/whl_system/src/wheelloong_system.cpp:3:1:[m[K [01;31m[Kerror: [m[K‘[01m[KWheelloongSystem[m[K’ does not name a type
+[1.411s]     3 | [01;31m[KWheelloongSystem[m[K::WheelloongSystem()
+[1.411s]       | [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.412s] [01m[K/home/user/qiaoyin/src/whl_system/src/wheelloong_system.cpp:7:1:[m[K [01;31m[Kerror: [m[K‘[01m[KWheelloongSystem[m[K’ does not name a type
+[1.412s]     7 | [01;31m[KWheelloongSystem[m[K::~WheelloongSystem() {
+[1.412s]       | [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.412s] [01m[K/home/user/qiaoyin/src/whl_system/src/wheelloong_system.cpp:11:6:[m[K [01;31m[Kerror: [m[K‘[01m[KWheelloongSystem[m[K’ has not been declared
+[1.412s]    11 | void [01;31m[KWheelloongSystem[m[K::update()
+[1.412s]       |      [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.414s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.414s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.414s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.414s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.414s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.414s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.414s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.414s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.415s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.415s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.415s]                  from [01m[K/home/user/qiaoyin/src/whl_system/src/wheelloong_system.h:3[m[K,
+[1.415s]                  from [01m[K/home/user/qiaoyin/src/whl_system/src/wheelloong_system.cpp:1[m[K:
+[1.415s] [01m[K/home/user/qiaoyin/src/whl_system/src/wheelloong_system.cpp:[m[K In function ‘[01m[Kvoid update()[m[K’:
+[1.415s] [01m[K/home/user/qiaoyin/src/whl_system/src/wheelloong_system.cpp:13:17:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmode_t[m[K’?
+[1.415s]    13 |     RCLCPP_INFO([01;31m[Knode_[m[K->get_logger(), "Updating system with input data...");
+[1.415s]       |                 [01;31m[K^~~~~[m[K
+[1.415s] [01m[K/home/user/qiaoyin/src/whl_system/src/wheelloong_system.cpp:13:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.415s]    13 |     [01;31m[KRCLCPP_INFO[m[K(node_->get_logger(), "Updating system with input data...");
+[1.415s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[1.415s] [01m[K/home/user/qiaoyin/src/whl_system/src/wheelloong_system.cpp:13:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.415s]    13 |     [01;31m[KRCLCPP_INFO[m[K(node_->get_logger(), "Updating system with input data...");
+[1.415s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[1.415s] [01m[K/home/user/qiaoyin/src/whl_system/src/wheelloong_system.cpp:13:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.415s]    13 |     [01;31m[KRCLCPP_INFO[m[K(node_->get_logger(), "Updating system with input data...");
+[1.415s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[1.415s] [01m[K/home/user/qiaoyin/src/whl_system/src/wheelloong_system.cpp:[m[K At global scope:
+[1.415s] [01m[K/home/user/qiaoyin/src/whl_system/src/wheelloong_system.cpp:16:6:[m[K [01;31m[Kerror: [m[K‘[01m[KWheelloongSystem[m[K’ has not been declared
+[1.415s]    16 | void [01;31m[KWheelloongSystem[m[K::work()
+[1.415s]       |      [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.416s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.416s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.416s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.417s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.417s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.417s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.417s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.417s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.417s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.417s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.417s]                  from [01m[K/home/user/qiaoyin/src/whl_system/src/wheelloong_system.h:3[m[K,
+[1.417s]                  from [01m[K/home/user/qiaoyin/src/whl_system/src/wheelloong_system.cpp:1[m[K:
+[1.417s] [01m[K/home/user/qiaoyin/src/whl_system/src/wheelloong_system.cpp:[m[K In function ‘[01m[Kvoid work()[m[K’:
+[1.417s] [01m[K/home/user/qiaoyin/src/whl_system/src/wheelloong_system.cpp:19:17:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmode_t[m[K’?
+[1.417s]    19 |     RCLCPP_INFO([01;31m[Knode_[m[K->get_logger(), "Working on the updated data...");
+[1.417s]       |                 [01;31m[K^~~~~[m[K
+[1.417s] [01m[K/home/user/qiaoyin/src/whl_system/src/wheelloong_system.cpp:19:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.417s]    19 |     [01;31m[KRCLCPP_INFO[m[K(node_->get_logger(), "Working on the updated data...");
+[1.417s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[1.417s] [01m[K/home/user/qiaoyin/src/whl_system/src/wheelloong_system.cpp:19:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.417s]    19 |     [01;31m[KRCLCPP_INFO[m[K(node_->get_logger(), "Working on the updated data...");
+[1.417s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[1.417s] [01m[K/home/user/qiaoyin/src/whl_system/src/wheelloong_system.cpp:19:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.417s]    19 |     [01;31m[KRCLCPP_INFO[m[K(node_->get_logger(), "Working on the updated data...");
+[1.417s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[1.417s] [01m[K/home/user/qiaoyin/src/whl_system/src/wheelloong_system.cpp:[m[K At global scope:
+[1.417s] [01m[K/home/user/qiaoyin/src/whl_system/src/wheelloong_system.cpp:22:6:[m[K [01;31m[Kerror: [m[K‘[01m[KWheelloongSystem[m[K’ has not been declared
+[1.417s]    22 | void [01;31m[KWheelloongSystem[m[K::dwdate()
+[1.417s]       |      [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.418s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.418s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.418s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.418s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.418s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.418s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.418s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.418s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.418s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.418s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.418s]                  from [01m[K/home/user/qiaoyin/src/whl_system/src/wheelloong_system.h:3[m[K,
+[1.418s]                  from [01m[K/home/user/qiaoyin/src/whl_system/src/wheelloong_system.cpp:1[m[K:
+[1.419s] [01m[K/home/user/qiaoyin/src/whl_system/src/wheelloong_system.cpp:[m[K In function ‘[01m[Kvoid dwdate()[m[K’:
+[1.419s] [01m[K/home/user/qiaoyin/src/whl_system/src/wheelloong_system.cpp:25:17:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmode_t[m[K’?
+[1.419s]    25 |     RCLCPP_INFO([01;31m[Knode_[m[K->get_logger(), "Performing another update operation...");
+[1.419s]       |                 [01;31m[K^~~~~[m[K
+[1.419s] [01m[K/home/user/qiaoyin/src/whl_system/src/wheelloong_system.cpp:25:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.419s]    25 |     [01;31m[KRCLCPP_INFO[m[K(node_->get_logger(), "Performing another update operation...");
+[1.419s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[1.419s] [01m[K/home/user/qiaoyin/src/whl_system/src/wheelloong_system.cpp:25:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.419s]    25 |     [01;31m[KRCLCPP_INFO[m[K(node_->get_logger(), "Performing another update operation...");
+[1.419s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[1.419s] [01m[K/home/user/qiaoyin/src/whl_system/src/wheelloong_system.cpp:25:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.419s]    25 |     [01;31m[KRCLCPP_INFO[m[K(node_->get_logger(), "Performing another update operation...");
+[1.419s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[1.419s] [01m[K/home/user/qiaoyin/src/whl_system/src/wheelloong_system.cpp:[m[K At global scope:
+[1.419s] [01m[K/home/user/qiaoyin/src/whl_system/src/wheelloong_system.cpp:28:6:[m[K [01;31m[Kerror: [m[K‘[01m[KWheelloongSystem[m[K’ has not been declared
+[1.419s]    28 | void [01;31m[KWheelloongSystem[m[K::run() {
+[1.419s]       |      [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.420s] [01m[K/home/user/qiaoyin/src/whl_system/src/wheelloong_system.cpp:[m[K In function ‘[01m[Kvoid run()[m[K’:
+[1.420s] [01m[K/home/user/qiaoyin/src/whl_system/src/wheelloong_system.cpp:29:18:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmode_t[m[K’?
+[1.420s]    29 |     rclcpp::spin([01;31m[Knode_[m[K);  // 阻塞式运行，处理服务请求
+[1.420s]       |                  [01;31m[K^~~~~[m[K
+[1.420s]       |                  [32m[Kmode_t[m[K
+[1.670s] gmake[2]: *** [CMakeFiles/wheelloong_system_node.dir/build.make:118：CMakeFiles/wheelloong_system_node.dir/src/wheelloong_system.cpp.o] 错误 1
+[1.670s] gmake[2]: *** 正在等待未完成的任务....
+[1.670s] gmake[2]: *** [CMakeFiles/wheelloong_system_node.dir/build.make:104：CMakeFiles/wheelloong_system_node.dir/src/system_node.cpp.o] 错误 1
+[1.670s] gmake[1]: *** [CMakeFiles/Makefile2:593：CMakeFiles/wheelloong_system_node.dir/all] 错误 2
+[1.670s] gmake: *** [Makefile:146：all] 错误 2

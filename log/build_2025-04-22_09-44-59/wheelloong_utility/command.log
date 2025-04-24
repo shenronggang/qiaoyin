@@ -1,0 +1,2 @@
+Invoking command in '/home/user/qiaoyin/build/wheelloong_utility': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/user/qiaoyin/wheelloong_utility -DCMAKE_INSTALL_PREFIX=/home/user/qiaoyin/install/wheelloong_utility
+Invoked command in '/home/user/qiaoyin/build/wheelloong_utility' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/user/qiaoyin/wheelloong_utility -DCMAKE_INSTALL_PREFIX=/home/user/qiaoyin/install/wheelloong_utility

@@ -1,0 +1,4 @@
+source;share/whl_system/environment/ament_prefix_path.sh
+source;share/whl_system/environment/library_path.sh
+source;share/whl_system/environment/path.sh
+source;share/whl_system/environment/pythonpath.sh

@@ -1,0 +1,8 @@
+-- Install configuration: ""
+[31mCMake Error at Eigen/cmake_install.cmake:54 (file):
+  file cannot create directory: /unsupported/Eigen.  Maybe need
+  administrative privileges.
+Call Stack (most recent call first):
+  cmake_install.cmake:47 (include)
+
+[0m

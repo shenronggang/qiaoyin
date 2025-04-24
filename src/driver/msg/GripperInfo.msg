@@ -1,0 +1,2 @@
+bool left_gripper
+bool right_gripper

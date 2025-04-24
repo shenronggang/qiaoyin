@@ -1,0 +1,162 @@
+In file included from [01m[K/home/user/qiaoyin/src/driver/src/main.cpp:2[m[K:
+[01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.h:7:1:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[Kclass[m[K’
+    7 | [01;31m[Kclass[m[K ArmDriverNode : public rclcpp::Node {
+      | [01;31m[K^~~~~[m[K
+[01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.h:6:22:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kclass[m[K’
+    6 | using namespace std::
+      |                      [01;31m[K^[m[K
+      |                      [32m[K;[m[K
+    7 | [32m[Kclass[m[K ArmDriverNode : public rclcpp::Node {
+      | [32m[K~~~~~[m[K                 
+In file included from [01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.cpp:1[m[K:
+[01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.h:7:1:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[Kclass[m[K’
+    7 | [01;31m[Kclass[m[K ArmDriverNode : public rclcpp::Node {
+      | [01;31m[K^~~~~[m[K
+[01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.h:6:22:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kclass[m[K’
+    6 | using namespace std::
+      |                      [01;31m[K^[m[K
+      |                      [32m[K;[m[K
+    7 | [32m[Kclass[m[K ArmDriverNode : public rclcpp::Node {
+      | [32m[K~~~~~[m[K                 
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.h:5[m[K,
+                 from [01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.cpp:1[m[K:
+[01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.cpp:[m[K In member function ‘[01m[Kvoid ArmDriverNode::publish_arm_info_callback()[m[K’:
+[01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.cpp:40:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::vector<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   40 |         RCLCPP_WARN(this->get_logger(), [01;35m[K"Invalid joint data size: %d"[m[K, [32m[Kjoint_values.size()[m[K);
+      |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                                         [32m[K|[m[K
+      |                                                                                         [32m[Kstd::vector<double>::size_type {aka long unsigned int}[m[K
+[01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.cpp:40:68:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   40 |         RCLCPP_WARN(this->get_logger(), "Invalid joint data size: [01;36m[K%d[m[K", joint_values.size());
+      |                                                                   [01;36m[K~^[m[K
+      |                                                                    [01;36m[K|[m[K
+      |                                                                    [01;36m[Kint[m[K
+      |                                                                   [32m[K%ld[m[K
+[01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.cpp:48:23:[m[K [01;31m[Kerror: [m[K‘[01m[KCartesianPose JAKA::curCart [2][m[K’ is private within this context
+   48 |                 jaka_.[01;31m[KcurCart[m[K[i].tran.x,
+      |                       [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.h:3[m[K,
+                 from [01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.cpp:1[m[K:
+[01m[K/home/user/qiaoyin/src/driver/src/jaka.h:36:19:[m[K [01;36m[Knote: [m[Kdeclared private here
+   36 |     CartesianPose [01;36m[KcurCart[m[K[2];
+      |                   [01;36m[K^~~~~~~[m[K
+[01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.cpp:49:23:[m[K [01;31m[Kerror: [m[K‘[01m[KCartesianPose JAKA::curCart [2][m[K’ is private within this context
+   49 |                 jaka_.[01;31m[KcurCart[m[K[i].tran.y,
+      |                       [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.h:3[m[K,
+                 from [01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.cpp:1[m[K:
+[01m[K/home/user/qiaoyin/src/driver/src/jaka.h:36:19:[m[K [01;36m[Knote: [m[Kdeclared private here
+   36 |     CartesianPose [01;36m[KcurCart[m[K[2];
+      |                   [01;36m[K^~~~~~~[m[K
+[01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.cpp:50:23:[m[K [01;31m[Kerror: [m[K‘[01m[KCartesianPose JAKA::curCart [2][m[K’ is private within this context
+   50 |                 jaka_.[01;31m[KcurCart[m[K[i].tran.z,
+      |                       [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.h:3[m[K,
+                 from [01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.cpp:1[m[K:
+[01m[K/home/user/qiaoyin/src/driver/src/jaka.h:36:19:[m[K [01;36m[Knote: [m[Kdeclared private here
+   36 |     CartesianPose [01;36m[KcurCart[m[K[2];
+      |                   [01;36m[K^~~~~~~[m[K
+[01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.cpp:51:23:[m[K [01;31m[Kerror: [m[K‘[01m[KCartesianPose JAKA::curCart [2][m[K’ is private within this context
+   51 |                 jaka_.[01;31m[KcurCart[m[K[i].rpy.rx,
+      |                       [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.h:3[m[K,
+                 from [01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.cpp:1[m[K:
+[01m[K/home/user/qiaoyin/src/driver/src/jaka.h:36:19:[m[K [01;36m[Knote: [m[Kdeclared private here
+   36 |     CartesianPose [01;36m[KcurCart[m[K[2];
+      |                   [01;36m[K^~~~~~~[m[K
+[01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.cpp:52:23:[m[K [01;31m[Kerror: [m[K‘[01m[KCartesianPose JAKA::curCart [2][m[K’ is private within this context
+   52 |                 jaka_.[01;31m[KcurCart[m[K[i].rpy.ry,
+      |                       [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.h:3[m[K,
+                 from [01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.cpp:1[m[K:
+[01m[K/home/user/qiaoyin/src/driver/src/jaka.h:36:19:[m[K [01;36m[Knote: [m[Kdeclared private here
+   36 |     CartesianPose [01;36m[KcurCart[m[K[2];
+      |                   [01;36m[K^~~~~~~[m[K
+[01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.cpp:53:23:[m[K [01;31m[Kerror: [m[K‘[01m[KCartesianPose JAKA::curCart [2][m[K’ is private within this context
+   53 |                 jaka_.[01;31m[KcurCart[m[K[i].rpy.rz
+      |                       [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.h:3[m[K,
+                 from [01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.cpp:1[m[K:
+[01m[K/home/user/qiaoyin/src/driver/src/jaka.h:36:19:[m[K [01;36m[Knote: [m[Kdeclared private here
+   36 |     CartesianPose [01;36m[KcurCart[m[K[2];
+      |                   [01;36m[K^~~~~~~[m[K
+[01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.cpp:57:23:[m[K [01;31m[Kerror: [m[K‘[01m[KCartesianPose JAKA::curCart [2][m[K’ is private within this context
+   57 |                 jaka_.[01;31m[KcurCart[m[K[i].tran.x,
+      |                       [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.h:3[m[K,
+                 from [01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.cpp:1[m[K:
+[01m[K/home/user/qiaoyin/src/driver/src/jaka.h:36:19:[m[K [01;36m[Knote: [m[Kdeclared private here
+   36 |     CartesianPose [01;36m[KcurCart[m[K[2];
+      |                   [01;36m[K^~~~~~~[m[K
+[01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.cpp:58:23:[m[K [01;31m[Kerror: [m[K‘[01m[KCartesianPose JAKA::curCart [2][m[K’ is private within this context
+   58 |                 jaka_.[01;31m[KcurCart[m[K[i].tran.y,
+      |                       [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.h:3[m[K,
+                 from [01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.cpp:1[m[K:
+[01m[K/home/user/qiaoyin/src/driver/src/jaka.h:36:19:[m[K [01;36m[Knote: [m[Kdeclared private here
+   36 |     CartesianPose [01;36m[KcurCart[m[K[2];
+      |                   [01;36m[K^~~~~~~[m[K
+[01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.cpp:59:23:[m[K [01;31m[Kerror: [m[K‘[01m[KCartesianPose JAKA::curCart [2][m[K’ is private within this context
+   59 |                 jaka_.[01;31m[KcurCart[m[K[i].tran.z,
+      |                       [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.h:3[m[K,
+                 from [01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.cpp:1[m[K:
+[01m[K/home/user/qiaoyin/src/driver/src/jaka.h:36:19:[m[K [01;36m[Knote: [m[Kdeclared private here
+   36 |     CartesianPose [01;36m[KcurCart[m[K[2];
+      |                   [01;36m[K^~~~~~~[m[K
+[01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.cpp:60:23:[m[K [01;31m[Kerror: [m[K‘[01m[KCartesianPose JAKA::curCart [2][m[K’ is private within this context
+   60 |                 jaka_.[01;31m[KcurCart[m[K[i].rpy.rx,
+      |                       [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.h:3[m[K,
+                 from [01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.cpp:1[m[K:
+[01m[K/home/user/qiaoyin/src/driver/src/jaka.h:36:19:[m[K [01;36m[Knote: [m[Kdeclared private here
+   36 |     CartesianPose [01;36m[KcurCart[m[K[2];
+      |                   [01;36m[K^~~~~~~[m[K
+[01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.cpp:61:23:[m[K [01;31m[Kerror: [m[K‘[01m[KCartesianPose JAKA::curCart [2][m[K’ is private within this context
+   61 |                 jaka_.[01;31m[KcurCart[m[K[i].rpy.ry,
+      |                       [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.h:3[m[K,
+                 from [01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.cpp:1[m[K:
+[01m[K/home/user/qiaoyin/src/driver/src/jaka.h:36:19:[m[K [01;36m[Knote: [m[Kdeclared private here
+   36 |     CartesianPose [01;36m[KcurCart[m[K[2];
+      |                   [01;36m[K^~~~~~~[m[K
+[01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.cpp:62:23:[m[K [01;31m[Kerror: [m[K‘[01m[KCartesianPose JAKA::curCart [2][m[K’ is private within this context
+   62 |                 jaka_.[01;31m[KcurCart[m[K[i].rpy.rz
+      |                       [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.h:3[m[K,
+                 from [01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.cpp:1[m[K:
+[01m[K/home/user/qiaoyin/src/driver/src/jaka.h:36:19:[m[K [01;36m[Knote: [m[Kdeclared private here
+   36 |     CartesianPose [01;36m[KcurCart[m[K[2];
+      |                   [01;36m[K^~~~~~~[m[K
+[01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.cpp:68:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kdouble JAKA::vel [2][m[K’ is private within this context
+   68 |     msg.speed = {jaka_.[01;31m[Kvel[m[K[0], jaka_.vel[1]};
+      |                        [01;31m[K^~~[m[K
+In file included from [01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.h:3[m[K,
+                 from [01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.cpp:1[m[K:
+[01m[K/home/user/qiaoyin/src/driver/src/jaka.h:29:12:[m[K [01;36m[Knote: [m[Kdeclared private here
+   29 |     double [01;36m[Kvel[m[K[2] = {1, 1};
+      |            [01;36m[K^~~[m[K
+[01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.cpp:68:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kdouble JAKA::vel [2][m[K’ is private within this context
+   68 |     msg.speed = {jaka_.vel[0], jaka_.[01;31m[Kvel[m[K[1]};
+      |                                      [01;31m[K^~~[m[K
+In file included from [01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.h:3[m[K,
+                 from [01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.cpp:1[m[K:
+[01m[K/home/user/qiaoyin/src/driver/src/jaka.h:29:12:[m[K [01;36m[Knote: [m[Kdeclared private here
+   29 |     double [01;36m[Kvel[m[K[2] = {1, 1};
+      |            [01;36m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/arm_driver_node.dir/build.make:104：CMakeFiles/arm_driver_node.dir/src/main.cpp.o] 错误 1
+gmake[2]: *** 正在等待未完成的任务....
+gmake[2]: *** [CMakeFiles/arm_driver_node.dir/build.make:76：CMakeFiles/arm_driver_node.dir/src/arm_driver_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:593：CMakeFiles/arm_driver_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

@@ -1,0 +1,19 @@
+[01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.cpp:4:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+    4 |     [01;31m[Krclcpp[m[K::init(argc, argv);
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.cpp:7:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+    7 |     [01;31m[Krclcpp[m[K::spin_some(rclcpp::Node::make_shared("arm_driver_node"));
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.cpp:7:23:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+    7 |     rclcpp::spin_some([01;31m[Krclcpp[m[K::Node::make_shared("arm_driver_node"));
+      |                       [01;31m[K^~~~~~[m[K
+[01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.cpp:8:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+    8 |     [01;31m[Krclcpp[m[K::spin(system);
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.cpp:9:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+    9 |     [01;31m[Krclcpp[m[K::shutdown();
+      |     [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/arm_driver_node.dir/build.make:76：CMakeFiles/arm_driver_node.dir/src/arm_driver_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:593：CMakeFiles/arm_driver_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

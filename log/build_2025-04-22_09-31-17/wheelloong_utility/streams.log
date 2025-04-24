@@ -1,0 +1,13 @@
+[0.007s] Invoking command in '/home/user/qiaoyin/build/wheelloong_utility': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/user/qiaoyin/wheelloong_utility -DCMAKE_INSTALL_PREFIX=/home/user/qiaoyin/install/wheelloong_utility
+[0.016s] [31mCMake Error at CMakeLists.txt:9 (target_include_directories):
+[0.016s]   Cannot specify include directories for target "wheelloong_utility" which is
+[0.016s]   not built by this project.
+[0.016s] 
+[0.016s] [0m
+[0.016s] [31mCMake Error at CMakeLists.txt:15 (ament_export_include_directories):
+[0.016s]   Unknown CMake command "ament_export_include_directories".
+[0.016s] 
+[0.016s] [0m
+[0.016s] -- Configuring incomplete, errors occurred!
+[0.016s] See also "/home/user/qiaoyin/build/wheelloong_utility/CMakeFiles/CMakeOutput.log".
+[0.018s] Invoked command in '/home/user/qiaoyin/build/wheelloong_utility' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/user/qiaoyin/wheelloong_utility -DCMAKE_INSTALL_PREFIX=/home/user/qiaoyin/install/wheelloong_utility

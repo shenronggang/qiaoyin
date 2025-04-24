@@ -1,0 +1,37 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from driver/msg/ArmInfo.msg
+// generated code does not contain a copyright notice
+
+
+module driver {
+  module msg {
+    typedef double double__7[7];
+    typedef double double__6[6];
+    typedef double double__2[2];
+    @verbatim (language="comment", text=
+      "机械臂状态消息")
+    struct ArmInfo {
+      @verbatim (language="comment", text=
+        "左臂关节角度（rad）")
+      double__7 left_arm_joints;
+
+      @verbatim (language="comment", text=
+        "右臂关节角度（rad）")
+      double__7 right_arm_joints;
+
+      @verbatim (language="comment", text=
+        "左臂笛卡尔坐标（xyz(mm), rpy(rad)）")
+      double__6 left_arm_cart;
+
+      @verbatim (language="comment", text=
+        "右臂笛卡尔坐标（xyz(mm), rpy(rad)）")
+      double__6 right_arm_cart;
+
+      @verbatim (language="comment", text=
+        "左右臂运动速度")
+      double__2 speed;
+
+      boolean motor_on;
+    };
+  };
+};

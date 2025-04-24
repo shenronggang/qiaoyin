@@ -1,0 +1,15 @@
+/home/user/qiaoyin/install/interface/share/ament_index/resource_index/package_run_dependencies/interface
+/home/user/qiaoyin/install/interface/share/ament_index/resource_index/parent_prefix_path/interface
+/home/user/qiaoyin/install/interface/share/interface/environment/ament_prefix_path.sh
+/home/user/qiaoyin/install/interface/share/interface/environment/ament_prefix_path.dsv
+/home/user/qiaoyin/install/interface/share/interface/environment/path.sh
+/home/user/qiaoyin/install/interface/share/interface/environment/path.dsv
+/home/user/qiaoyin/install/interface/share/interface/local_setup.bash
+/home/user/qiaoyin/install/interface/share/interface/local_setup.sh
+/home/user/qiaoyin/install/interface/share/interface/local_setup.zsh
+/home/user/qiaoyin/install/interface/share/interface/local_setup.dsv
+/home/user/qiaoyin/install/interface/share/interface/package.dsv
+/home/user/qiaoyin/install/interface/share/ament_index/resource_index/packages/interface
+/home/user/qiaoyin/install/interface/share/interface/cmake/interfaceConfig.cmake
+/home/user/qiaoyin/install/interface/share/interface/cmake/interfaceConfig-version.cmake
+/home/user/qiaoyin/install/interface/share/interface/package.xml

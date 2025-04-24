@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from driver/srv/ArmEnable.srv
+// generated code does not contain a copyright notice
+
+
+module driver {
+  module srv {
+    struct ArmEnable_Request {
+      boolean enable;
+    };
+    struct ArmEnable_Response {
+      boolean success;
+    };
+  };
+};

@@ -1,0 +1,9 @@
+/home/user/qiaoyin/build/interface/CMakeFiles/uninstall.dir
+/home/user/qiaoyin/build/interface/CMakeFiles/interface_uninstall.dir
+/home/user/qiaoyin/build/interface/CMakeFiles/test.dir
+/home/user/qiaoyin/build/interface/CMakeFiles/edit_cache.dir
+/home/user/qiaoyin/build/interface/CMakeFiles/rebuild_cache.dir
+/home/user/qiaoyin/build/interface/CMakeFiles/list_install_components.dir
+/home/user/qiaoyin/build/interface/CMakeFiles/install.dir
+/home/user/qiaoyin/build/interface/CMakeFiles/install/local.dir
+/home/user/qiaoyin/build/interface/CMakeFiles/install/strip.dir

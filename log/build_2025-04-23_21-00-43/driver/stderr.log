@@ -1,0 +1,10 @@
+[01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.cpp:[m[K In member function ‘[01m[Kvoid ArmDriverNode::handle_arm_set_cart(std::shared_ptr<driver::srv::ArmSetCart_Request_<std::allocator<void> > >, std::shared_ptr<driver::srv::ArmSetCart_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.cpp:82:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct driver::srv::ArmSetCart_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct driver::srv::ArmSetCart_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kleft_cpos[m[K’
+   82 |     bool result = jaka_.setCartesian(request->[01;31m[Kleft_cpos[m[K, request->right_cpos);
+      |                                               [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.cpp:82:67:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct driver::srv::ArmSetCart_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct driver::srv::ArmSetCart_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kright_cpos[m[K’
+   82 |     bool result = jaka_.setCartesian(request->left_cpos, request->[01;31m[Kright_cpos[m[K);
+      |                                                                   [01;31m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/arm_driver_node.dir/build.make:76：CMakeFiles/arm_driver_node.dir/src/arm_driver_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:593：CMakeFiles/arm_driver_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

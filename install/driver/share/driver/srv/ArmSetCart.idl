@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from driver/srv/ArmSetCart.srv
+// generated code does not contain a copyright notice
+
+
+module driver {
+  module srv {
+    typedef double double__7[7];
+    typedef double double__2[2];
+    struct ArmSetCart_Request {
+      double__7 left_arm_cart;
+
+      double__7 right_arm_cart;
+
+      double__2 speed;
+    };
+    struct ArmSetCart_Response {
+      boolean success;
+    };
+  };
+};

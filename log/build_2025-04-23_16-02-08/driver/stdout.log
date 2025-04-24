@@ -1,0 +1,24 @@
+[  1%] Built target driver__cpp
+[ 12%] Built target driver__rosidl_generator_c
+[ 12%] Built target ament_cmake_python_copy_driver
+[ 23%] Built target driver__rosidl_typesupport_cpp
+[ 33%] Built target driver__rosidl_typesupport_c
+[ 44%] Built target driver__rosidl_typesupport_fastrtps_c
+[ 56%] Built target driver__rosidl_typesupport_introspection_c
+[ 66%] Built target driver__rosidl_typesupport_fastrtps_cpp
+[ 76%] Built target driver__rosidl_typesupport_introspection_cpp
+[35m[1mConsolidate compiler generated dependencies of target arm_driver_node[0m
+[ 78%] [32m[1mLinking CXX executable arm_driver_node[0m
+[ 78%] Built target driver
+[ 80%] Built target driver__py
+[ 89%] Built target driver__rosidl_generator_py
+[ 92%] Built target driver__rosidl_typesupport_c__pyext
+[ 95%] Built target driver__rosidl_typesupport_fastrtps_c__pyext
+[ 98%] Built target driver__rosidl_typesupport_introspection_c__pyext
+running egg_info
+writing driver.egg-info/PKG-INFO
+writing dependency_links to driver.egg-info/dependency_links.txt
+writing top-level names to driver.egg-info/top_level.txt
+reading manifest file 'driver.egg-info/SOURCES.txt'
+writing manifest file 'driver.egg-info/SOURCES.txt'
+[ 98%] Built target ament_cmake_python_build_driver_egg

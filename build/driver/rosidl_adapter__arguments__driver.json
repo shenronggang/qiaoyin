@@ -1,0 +1,11 @@
+{
+  "package_name": "driver",
+  "non_idl_tuples": [
+    "/home/user/qiaoyin/src/driver:srv/ArmSetCart.srv",
+    "/home/user/qiaoyin/src/driver:srv/ArmSetJoints.srv",
+    "/home/user/qiaoyin/src/driver:srv/ArmEnable.srv",
+    "/home/user/qiaoyin/src/driver:msg/AgvInfo.msg",
+    "/home/user/qiaoyin/src/driver:msg/ArmInfo.msg",
+    "/home/user/qiaoyin/src/driver:msg/GripperInfo.msg"
+  ]
+}

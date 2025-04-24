@@ -1,0 +1,7 @@
+[01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.cpp:[m[K In member function ‘[01m[Kvoid ArmDriverNode::handle_arm_enable(std::shared_ptr<driver::srv::ArmEnable_Request_<std::allocator<void> > >, std::shared_ptr<driver::srv::ArmEnable_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.cpp:120:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_ptr<driver::srv::ArmEnable_Response_<std::allocator<void> > >[m[K’ has no member named ‘[01m[Ksuccess[m[K’
+  120 |     response.[01;31m[Ksuccess[m[K = res;
+      |              [01;31m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/arm_driver_node.dir/build.make:76：CMakeFiles/arm_driver_node.dir/src/arm_driver_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:593：CMakeFiles/arm_driver_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

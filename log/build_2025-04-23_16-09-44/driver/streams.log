@@ -1,0 +1,56 @@
+[0.012s] Invoking command in '/home/user/qiaoyin/build/driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/qiaoyin/build/driver -- -j24 -l24
+[0.050s] [ 10%] Built target driver__rosidl_generator_c
+[0.050s] [ 12%] Built target driver__cpp
+[0.051s] [ 12%] Built target ament_cmake_python_copy_driver
+[0.066s] [ 31%] Built target driver__rosidl_typesupport_cpp
+[0.066s] [ 34%] Built target driver__rosidl_typesupport_c
+[0.066s] [ 43%] Built target driver__rosidl_typesupport_fastrtps_c
+[0.068s] [ 54%] Built target driver__rosidl_typesupport_introspection_cpp
+[0.069s] [ 65%] Built target driver__rosidl_typesupport_introspection_c
+[0.072s] [ 75%] Built target driver__rosidl_typesupport_fastrtps_cpp
+[0.074s] [35m[1mConsolidate compiler generated dependencies of target arm_driver_node[0m
+[0.086s] [ 75%] Built target driver
+[0.087s] [ 77%] [32mBuilding CXX object CMakeFiles/arm_driver_node.dir/src/arm_driver_node.cpp.o[0m
+[0.102s] [ 78%] Built target driver__py
+[0.120s] [ 87%] Built target driver__rosidl_generator_py
+[0.137s] [ 93%] Built target driver__rosidl_typesupport_c__pyext
+[0.137s] [ 93%] Built target driver__rosidl_typesupport_introspection_c__pyext
+[0.138s] [ 96%] Built target driver__rosidl_typesupport_fastrtps_c__pyext
+[0.217s] running egg_info
+[0.218s] writing driver.egg-info/PKG-INFO
+[0.218s] writing dependency_links to driver.egg-info/dependency_links.txt
+[0.218s] writing top-level names to driver.egg-info/top_level.txt
+[0.219s] reading manifest file 'driver.egg-info/SOURCES.txt'
+[0.220s] writing manifest file 'driver.egg-info/SOURCES.txt'
+[0.238s] [ 96%] Built target ament_cmake_python_build_driver_egg
+[1.676s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33[m[K,
+[1.676s]                  from [01m[K/usr/include/c++/11/bits/allocator.h:46[m[K,
+[1.676s]                  from [01m[K/usr/include/c++/11/string:41[m[K,
+[1.676s]                  from [01m[K/home/user/qiaoyin/src/driver/include/driver/JAKAZuRobot.h:12[m[K,
+[1.676s]                  from [01m[K/home/user/qiaoyin/src/driver/src/jaka.h:5[m[K,
+[1.676s]                  from [01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.cpp:1[m[K:
+[1.676s] /usr/include/c++/11/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = JAKA; _Args = {std::shared_ptr<rclcpp::Node>&}; _Tp = JAKA][m[K’:
+[1.676s] [01m[K/usr/include/c++/11/bits/alloc_traits.h:516:17:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_CharT> >::construct(std::allocator_traits<std::allocator<_CharT> >::allocator_type&, _Up*, _Args&& ...) [with _Up = JAKA; _Args = {std::shared_ptr<rclcpp::Node>&}; _Tp = JAKA; std::allocator_traits<std::allocator<_CharT> >::allocator_type = std::allocator<JAKA>][m[K’
+[1.676s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {std::shared_ptr<rclcpp::Node>&}; _Tp = JAKA; _Alloc = std::allocator<JAKA>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[1.676s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = JAKA; _Alloc = std::allocator<JAKA>; _Args = {std::shared_ptr<rclcpp::Node>&}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[1.676s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<JAKA>; _Args = {std::shared_ptr<rclcpp::Node>&}; _Tp = JAKA; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[1.676s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:409:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<JAKA>; _Args = {std::shared_ptr<rclcpp::Node>&}; _Tp = JAKA][m[K’
+[1.676s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:862:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = JAKA; _Alloc = std::allocator<JAKA>; _Args = {std::shared_ptr<rclcpp::Node>&}][m[K’
+[1.676s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:878:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = JAKA; _Args = {std::shared_ptr<rclcpp::Node>&}][m[K’
+[1.676s] [01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.cpp:7:38:[m[K   required from here
+[1.676s] [01m[K/usr/include/c++/11/ext/new_allocator.h:162:11:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KJAKA::JAKA(std::shared_ptr<rclcpp::Node>&)[m[K’
+[1.676s]   162 |         { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+[1.676s]       |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.676s] In file included from [01m[K/home/user/qiaoyin/src/driver/src/arm_driver_node.cpp:1[m[K:
+[1.676s] [01m[K/home/user/qiaoyin/src/driver/src/jaka.h:41:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KJAKA::JAKA()[m[K’
+[1.676s]    41 |     [01;36m[KJAKA[m[K();
+[1.676s]       |     [01;36m[K^~~~[m[K
+[1.676s] [01m[K/home/user/qiaoyin/src/driver/src/jaka.h:41:5:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[1.676s] [01m[K/home/user/qiaoyin/src/driver/src/jaka.h:23:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr JAKA::JAKA(const JAKA&)[m[K’
+[1.676s]    23 | class [01;36m[KJAKA[m[K
+[1.677s]       |       [01;36m[K^~~~[m[K
+[1.677s] [01m[K/home/user/qiaoyin/src/driver/src/jaka.h:23:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<rclcpp::Node>[m[K’ to ‘[01m[Kconst JAKA&[m[K’
+[1.715s] gmake[2]: *** [CMakeFiles/arm_driver_node.dir/build.make:76：CMakeFiles/arm_driver_node.dir/src/arm_driver_node.cpp.o] 错误 1
+[1.715s] gmake[1]: *** [CMakeFiles/Makefile2:593：CMakeFiles/arm_driver_node.dir/all] 错误 2
+[1.715s] gmake: *** [Makefile:146：all] 错误 2
+[1.717s] Invoked command in '/home/user/qiaoyin/build/driver' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/qiaoyin/build/driver -- -j24 -l24
